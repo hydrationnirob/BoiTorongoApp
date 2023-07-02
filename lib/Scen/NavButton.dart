@@ -26,7 +26,7 @@ class _NavButtonState extends State<NavButton> {
       bottomNavigationBar: GNav(
         color: Colors.deepPurple,
         backgroundColor: Colors.white,
-        activeColor: Colors.amber,
+        activeColor: Colors.amberAccent,
 
         onTabChange: (value){
           controller.index.value = value;
@@ -45,7 +45,7 @@ class _NavButtonState extends State<NavButton> {
 
           GButton(
 
-              icon: Icons.audio_file, text: "Audio"
+              icon: Icons.audiotrack, text: "Audio Book"
           ),
           GButton(
 

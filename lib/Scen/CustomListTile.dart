@@ -72,7 +72,7 @@ class CustomListTile extends StatelessWidget {
                 onTap();
               },
               icon: Icon(
-                isLoved ? Icons.play_circle : Icons.playlist_add_rounded,
+                isLoved ? Icons.play_circle : Icons.playlist_play,
                 color: isLoved ? Colors.red : null,
               ),
             ),

@@ -49,9 +49,9 @@ class HomeSacen extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: Image.asset(
-                    'images/rsz_best-bengali-moral-stories-for-children-bongquotes.webp',
-                    fit: BoxFit.fill,
+                  child: Image.network(
+                    'https://i.ytimg.com/vi/LjN5prg3L1o/maxresdefault.jpg',
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),
@@ -503,9 +503,9 @@ class HomeSacen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                   color: Colors.indigoAccent,
                 ),
-                child: Image.asset(
-                  "images/banner2.jpeg",
-                  fit: BoxFit.cover,
+                child: Image.network(
+                  "https://i.ytimg.com/vi/4nM5Fl-vvZY/maxresdefault.jpg",
+                  fit: BoxFit.fill,
                 ),
               ),
             ),
@@ -546,48 +546,7 @@ class HomeSacen extends StatelessWidget {
 
                     ),
                   ),
-                  InkWell(
-                    splashColor: Colors.blue,
-                    onTap: (){
-                      final snackBar = SnackBar(
-                        content: const Text('Coming Soon!'),
-                        action: SnackBarAction(
-                          label: 'Ok',
-                          onPressed: () {
-                            // Some code to undo the change.
-                          },
-                        ),
-                      );
 
-                      // Find the ScaffoldMessenger in the widget tree
-                      // and use it to show a SnackBar.
-                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
-                    },
-                    child: Image.asset(
-                      "images/maxresdefault (1).jpg",
-                      fit: BoxFit.cover,
-
-                    ),
-                  ),
-                  InkWell(
-                    splashColor: Colors.blue,
-                    onTap: (){
-                      final snackBar = SnackBar(
-                        content: const Text('Coming Soon!'),
-                        action: SnackBarAction(
-                          label: 'Ok',
-                          onPressed: () {
-                            // Some code to undo the change.
-                          },
-                        ),
-                      );
-
-                      // Find the ScaffoldMessenger in the widget tree
-                      // and use it to show a SnackBar.
-                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
-                    },
-                    child: Lottie.asset("images/143536-coming-soon.json")
-                  ),
 
 
 

@@ -68,7 +68,7 @@ class _DashbordState extends State<Dashbord> {
               Padding(padding:
               const EdgeInsets.all(9.0),
               child: Wrap(
-                spacing: 10,
+                  spacing: 10,
                 runSpacing: 10,
                 children: [
                   InkWell(
@@ -91,7 +91,7 @@ class _DashbordState extends State<Dashbord> {
                             child: Column(
                               children: [
                                 Lottie.asset("images/121370-horror-halloween-house-animation.json",height: 120,),
-                        const         SizedBox(height: 1,),
+                        const SizedBox(height: 1,),
                                 const Text("Horror Story",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white,fontSize: 24),),
 
                               ]

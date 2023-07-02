@@ -51,6 +51,27 @@ class _AudioplaybackState extends State<Audioplayback> {
       AudioUrl: "https://music.wixstatic.com/preview/4e2c84_a90d2f58777a401faf7be64f4884cbbd-128.mp3",
       Genre: "Funny",
     ),
+    AudioMaker(
+      Title: "Dashur Khyapami",
+      Author: "Sukumar Ray",
+      ImageUrl: "https://i.ytimg.com/vi/nBtIQpUHC9s/maxresdefault.jpg",
+      AudioUrl: "https://music.wixstatic.com/preview/4e2c84_f65308a4d5b84b0784993d3ff9b82eda-128.mp3",
+      Genre: "Funny",
+    ),
+    AudioMaker(
+      Title: "Iti Tomar Maa",
+      Author: "Sanjib Chattopadhyay",
+      ImageUrl: "https://bdebooks.com/wp-content/uploads/2023/02/Eti-Tomar-Ma-By-Sanjib-Chattopadyay.jpg",
+      AudioUrl: "https://music.wixstatic.com/preview/4e2c84_48d8986bbb304774a166f81d5eb5aa95-128.mp3",
+      Genre: "Story",
+    ),
+    AudioMaker(
+      Title: "Chuti",
+      Author: "Rabindranath Tagore",
+      ImageUrl: "https://i.ytimg.com/vi/LjN5prg3L1o/maxresdefault.jpg",
+      AudioUrl: "https://music.wixstatic.com/preview/4e2c84_76cda3c6041f485d88631ca63541109b-128.mp3",
+      Genre: "Story",
+    ),
 
 
 
