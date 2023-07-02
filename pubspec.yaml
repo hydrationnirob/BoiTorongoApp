@@ -1,0 +1,56 @@
+name: Supkothar_Somoy
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 3.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^1.3.3
+  google_nav_bar: ^5.0.6
+  get: ^4.6.5
+  page_transition: ^2.0.4
+  syncfusion_flutter_pdfviewer: ^19.1.69-beta
+
+
+  permission_handler: ^10.3.0
+  audioplayers: ^4.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/BannerPage.jpeg
+    - images/rsz_best-bengali-moral-stories-for-children-bongquotes.webp
+    - images/test.jpg
+    - images/696693703-H-768x525.jpg
+    - images/Icon.png
+    - images/Learning-cuate.png
+    - images/99274-loading.json
+    - images/DSC05145.JPG
+    - images/
+    - images/types-of-illustrations-for-childrens-books.jpg
+    - images/HorrorCat/
+    - images/HorrorCat/Detective/
+
+  fonts:
+    - family: NotoSansBengali
+      fonts:
+        - asset: fonts/NotoSansBengali_ExtraCondensed-Regular.ttf
+    - family: NotoSansBengali Bold
+      fonts:
+        - asset: fonts/NotoSansBengali_Condensed-SemiBold.ttf
+    - family: BebasNeue
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
