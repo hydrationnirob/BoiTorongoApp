@@ -70,7 +70,7 @@ class _DashbordState extends State<Dashbord> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.only(left: 15),
                 child: LayoutBuilder(
                   builder: (context, constraints) {
                     final maxWidth = constraints.maxWidth;
