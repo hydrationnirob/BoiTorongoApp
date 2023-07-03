@@ -66,9 +66,9 @@ class _DashbordState extends State<Dashbord> {
               ),
 
               Padding(padding:
-              const EdgeInsets.all(9.0),
+              const EdgeInsets.all(20.0),
               child: Wrap(
-                  spacing: 10,
+                  spacing: double.minPositive,
                 runSpacing: 10,
                 children: [
                   InkWell(
@@ -188,7 +188,7 @@ class _DashbordState extends State<Dashbord> {
                     ),
                   ),
                   SizedBox(
-                    width: double.infinity,
+                    width: 400,
                     height: 160,
                     child: Card(
                       color: Colors.indigo,
@@ -203,7 +203,7 @@ class _DashbordState extends State<Dashbord> {
 
                                 const   SizedBox(height: 1,),
                                 const Text("সাত ভাই চম্পা",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white,fontSize: 24,fontFamily: "NotoSansBengali Bold"),),
-                                const Text("সাত ভাই চম্পা – দক্ষিণারঞ্জন মিত্র মজুমদার এক রাজার সাত রানি। দেমাকে, বড়োরানিদের মাটিতে পা পড়ে না। ছোটরানি খুব শান্ত।",style: TextStyle(fontWeight: FontWeight.normal,color: Colors.white,fontSize: 18,fontFamily: "NotoSansBengali"),textAlign: TextAlign.center,),
+                                const Text("সাত ভাই চম্পা – দক্ষিণারঞ্জন মিত্র মজুমদার এক রাজার সাত রানি। দেমাকে, বড়োরানিদের মাটিতে পা পড়ে না। ",style: TextStyle(fontWeight: FontWeight.normal,color: Colors.white,fontSize: 18,fontFamily: "NotoSansBengali"),textAlign: TextAlign.center,),
                                 ElevatedButton(onPressed: (){
                                   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Coming Soon!"),backgroundColor: Colors.red,));
                                 },style: ButtonStyle(
