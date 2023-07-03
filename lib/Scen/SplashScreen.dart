@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Lottie.asset('images/99274-loading.json'),
               )
             else
-              Image.asset("images/Icon.png"),
+              Image.asset("images/playstore.png", width: 120, height: 120),
           ],
         ),
       ),

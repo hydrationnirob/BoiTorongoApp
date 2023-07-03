@@ -21,7 +21,8 @@ class CustomAppBar extends StatelessWidget {
                     borderSide: BorderSide.none),
                 contentPadding: const EdgeInsets.symmetric(vertical: 0),
                 prefixIcon: const Icon(Icons.search_outlined),
-                hintText: 'Search Book here..'),
+                hintText: 'Search Book here..',
+            ),
           )),
 
         ],

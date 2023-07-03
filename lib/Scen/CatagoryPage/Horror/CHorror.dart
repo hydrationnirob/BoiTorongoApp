@@ -83,9 +83,9 @@ class _CHorrorState extends State<CHorror> {
                     children: [
                       Image.asset(
                         story.image,
-                        width: 175,
-                        height: 150,
-                        fit: BoxFit.cover,
+                        width: 170,
+                        height: 250,
+                        fit: BoxFit.fill,
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),

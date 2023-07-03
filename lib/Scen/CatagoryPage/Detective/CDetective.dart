@@ -91,8 +91,8 @@ class _CDetectiveState extends State<CDetective> {
                     children: [
                       Image.network(
                         story.image,
-                        width: 175,
-                        height: 150,
+                        width: 170,
+                        height: 250,
                         fit: BoxFit.cover,
                       ),
                       Padding(

@@ -1,4 +1,4 @@
-package com.example.live_test_6
+package com.boi_tonongo
 
 import io.flutter.embedding.android.FlutterActivity
 
