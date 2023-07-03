@@ -48,10 +48,8 @@ class Category extends StatelessWidget {
                               child: Hero(
                                 tag: booksRecommendedList[index],
                                 child: Image.asset(
-                                  'images/Homeimages/' +
-                                      booksRecommendedList[index]
-                                          .imgUrl
-                                          .toString(),
+                                  'images/Homeimages/${booksRecommendedList[index]
+                                          .imgUrl}',
                                   fit: BoxFit.cover,
                                 ),
                               ),

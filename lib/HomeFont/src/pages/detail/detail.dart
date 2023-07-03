@@ -195,7 +195,7 @@ class DetailPage extends StatelessWidget {
                         _buildEvelatedButton(
                             Icons.add, "Add To Library", Colors.grey.shade800,
                             () {
-                          print("Add To Library.");
+                              ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Added to Library"),backgroundColor: Colors.deepPurple,));
                         }),
                         const SizedBox(
                           width: 15,

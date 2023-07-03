@@ -22,741 +22,221 @@ class Books {
       this.view,
       this.content});
 
+  String enLang="English Stories";
+  String bnLang="Bangla Stories";
+
   static List<Books> generateHeaderList() {
     return [
       Books(
           id: 1,
-          name: "Do not be a jackals",
-          auther: "Shahab Shaker",
-          desc: "Let's not be jackals",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "তেনালি রামা এবং অপয়া রাময়া",
+          auther: "Rakibull",
+          desc: "Bangla Stories",
+          review: "859",
+          score: "2.7",
+          view: "2569",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Funny",
+            "Kind",
+            "Joke",
           ],
-          imgUrl: "shoqal.png",
-          content: """
+          imgUrl: "Tenali-Rama.jpg",
+          content: """বিজয়নগর রাজ্যে এক লোক বাস করতেন, যার নাম ছিল রাময়া।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+তাকে সবাই অশুভ বা অপয়া মনে করত। তারা মনে করত, সকালে উঠে প্রথমেই রাময়ার মুখ দেখলে সারাটা দিন অশুভ যাবে।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+কথাটি রাজামশাইয়ের কানেও পৌঁছেছিল। ঘটনার সত্যতা জানার জন্য রাজামশাই রাময়াকে তার প্রাসাদে আমন্ত্রণ জানালেন। তিনি পরিচারকদের বলে দিলেন, রাময়ার জন্য থাকার ব্যবস্থা যেন মহারাজের ঘরের ঠিক পাশেই হয়।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+পরের দিন সকালে ঘুম থেকে উঠে রাজামশাই কারও মুখ না দেখে সরাসরি রাময়ার ঘরে ঢুকলেন এবং তার মুখ দেখলেন।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+সেদিন দুপুরে রাজামশাই খেতে বসলেন। হঠাৎ তার থালায় একটি মাছি বসল। মাছি বসায় রাজামশাই কিছুই খেতে পারলেন না।
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+রাঁধুনিকে ডেকে আবার তার জন্য মধ্যাহ্নভোজ প্রস্তুত করার আদেশ দিলেন। রান্না হলো কিন্তু মহারাজ কৃষ্ণদেব রায়ের কোনো কিছুই খেতে ইচ্ছা করল না।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+তখনই তার মনে পড়ল, সবাই রাময়া সম্পর্কে যা বলে সেটি সঠিক। সকালে ওর মুখ দেখার কারণেই তার রুচি নষ্ট হয়ে গেছে।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+রাজামশাই ঠিক করলেন, ওর মতো একজন অশুভ এবং অপদার্থ লোক তার রাজ্যে থাকতে পারবে না। তিনি সৈন্যদের আদেশ দিলেন রাময়াকে ফাঁসিতে ঝোলাতে।
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+স্বামীর শাস্তির কথা শুনে রাময়ার স্ত্রী তেনালির রামার কাছে সাহায্যের জন্য ছুটে গেলেন। কেঁদে কেঁদে সব কথা খুলে বললেন।
 
-“How do you get to West Egg village?” he asked helplessly.
+তেনালি বললেন, দেখি কী করা যায়।
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+পরের দিন সকালে সৈন্যরা রাময়াকে ফাঁসিতে ঝোলাতে নিয়ে যাচ্ছিল। পথে তেনালির সঙ্গে দেখা। তেনালি রাময়ার কানে ফিসফিস করে কিছু কথা বলে চলে গেলেন।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+ফাঁসিতে ঝোলানোর আগে সৈন্যরা তার শেষ ইচ্ছার কথা জানতে চাইল। রাময়া বললেন, তিনি রাজার কাছে একটি চিঠি পাঠাতে চান।
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+একজন প্রহরী এসে রাজামশাইকে একটা চিঠি হস্তান্তর করলেন। তাতে লেখা ছিল, যদি আমার মুখ দেখে কারও রুচি চলে যায় আর রাজামশাইয়ের মুখ দেখে কাউকে ফাঁসিতে ঝুলতে হয় তাহলে কে বেশি অশুভ? সে নাকি রাজামশাই?
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
-
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
-
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
-
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
-
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
-
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
-
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
-
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
-
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
-
-We talked for a few minutes on the sunny porch.
-
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
-
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
-
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
-
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
-
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
-
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
-
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
-
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
-
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
-
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
-
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+রাজামশাই বুঝতে পারলেন যে রাময়া কী বলতে চাইছে। তিনি তখনই রাময়াকে মুক্তি দিলেন।"""),
       Books(
           id: 1,
-          name: "Succese",
-          auther: "Shahab Shaker",
-          desc:
-              "Let's not be jackalsLet's not be jackalsLet's not be jLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jaackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackalsLet's not be jackals",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "তিন মুসাফির",
+          auther: "Josimodin",
+          desc: "তিন মুসাফির বিদেশ ভ্রমণে বের হয়েছেন",
+          review: "856",
+          score: "4.1",
+          view: "59852",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Mourning",
+            "Luring",
+            "Arabic",
           ],
-          imgUrl: "download.png",
-          content: """
+          imgUrl: "Three-Traveler.jpg",
+          content: """আগেকার দিনে একদল লোক দেশে দেশে মুসাফিরী করে বেড়াতেন। নানা জায়গায় ঘুরে তারা সব দেশের নিয়ম ও রীতিনীতি জেনে বই-পুস্তক লিখতেন। তাদের মধ্যে হিন্দু, মুসলমান, খ্রিষ্টান, ইহুদি সবাই থাকতেন। ভিন্ন জাতের বলে কেউ কাউকে অবহেলা করতেন না।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+এমনই তিন মুসাফির বিদেশ ভ্রমণে বের হয়েছেন। একজন ইহুদি, একজন খ্রিষ্টান আর একজন মুসলমান। সেদিন তারা ঘুরতে ঘুরতে এক নতুন দেশে এসে উপস্থিত হলেন।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+পথ চলে তারা যেমনই হয়রান, তেমনই ক্ষুধায় কাতর ছিলেন। কিন্তু তখন অনেক রাত হয়ে গেছে। গৃহস্থরা সবাই ঘরদোর বন্ধ করে ঘুমিয়ে পড়েছে। না পেলেন তারা খাবার না পেলেন থাকার জায়গা! একটা বটগাছের তলায় কম্বল বিছিয়ে তারা শোয়ার জোগাড় করলেন।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+এমন সময় একটি লোক সামান্য কিছু মিঠাই এনে তাদের উপহার দিলেন।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+তিনজনেরই এত ক্ষুধা পেয়েছিল যে, এই সামান্য মিঠাই ভাগ করে খেলে তাদের কারোই পেট ভরবে না। ক্ষুধার সময় সামান্য কিছু খেলে ক্ষুধা আরও বাড়ে।
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+তাদের মধ্যে ইহুদি মুসাফির লোকটি ছিলেন অতি চালাক। তিনে বললেন, 'এসো ভাই! আমরা সবাই ঘুমিয়ে পড়ি। ঘুমিয়ে ঘুমিয়ে যে সবচেয়ে ভালো স্বপ্ন দেখবে, সে-ই মিঠাই খাবে।' তিনি ভেবেছিলেন বানোয়াট গল্প বলে সকালবেলা সেই মিঠাই খাবেন। এ কথা সবাই মেনে নিলেন। তারা যার যার বিছানায় শুয়ে ঘুমিয়ে পড়লেন।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+শেষরাতে মুসলমান মুসাফির জেগে উঠলেন। জেগে উঠে টপাটপ করে সব মিঠাই খেয়ে ফেললেন আর মিঠাইয়ের পাত্রটি রুমাল দিয়ে ঢেকে রাখলেন।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+এরই মধ্যে ভোর হয়েছে। খ্রিষ্টান আর ইহুদিও আড়মোড়া দিয়ে জেগে উঠলেন। তখন তারা একে অপরকে জিজ্ঞাসা করতে লাগলেন, কে কেমন স্বপ্ন দেখেছেন। প্রথমে খ্রিষ্টান বলতে আরম্ভ করলেন, 'আরে ভাই, আমি যে কি মজার স্বপ্ন দেখেছি!'
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+ইহুদি এগিয়ে এসে বললেন, 'কি দেখেছ, ভাই?' খ্রিষ্টান বলতে লাগলেন, 'দেখলাম, আমি যেন আকাশে উড়তে উড়তে সেই চতুর্থ আসমানের ওপর গিয়ে দাঁড়ালাম। সেখানে ঈসা নবী (আলাইহিস সালাম) আমার হাতটি ধরে কত কথাই না বললেন!'
 
-“How do you get to West Egg village?” he asked helplessly.
+ইহুদি বললেন, 'আমি ভাই আরও ভালো স্বপ্ন দেখেছি! কোথাকার একটি ময়ূর এসে আমাকে তার পাখায় বসিয়ে উড়িয়ে নিয়ে গেল। তারপর নানা দেশ ঘুরিয়ে আমাকে সেই কোহে তুর পাহাড়ে এনে পৌঁছে দিল। সেখানে দাঁড়িয়ে আমি আল্লার সঙ্গে কথা বললাম।'
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+সে মনে মনে ভাবছিল এর চেয়ে আর ভালো কোনো স্বপ্ন হতে পারে না। তাই মিঠাই তার ভাগেই রয়েছে। এরপর তারা মুসলমান মুসাফিরকে জিজ্ঞাসা করল, 'এবার তোমার স্বপ্ন বলো ভাই।'
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+মিঠাই খাওয়ার একটা লম্বা ঢেঁকুর তুলে এবার মুসলমান মুসাফির আরম্ভ করলেন, 'আমার স্বপ্নটা ভাই বড়ই খারাপ।'
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+ইহুদি আর খ্রিষ্টান খুশি হয়ে জিজ্ঞাসা করলেন, 'বলেই ফেল না ভাই, কেমন স্বপ্ন দেখলে!'
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+মুসলমান কহিল, "আমি ভাই দেখলাম, কোথাকার এক ভীষণ দৈত্য এসে আমার ঘাড় ধরে বলল, 'জলদি মিঠাই খেয়ে ফেল নতুবা তোকে গলাটিপে মারব।' আমি আর কী করব, তাড়াতাড়ি সবটা মিঠাই খেয়ে ফেললাম।”
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+এই বলে রুমালের ঢাকনি সরিয়ে মিঠাই-এর খালি পাত্রটা দেখিয়ে দিলেন। ইহুদি আর খ্রিষ্টান তখন একবাক্যে জিজ্ঞাসা করলেন, 'তুমি ভাই আমাদের ডাকলে না কেন? আমরা উঠে দৈত্যটাকে তাড়িয়ে দিতাম।'
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+মুসলমান বললেন, 'ডাক কী কম দিলাম নাকি ভাই! কত জোরে জোরে তোমাদের ডাকলাম।'
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+তারা দুজন জিজ্ঞাসা করলেন, 'কিন্তু আমরা দুজন তো নিকটেই ছিলাম; তবে শুনলাম না কেন?'
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
-
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
-
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
-
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
-
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
-
-We talked for a few minutes on the sunny porch.
-
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
-
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
-
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
-
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
-
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
-
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
-
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
-
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
-
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
-
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
-
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+মুসলমান বললেন, 'কী করে শুনবে ভাই! তোমাদের একজন ছিলে সেই চতুর্থ আসমানের ওপরে, আর একজন ছিলে সেই অত দূরে কোহেতুর পাহাড়ের ওপরে। আমার ডাক অত দূর পর্যন্ত যাবে কী করে?'"""),
       Books(
           id: 1,
-          name: "Be Happy",
-          auther: "Shahab Shaker",
-          desc: "Let's not be jackals",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "দেবদূত আর মুচি",
+          auther: "Mejar Khan",
+          desc: "এই অদ্ভুত ঘটনা দিনের পর দিন চলতে থাকল",
+          review: "856",
+          score: "4.9",
+          view: "29855",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Morry",
+            "Education",
+            "Children",
           ],
-          imgUrl: "download.jpg",
-          content: """
+          imgUrl: "The-Elves-and-The-Shoemaker.webp",
+          content: """এক দেশে ছিল এক গরিব মুচি। গরিব হলেও মুচি ছিল ভীষণ কর্মঠ আর সৎ। বেচারা যথেষ্ট খাটাখাটনি করেও কিছুতেই নিজের ভাগ্য ফেরাতে পারছিল না। দিন দিন সে গরিব থেকে আরও গরিব হচ্ছিল। শেষে অবস্থা এতটা করুণ হলো যে, চামড়া কিনে জুতা বানাবে সেই পয়সাও মুচির কাছে ছিল না। যেটুকু চামড়া তার কাছে ছিল, সেটা দিয়ে বড়জোর একপাটি জুতা বানানো সম্ভব।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+কী আর করা! পরদিন সকালে এক পায়ের জুতা তৈরি করার ইচ্ছায় সন্ধ্যার দিকে বসে মুচি চামড়া মাপমতো কাটছাঁট করে রাখল। তারপর শান্ত মনে ঈশ্বরের কাছে প্রার্থনা করে বিছানায় ঘুমিয়ে পড়ল।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+পরদিন ভোরে মুচি সকালের প্রার্থনা সেরে, জুতা বানানোর কাজে বসতে গিয়ে দেখে তার টেবিলের ওপর নিখুঁতভাবে তৈরি একজোড়া জুতা রাখা আছে। মুচি জুতা জোড়া দেখে বিস্ময়ে হতবাক হয়ে গেল। তার মুখে কোনো কথাই ফুটল না। জুতা জোড়া হাতে নিয়ে সে খুব খুঁটিয়ে দেখল। জুতার সেলাই এত চমৎকার, কোথাও একবিন্দু খুঁত নেই! মুচি এমন অসাধারণভাবে তৈরি জুতা দেখেনি আগে।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+কিছু সময়ের মধ্যেই মুচির দোকানে এক ক্রেতা এলেন। জুতা জোড়া তার ভীষণ পছন্দ হলো। বেশ ভালো দামেই ক্রেতাটি জুতা জোড়া কিনে নিয়ে গেলেন।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+জুতা বিক্রির টাকায় মুচি আরও দুই জোড়া জুতা বানানোর মতো চামড়া কিনে আনল। সকালে উঠে বানাবে বলে দ্বিগুণ উৎসাহে রাতেই মুচি চামড়া কেটে-ছেঁটে রেখে দিল। চামড়া কেটে রাখার কষ্টটুকু মুচির না করলেও মনে হয় চলত। কারণ পরদিন সকালেও ঘুম ভেঙে সে তার কাজের টেবিলে দুই জোড়া তৈরি জুতা দেখতে পেল।
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+তৈরি সেই জুতা কেনার জন্য ক্রেতারও যেন তর সইছিল না। অল্প সময়ের মধ্যে দ্বিগুণ দামে দুই জোড়া জুতাই বিক্রি হয়ে গেল।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+এবার মুচি সে টাকায় চার জোড়া জুতার জন্য চামড়া কিনে আনল। পরদিন সকালেও মুচি একই ঘটনা ঘটতে দেখল। চার জোড়া তৈরি জুতা তার টেবিলে বিক্রির জন্য প্রস্তুত।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+এই অদ্ভুত ঘটনা দিনের পর দিন চলতে থাকল। প্রতি সন্ধ্যায় মুচি জুতা তৈরির জন্য মাপ মতো চামড়া কেটে-ছেঁটে রেখে দেয়, আর সকালে উঠে টেবিলে তৈরি জুতা পেয়ে যায়। শিগগিরই মুচির গরিবি ঘুচে গিয়ে অবস্থা ফিরতে লাগল। একসময় মুচি বেশ ধনী হয়ে গেল।
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+এদিকে বড় দিনের আর বেশি দেরি নেই। চারদিকে বড়দিনের উৎসব উপলক্ষে কেনাকাটা, আনন্দের হুল্লোড় শুরু হয়ে গেছে। এ রকম এক সন্ধ্যায় জুতার জন্য চামড়া কাট-ছাঁট সেরে ঘুমাতে যাওয়ার আগে মুচি তার বউ কে বলল, 'আচ্ছা আজ রাতে আমরা যদি না ঘুমিয়ে দেখার চেষ্টা করি, কারা আমাদের জুতা তৈরিতে সাহায্য করে, কেমন হয়?'
 
-“How do you get to West Egg village?” he asked helplessly.
+স্বামীর কথা মুচি বউয়ের খুব মনে ধরল। কে তাদের সাহায্য করে সেটা দেখার কৌতূহলে, একখানা মোমবাতি জ্বেলে রেখে, মুচি আর মুচিবউ হ্যাঙ্গারে ঝুলিয়ে রাখা কাপড়ের আড়ালে গিয়ে ঘাপটি মেরে বসে থাকল।
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+সময় পেরিয়ে যখন মধ্যরাত, তখন মুচি আর তার বউ দেখতে পেল, দুজন খুদে আকারের দেবদূত কোত্থেকে বেরিয়ে এসে মুচির জুতা বানানোর টেবিলে বসে কেটে রাখা জুতা সেলাই করতে ব্যস্ত হয়ে পড়েছে। বামন দুজন একদম ন্যাংটো পুঁটে। একটা সুতা পর্যন্ত নেই তাদের শরীরে। তারা তাদের ছোট্ট ছোট্ট হাতের আঙুল ঘুরিয়ে ঘুরিয়ে জুতা সেলাই, হাতুড়ি দিয়ে পেরেক ঠোকা ইত্যাদি এত দ্রুত করছিল, দেখে মুচির চোখ ছানাবড়া হওয়ার দশা!
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+চোখের পলক না ফেলে, তাজ্জব হয়ে মুচি আর মুচিবউ লুকিয়ে বামন দুটার কাজ দেখতে লাগল। বমন দুটি এক মনে জুতা সেলাইয়ের কাজ করে টেবিলের ওপর তৈরি জুতাগুলো সাজিয়ে রেখে যেমন ভোজবাজির মতো উপস্থিত হয়েছিল, তেমনি দ্রুত হারিয়ে গেল।
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+পরদিন সকালে মুচিবউ তার স্বামীকে বলল, 'খুদে বামন দুটির জন্য আমাদের অবস্থা ফিরেছে, আমাদের অবশ্যই এ জন্য তাদের কৃতজ্ঞতা জানানো উচিত। হুটোপুটি করে তারা চলে গেল। খেয়াল করেছ তাদের পরনে কোনো কাপড় নেই। ঠান্ডায় বেচারারা না জানি কত কষ্ট পায়। ওদের জন্য কী করব, সেটা বলছি শোনো। আমি ওদের জন্য ছোট ছোট দুই জোড়া জামা,প্যান্ট, কোট আর দুই জোড়া হাত মোজা, পা মোজা তৈরি করে দেব। আর তুমি দুজনের জন্য দুই জোড়া জুতা তৈরি করে দেবে।'
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+মুচি খুশি মনে বলল, ‌'ওদের জন্য কিছু করতে পারলে আমারও খুব আনন্দ হবে।'
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+সবকিছু তৈরি হয়ে যাওয়ার পর এক রাতে মুচি আর তার বউ উপহারগুলো টেবিলের ওপর সুন্দর করে সাজিয়ে রাখল। সেদিন মুচি আর জুতা তৈরির জন্য কোনো চামড়া কেটে রাখল না।
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+তাদের উপহার পেয়ে বামন দুজন কী করে সেটা দেখার জন্য মুচি আর মুচিবউ আড়ালে লুকিয়ে থাকল।
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+ঠিক মাঝ রাতের দিকে বামন দুজন উপস্থিত হলো। এসেই তারা জুতা তৈরির জন্য কেটে রাখা চামড়ার খোঁজ করে পেল না। তার বদলে দেখতে পেল টেবিলের ওপর সাজানো রয়েছে চমৎকার ছোট ছোট জামা, প্যান্ট, জুতা এসব। জিনিসগুলো দেখে প্রথমে বামন দুজন অবাক হলো। তারপর যখন বুঝল উপহারগুলো তাদের জন্যই রাখা হয়েছে, তখন আনন্দে হাত-পা ছুড়ে নেচে নিলো একপাক।
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+উপহারগুলো তাদের এতই পছন্দ হয়েছে যে চোখের পলকে তারা সেগুলো পরা শুরু করল। পরতে পরতে মনের আনন্দে বামন দুজন গান জুড়ল-
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+কাপড় জামায় লাগছে মোদের লক্ষীমন্ত ছেলে
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+মুচির কাজ করব না আর এসব কিছু ফেলে!
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+চেয়ার টপকে, বেঞ্চ ডিঙ্গিয়ে তারা গাইতে গাইতে আর নাচতে নাচতে দরজা পেরিয়ে বেরিয়ে গেল। এরপর বামন দুজনকে মুচি তার বউ, আর কখনও দেখতে পেল না।
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+জুতা তৈরির জন্য বামন দুজন আর না এলেও মুচি কিন্তু নিজের কাজে এক বিন্দু ফাঁকি দিল না। সে তার কাজ মন দিয়ে করে যেতে লাগল। যে কারণে তার অবস্থার আরো উন্নতি হলো। বাকি জীবনটা মুচি আর মুচিবউ খুব সুখে-শান্তিতে কাটাল।
 
-We talked for a few minutes on the sunny porch.
-
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
-
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
-
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
-
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
-
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
-
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
-
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
-
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
-
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
-
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
-
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+মূল গল্প: দি এলভস অ্যান্ড দ্য শুমেকার"""),
       Books(
           id: 1,
-          name: "How can we not be jackals?",
-          auther: "Shahab Shaker",
-          desc: "Let's not be jackals",
-          review: "126",
+          name: "মেরু ভালুক কুনিকজুয়াক",
+          auther: "robi Sorkar",
+          desc: "কুনিকজুয়াককে গ্রামের শিশুরা খুব ভালোবাসে",
+          review: "4885",
           score: "4.7",
-          view: "124470",
+          view: "48996",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Fun",
+            "Children",
+            "Funny",
           ],
-          imgUrl: "shoqal.png",
-          content: """
+          imgUrl: "Alaska-Story.webp",
+          content: """ইনুইট কথাটির অর্থ অনেক লোক। আটলান্টিক মহাসাগরের তীর ঘেঁষে এই গ্রামটিতে কিন্তু অল্প কয়েকজন লোকেরই বাস ছিল।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+এদেরই একজন ছিলেন বৃদ্ধা মহিলা, একটি ভাঙা ঘরে তার বাস। তিনি এত দুর্বল ছিলেন যে নিজের খাবারের জন্য একটি মাছ বা কিছু শিকার করে আনা তার পক্ষে সম্ভব ছিল না। তবে সে গ্রামের নিয়ম ছিল যে কেউ যদি ভালো শিকার পায়, তবে সে সেটা অন্যদের সঙ্গে ভাগ করে নেবে। তাই বুড়ির রোজই কিছু না কিছু খাবার জুটে যেত।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+একদিন সকালে ঘুম থেকে উঠে বাইরে এসে বুড়ি দেখলেন, সামনের বিস্তৃত বরফের প্রান্তরে একটি ছোট্ট ভালুকছানা খেলা করছে।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+বুড়ি একটু অবাক হলেন একলা বাচ্চাটাকে দেখে। কারণ এত ছোট বাচ্চা তো মা ছাড়া থাকে না।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+তিনি কিছুক্ষণ অপেক্ষা করলেন যদি মা-ভালুকটাকে দেখতে পাওয়া যায়। তারপর বুঝতে পারলেন, নিশ্চয় এই বাচ্চাটার মা-টা কারোর হাতে মারা গেছে।
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+মাথা নেড়ে আক্ষেপ করে বললেন, ‘ইস্, এত ছোট বাচ্চার মাকে কেউ মারে? শরীরে একটু দয়া-মায়া নেই গো ‘
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+বাচ্চাটার তখন খিদে পেয়েছিল আর তাই সে নানা রকম শব্দ করছিল। বুড়ি এগিয়ে এসে তাকে কোলে তুলে ঘরে নিয়ে এলেন। কিন্তু তারও তো ঘরে খুব একটা খাবার নেই।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+খুঁজে দেখলেন, আগের দিন একটু দুধ আর এক টুকরো সীলের চর্বি দিয়েছিল কেউ। তার খানিকটা বাকি রয়ে গেছে। সেটাই এনে ভালুকছানাটার মুখের সামনে ধরলেন। যত্ন করে ধীরে ধীরে সবটাই খাইয়ে দিলেন তাকে।
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+বুড়ি ভালুকছানাটার নাম রেখেছেন কুনিকজুয়াক। এই নামে সে আজকাল বেশ সাড়া দেয়।
 
-“How do you get to West Egg village?” he asked helplessly.
+সে এখন একটু বড় হয়েছে, শিকার করতে শিখেছে, সমুদ্র থেকে সীল, স্যামন মাছ- এগুলো শিকার করতে পারে। যা-ই পায়, সবই এনে দেয় বুড়ির কাছে। তাই আজকাল বুড়ির খাওয়ার কষ্ট ঘুচেছে। শুধু তা-ই নয়, প্রথা অনুযায়ী বৃদ্ধাও আজকাল উদ্বৃত্ত খাবারের ভাগ অন্য গ্রামবাসীর কাছে পাঠাতে পারেন। এ জন্য তাকে বেশ গর্বিত লাগে।
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+কুনিকজুয়াককে গ্রামের শিশুরা খুব ভালোবাসে। শিকারের সময় বাদে সে ওদের সঙ্গে খেলায় মেতে ওঠে। আনন্দে সে যখন বরফের ওপর ডিগবাজি খায়, তখন মনে হয় যেন ঠিক একটা সাদা বরফের বল গড়িয়ে যাচ্ছে।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+কিন্তু আনন্দ বেশি দিন থাকে না। কুনিকজুয়াক যে এত ভালো শিকার করতে পারে, সেই ব্যাপারটা গ্রামের অনেকের কাছেই ভালো লাগছিল না। ঈর্ষায় জর্জর হয়ে তারা কুনিকজুয়াককে মেরে ফেলবার জন্য ফন্দি আঁটল।
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+এই খবরটা আবার গ্রামের ছোটরা আড়াল থেকে শুনে ফেলল। তারা তো ভালুকছানাটাকে খুব ভালোবাসে, তাই ভয় পেয়ে দৌড়ে গিয়ে সাংঘাতিক খবরটা বুড়িকে জানিয়ে দিল, ‘ঠাম্মি, ঠাম্মি, তুমি কুনিকজুয়াককে বাঁচাও। দাদারা ওকে মেরে ফেলার মতলব করছে।’
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+বুড়ি তো কেঁদে আকুল। এত হিংসা মানুষের মনে! একটা ছোট ভালুকছানাকেও তারা রেহাই দেবে না!
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+বৃদ্ধা প্রথমে পাড়ার মানুষজনের কাছে মিনতি করলেন, তার আদরের ছানাটার প্রাণ ভিক্ষা দেয়ার জন্য। তাতে যখন কিছুই হলো না, তখন দৌড়ে ঘরে এসে কুনিকজুয়াককে হাঁফাতে হাঁফাতে বললেন, ‘বাছা তুই এখনই এখান থেকে পালা। নইলে তোকে ওরা মেরে ফেলবে যে।’
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+বুড়ির চোখ দিয়ে জল পড়তে লাগল। ছোট ছানাটাকে জড়িয়ে ধরে বৃদ্ধা হাউ হাউ করে কাঁদতে লাগলেন। কিন্তু বুড়ি বিপদের কথা ভুললেন না। ভালুকছানাটাকে পেছনের দরজা দিয়ে বের করে দিয়ে বুড়ি বললেন, ‘আর কখনও এখানে ফিরে আসিস না সোনা।’
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+এই কথা বলতে তার গলা ভেঙে গেল; তিনি আবার কাঁদতে লাগলেন। তার চোখের সামনে কুনিকজুয়াক দৌড়াতে দৌড়াতে বরফের প্রান্তরে মিলিয়ে গেল। তার জন্য গ্রামের ছোট্ট বন্ধুরাও কেঁদে আকুল হলো।
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+এরপর অনেক দিন কেটে গেছে, ভালুকছানার আর কোনো খোঁজ নেই। বুড়ির অবস্থা আবার আগের মতো হয়েছে। খাবার জোগাড় নেই, কেউ দেখেও না। মনের কষ্টে আর খিদের কষ্টে একদিন বুড়ি বাড়ি ছেড়ে বেরিয়ে পড়লেন ছানাটার খোঁজে। কে জানে সে এখন কত বড় হয়ে গেছে।
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+বাড়ি থেকে অনেক দূরে গিয়ে বরফের প্রান্তরে হাঁটতে হাঁটতে বৃদ্ধা কুনিকজুয়াকের নাম ধরে বারবার ডাকতে লাগলেন। হঠাৎ দেখে দূর থেকে একটা বিশাল সাদা ভালুক দৌড়াতে দৌড়াতে আসছে। ঘন লোমে ঢাকা মোটাসোটা বিশালাকৃতি ধবধবে সাদা একটা ভালুক বুড়ির পায়ের সামনে এসে ঝুপ করে পড়ে লুটোপুটি খেতে লাগল।
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+এটিই সেই কুনিকজুয়াক; তবে সে এখন আর ছোট্টটি নেই। পূর্ণবয়স্ক এক সাদা মেরু ভল্লুক, ইচ্ছামতেআ ঘুরে বেড়ায়, কারো পরোয়া করে না।
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+তবে সে যে বুড়িকে ভোলেনি, তার প্রমাণ তো সে দেখিয়েই দিল। বুড়িও তাকে অনেক কেঁদে গায়ে বারবার হাত বুলিয়ে আদর করতে লাগলেন। তারপর তাকে নিজের অবস্থার কথা বলে তার কাছে খাবার চাইল। কুনিকজুয়াক কিছুক্ষণের মধ্যে তাকে অনেক স্যামন মাছ এনে দিল। বুড়ি তাকে নিজ হাতে খাইয়ে দিলেন। বাদবাকি সঙ্গে করে নিয়ে বাড়ি ফিরে এলেন।
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+সেই থেকে বুড়ি যত দিন বেঁচে ছিলেন, এই ব্যবস্থাই বহাল ছিল। বুড়ি মাঝে মাঝে তার আদরের ছানার সঙ্গে দেখা করতে যেতেন আর খাবার-দাবার নিয়ে ফিরে আসতেন।
 
-We talked for a few minutes on the sunny porch.
+শেষ পর্যন্ত বুড়ি যখন আর পারেন না, তখন কুনিকজুয়াক তাকে রাতের অন্ধকারে খাবার দিয়ে যেত।
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
-
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
-
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
-
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
-
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
-
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
-
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
-
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
-
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
-
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
-
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+লোকে জানত ভালুকটা কে, কিন্তু এত বড় ভালুকের সঙ্গে গায়ের জোরে পেরে উঠবে না বলে ভয়ে চুপ করে যেত। তবে বুড়ি মারা যাবার পর কেউ আর তাকে সে গ্রামে দেখেনি।"""),
     ];
   }
 
@@ -764,919 +244,754 @@ There was something pathetic in his concentration, as if his complacency, more a
     return [
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "রাত পরীদের সন্ধানে",
+          auther: "Sayandipa",
+          desc: "Bnagla Stories",
+          review: "259",
+          score: "3.7",
+          view: "89521",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "mistery",
+            "Fantasy",
+            "Anglish",
           ],
-          imgUrl: "102878.jpg",
-          content: """
+          imgUrl: "vgui63p4.jpg",
+          content: """টেবিলের ওপর তাস গুলো সাফল করতে করতে পার্থ বলে উঠল, একটা দারুণ জায়গার সন্ধান পেয়েছি। যাবি নাকি?”
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+  “কোথায় সেটা?” জানতে চাইলো প্রেরণা।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+“তুমি কি গ্রূপের নিয়ম ভুলে গেলে প্রেরণা? আমি আপাতত শুধু তোমাদের জায়গাটার সম্পর্কে কিছু তথ্য দিতে পারি কিন্তু জায়গাটার অবস্থান বলতে পারিনা।” বলল পার্থ।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+প্রেরণা মাথা নাড়ল, “ইয়েস মাই মিসটেক। তাহলে জায়গাটার সম্পর্কেই বলো দেখি। শুনে যদি ইন্টারেস্ট লাগে তাহলে যাওয়ার কথা ভাবা যাবে নিশ্চয়। কি বলো সমুদ্র?”
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+“হুঁ?” চমকে উঠলাম আমি, “হ্যাঁ হ্যাঁ নিশ্চয়।”
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+“তোর মন সবসময় কোথায় থাকে বলতো? কোনো সময়ই যেন নিজের মধ্যে থাকিস না।” ধমকে উঠল পার্থ।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+“সরি।”
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
 
-“How do you get to West Egg village?” he asked helplessly.
+“আচ্ছা শোন তাহলে। আমার এক বন্ধুর মারফৎ জানতে পেরেছি খবরটা। যেখানের কথা বলছি সেটা একটা প্রত্যন্ত গ্রাম। ওখানের লোকেদের মধ্যে একটা মিথ প্রচলিত আছে সেটাই ইন্টারেস্টিং। ও গ্রাম থেকে কয়েক কিলোমিটার দূরে একটা প্রাচীন ভগ্ন স্তুপ আছে…”
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+“কিসের ভগ্নস্তূপ?” পার্থর কথার মাঝেই জিজ্ঞেস করল প্রেরণা।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+“ঠিক জানিনা। মানে ওখানকার গ্রামের লোকও ঠিক জানেনা ওখানে আগে কি ছিল তবে ওই রাজবাড়ী বা এই জাতীয় কিছু হবে হয়তো।”
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+“ওকে। দেন…?”
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+“দেন মিথটা হলো এই যে গ্রামের মানুষরা বলে ওই ভগ্ন স্তূপে নাকি মাঝে মাঝে পরীদের দেখতে পাওয়া যায়।”
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+পার্থর কথা শুনে একসঙ্গে হেসে উঠলাম আমি আর প্রেরণা। হাসতে হাসতেই আমি বললাম, “তা আমাদের বাজার কি এতো মন্দা চলছে যে শেষমেশ পরীর সন্ধানে বেরোতে হবে।”
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+আমার কথায় একটুও রাগলো না পার্থ, যেটা ওর চরিত্রের সাথে একদম মানানসই নয়। বরং মৃদু হেসে বলল, “আমিও কথাটা শুনে তোদের মতোই হেসেছিলাম। কিন্তু মিথটা এখানেই যে শেষ নয়।”
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+“মানে?” জানতে চাইলো প্রেরণা।
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+“মানে গ্রামের মানুষরা যে পরিদের দেখে ওটা আমাদের রূপকথার গল্পে বর্ণিত পরীদের মত নয়। বরং এই পরীরা ওখানে মৃত্যুর দূত হিসেবেই পরিচিত। ওরা নাকি জীবন্ত মানুষের আত্মা থেকে সাস্টিনেন্স পায়।”
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+“হোয়াট!” 
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+“ইয়েস।”
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+“বাট পার্থ এসব গ্রামের মানুষদের কথার কি কোনো ভিত্তি আছে? গাঁজাখুরি গল্প ফাঁদছে নাকি কে জানে!” বললাম আমি।
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+পার্থ জবাবে বলল, “ডোন্ট ফর্গেট এইসব গ্রামের মানুষদের কথা শুনেও কিন্তু আমরা অনেকবার অনেক কিছুর সন্ধান পেয়েছি।”
 
-We talked for a few minutes on the sunny porch.
+“কিন্তু পার্থ ব্যর্থ হয়েছি কতবার সে খেয়াল আছে।” বলল প্রেরণা।
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+“ব্যর্থ হতে পারি এই আশঙ্কায় খোঁজ নিতে যাবো না! শোনো আমি চিরকাল বিশ্বাস করে এসেছি যা রটে তার কিছুও তো ঘটে। আর এই বিশ্বাস নিয়েই আমি এগিয়ে যাওয়া পছন্দ করি। সবসময় সবটা গাঁজাখুরি বলে উড়িয়ে দেওয়ার পক্ষপাতী আমি নই।
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+যাইহোক, আমি যাবো। তোমরা যেতে চাইলে জানাও।” 
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+পার্থর কথা শুনে আমার দিকে তাকালো প্রেরণা। আমি কি জবাব দেবো খুঁজে পেলাম না।
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+  পার্থ, আমি আর প্রেরণা তিনজনেই একটা অকাল্ট ক্লাবের মেম্বার। আমাদের এই গুপ্ত ক্লাবের পত্তন করেছিলেন রোজালিন্ড নামে এক এংলো ইন্ডিয়ান মহিলা। অতিপ্রাকৃত বিষয় নিয়ে চর্চা করাই আমাদের ক্লাবের উদ্দেশ্য, ক্লাবের সকলের নেশাও বটে। এই কাজ করতে গিয়ে প্রাণও হারিয়েছে অনেকে, যেমন রোজালিন্ড নিজে। তবে তারপরেও আমাদের দমানো যায়নি। রোজালিন্ডার পর আমাদের ক্লাবের প্রেসিডেন্ট হয়েছে পার্থ। অত্যন্ত ধূর্ত, জটিল, নিষ্ঠুর একটা মানুষ। নিজের স্বার্থের জন্য লোকটা যা খুশি করতে পারে। পার্থকে আমি পছন্দ করিনা, হয়তো দলের কেউই করেনা কিন্তু তাও আমাদের ওকে প্রেসিডেন্ট বলে মেনে নিতে হয়েছে তার কারণ ওর অসীম জ্ঞান, অনুসন্ধিৎসা আর সর্বোপরি একটা দলকে সঠিক ভাবে চালানোর ক্ষমতা। 
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+                  ★★★★★
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
 
-“Do they miss me?” she cried ecstatically.
+“তোমার সাথে যতবার এসেছি ততবার এরকম হুজ্জুতি পোহাতে হয়েছে।” হাঁফাতে হাঁফাতে পার্থর উদ্দেশ্যে কথাগুলো ছুঁড়ে দিলো প্রেরণা।
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
+পার্থ গম্ভীর মুখে বলল, “তাহলে তোমার আসা উচিৎ হয়নি।”
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
+“আমি…” মুখের কথা মুখেই রয়ে গেলো প্রেরণার। আমরা সবাই দেখলাম একটা কালো খর্বকায়, শীর্ণদেহী লোক এসে দাঁড়িয়েছে আমাদের সামনে। লোকটার পরনে কোনো জামা নেই, শুধু হাঁটুর ওপরে খাটো একটা ধুতি। লোকটা একটা দুর্বোধ্য ভাষায় আমার আর প্রেরণার উদ্দেশ্যে কিছু একটা বলল। আমি আর প্রেরণা কিছু বুঝতে না পেরে চোখাচোখি করলাম কিন্তু পার্থ আমাদের অবাক করে দিয়ে লোকটার সাথে কথা বলতে লাগলো ওর ভাষাতেই। কখনও হাত পা নেড়ে কখনও বাংলা আর ওই ভাষা মিশিয়ে বেশ কিছুক্ষণ লোকটার সাথে কথা চালালো পার্থ। তারপর আমাদের দিকে তাকিয়ে বলল, “চল।”
 
-“I’d like to.”
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
 
-“Never.”
+আমি কিছু জিজ্ঞেস করতে যেতেই পার্থ আমায় ইশারা করে চুপ থাকতে বলল। দেখলাম ওই গ্রামবাসীটা ইতিমধ্যেই হাঁটা শুরু করে দিয়েছে। পার্থ ওর পিছু নিলো, আমি আর প্রেরণা চললাম পার্থর পেছন পেছন। একটু অগ্রসর হতেই একটা গ্রামে এসে পড়লাম ছোটো ছোটো অসংখ্য ঝুপড়ি ঘর গ্রামের মানুষগুলোর দারিদ্রের পরিচয় বহন করছে। কতগুলো বাচ্চাকে আদুল গায়ে মুরগি নিয়ে খেলা করতে দেখলাম। প্রত্যেকটা বাচ্চাই এতো শীর্ণ যে তাদের পাঁজরের হাড় অবধি গোনা যাবে। হাঁটতে হাঁটতে অবশেষে যে বাড়িটার সামনে এসে উপস্থিত হলাম সেই বাড়িটা গ্রামের অন্য বাড়িগুলোর তুলনায় খানিক উন্নত, পরিষ্কার পরিচ্ছন্ন। পার্থ ফিসফিস করে বললো, “গ্রামের মোড়লের বাড়ি। মোড়লের সাথে যা কথা বলার আমি বলবো। তোরা একদম স্পিকটি নট থাকবি।”
 
-“Well, you ought to see her. She’s ——”
+আমি আর প্রেরণা কোনো উত্তর দিলাম না। যে লোকটা আমাদের পথ দেখিয়ে এনেছিলো সে মোড়লের বাড়ির মধ্যে ঢুকে পড়লো আর আমরা দাঁড়িয়ে রইলাম বাইরে। প্রচন্ড রোদ এখানে, আর যেন দাঁড়িয়ে থাকতে পারছিলাম না। ভীষণ ক্লান্ত লাগছিল, তেষ্টাও পাচ্ছিল। সঙ্গে আনা জল অনেক আগেই শেষ। প্রেরণার অবস্থা আমার চেয়েও খারাপ। দেখলাম সে জুতো খুলে নিজের পা দুটো পরীক্ষা করছে, পায়ের পাতা ফুলে ঢোল। এদিকে পার্থর চোখেমুখে ক্লান্তির লেশমাত্র নেই। বরং ওর চোখে এক চাপা উত্তেজনা লক্ষ্য করতে পারলাম। এই রোদের মধ্যে একেকটা মিনিটকে একেকটা ঘন্টার সমতুল্য মনে হচ্ছিল। এভাবে কতক্ষণ দাঁড়িয়ে ছিলাম জানিনা, বেশ কিছুক্ষণ পর সেই লোকটা আরেকজন তুলনামূলক বয়স্ক লোককে নিয়ে এলো বাইরে। পার্থ আমাদের উদ্দেশ্যে ঠোঁট চেপে বলল, “মোড়ল।”
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
+মোড়ল লোকটি আমাদের অবাক করে দিয়ে প্রথমে নমস্কার করলো। তারপর ভাঙা ভাঙা বাংলায় বললো, “বলুন কিভাবে সাহায্য করতি পারি।”
 
-“What you doing, Nick?”
+পার্থ চটজলদি জবাব দিলো, “আমরা তিনজনেই রিসার্চ স্কলার। আপনাদের জীবন যাত্রার ওপর একটা ডকুমেন্টারি বানাতে চাই।”
 
-“I’m a bond man.”
+“কি?”
 
-“Who with?”
 
-I told him.
 
-“Never heard of them,” he remarked decisively.
+“বই বানাবো আপনাদের নিয়ে। আপনাদের সঙ্গে কথা বলে, আপনারা কেমন ভাবে থাকেন সেসব নিয়ে একটা বই বানাবো।”
 
-This annoyed me.
+“কিন্তু ক্যান?” অবাক হয়ে জানতে চাইলো বৃদ্ধ। পার্থ অবলীলায় বলল, “আমরা গবেষণা করছি এরকম প্রত্যন্ত গ্রামের জীবনযাত্রা নিয়ে। দয়া করে আমাদের সাহায্য করুন।” হাত জোড় করলো পার্থ। বৃদ্ধ চোখ ছোটছোট করে আমাদের দেখলেন খানিকক্ষণ। তারপর বললেন, “ভিতরে আসুন।”
 
-“You will,” I answered shortly. “You will if you stay in the East.”
+বৃদ্ধের ডাকে ধড়ে প্রাণ ফিরে পেলাম আমি, নয়তো এতক্ষণ রোদে দাঁড়িয়ে আমার প্রাণবায়ু বেরিয়ে পড়ার উপক্রম হয়েছিল।
 
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
+বৃদ্ধের সাথে ভেতরে ঢুকতেই একটা বাচ্চা ছেলে মাদুর পেতে দিলো আমাদের। সেখানে বসার সঙ্গে সঙ্গে ছেলেটা তিনটে গ্রাসে ডাবের জল এনে রাখলো আমাদের সামনে। আমি সৌজন্য ভুলে চোঁ চোঁ করে শেষ করে ফেললাম জলটা। পার্থ দেখলাম আমার দিকে কটমটিয়ে তাকাচ্ছে, গ্রাহ্য করলাম না আমি। বৃদ্ধ পার্থকে বললেন, “খান, ভালো লাগবে।”
 
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
+পার্থ মৃদু হেসে গ্লাসটা তুলে নিলো মুখের কাছে। বৃদ্ধ আবার চোখ ছোটো ছোটো করে আমাদের দিকে তাকিয়ে বললেন, “মাফ করবেন। মুই আপনাদের বই করার অনুমতি দিতে পারছি নাই।”
 
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
+চমকে উঠলাম আমি। আমার ধারণা ছিলো এইসব মানুষগুলো সিনেমার নাম শুনলেই কুপোকাত হয়ে যাবে কিন্তু তা নয় উল্টে এ আমাদেরই কুপোকাত করতে চাইছে। গ্লাসের আড়ালে থাকায় পার্থর মুখের অভিব্যক্তি পরিষ্কার বুঝতে পারলামনা। তবে সে কিছু বলছেনা দেখে আমিই ময়দানে নামলাম। সরাসরি বৃদ্ধের চোখে চোখ রেখে জিজ্ঞেস করলাম, “কেন?”
 
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
+“মোরা তামাশা করি নাই বাবু। তাই আমাদের লিয়ে বই করে তামাশা করার দরকার নাই।”
 
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
+বৃদ্ধের উত্তরে আরেকবার চমকে উঠলাম, কিন্তু নিজের মনের ভাব প্রকাশ না করে বললাম, “আপনি ভুল ভাবছেন। এই বই অন্যরকমের হয়। এতে আপনাদের জীবনযাত্রার কথা তুলে ধরব আমরা। তখন দেখবেন ওপর মহল থেকে আপনাদের সাহায্যের জন্য…”
 
-Her host looked at her incredulously.
+“থাক বাবু থাক। এমন কতা ঝুড়ি ঝুড়ি শুনছি। আর ভাল্লাগে নাই। মুই অনুমতি দিতে পারবো নাই।” 
 
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
+বৃদ্ধের কথায় আমার মুখে কথা জোগাল না। এবার দেখলাম পার্থ মুখের সামনে থেকে গ্লাসটা নামিয়ে রেখে বলল, “আপনি অনুমতি না দিলে আমরা কিছু করতে পারিনা। আমরা ফিরে যাবো। কিন্তু…”
 
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
+“কিন্তু কি?” জানতে চাইলেন বৃদ্ধ।
 
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
+“আমরা তো অনেক দূর থেকে এসেছি সঙ্গে একজন মেয়ে মানুষও আছে। এখন বেরোলে ফিরতে ফিরতে তো অনেক রাত হয়ে যাবে। তারওপর এতটা পথ হাঁটা…”
 
-“I don’t know a single ——”
+“ও লিয়ে চিন্তা করবেননি বাবু। মোরা গরিব হতে পারি কিন্তু অমানুষ লই। আজ আপনারা একেনেই থাকুন। কাল সকালে যাবেন না হয়।”
 
-“You must know Gatsby.”
+“উফফ আপনাকে কি বলে যে ধন্যবাদ দেবো…” হাত জোড় করে বৃদ্ধের সামনে মাথা ঝোঁকাল পার্থ। বৃদ্ধের মুখ দেখে বুঝলাম বেশ খুশি হয়েছে সে। মনে মনে হাসলাম আমি।
 
-“Gatsby?” demanded Daisy. “What Gatsby?”
 
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
 
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
+                 ★★★★★
 
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
 
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
 
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
+ভাত আর দেশি মুরগির ঝোল খেয়ে আরামে ঘুম ধরে গিয়েছিল আমার। পার্থর ডাকে ধড়ফড় করে উঠে বসলাম পার্থ আমাকে ইশারায় চুপ থাকতে বলে ফিসফিস করে বলল, “ব্যাগ নিয়ে নে। যাওয়ার সময় হয়ে গেছে, চল।”
 
-Before I could answer her eyes fastened with an awed expression on her little finger.
+ঘুম ঘুম ব্যাগ নিয়ে ঘরের বাইরে আসতেই দেখলাম প্রেরণা ইতিমধ্যেই উঠে পড়েছে। পা টিপে টিপে তিনজনে বাড়ির বাইরে বেরিয়ে এলাম। পূর্ণিমার রাত। আকাশে গোল থালার মত চাঁদ। চারিদিক জ্যোৎস্নার আলোয় আলোকিত হচ্ছে। বেশ একটা ফুরফুরে হাওয়াও দিচ্ছে। পার্থ চাপা স্বরে বলল, “স্পিডে কিন্তু পা টিপে টিপে হাঁটতে হবে। কেউ কোনো কথা বলবেনা। লেটস গো।”
 
-“Look!” she complained; “I hurt it.”
+এই বলে হাঁটতে লাগলো পার্থ। ওকে অনুসরণ করতে লাগলাম আমরা। স্পিডে কিন্তু পা টিপে টিপে হাঁটা যে কি শ্রম সাধ্য কাজ তা টের পাচ্ছিলাম হাড়ে হাড়ে। তার ওপর সকাল থেকে সেই হেঁটেই যাচ্ছি, এখনও আবার কতটা হাঁটতে হবে কে জানে। প্রেরণার দিকে তাকালাম। দেখলাম যন্ত্রনায় মেয়েটার মুখটা কুঁকড়ে উঠছে মাঝে মাঝে কিন্তু তাও মুখে টুঁ শব্দটিও করছেনা। প্রেরণা মেয়েটা এমনই। অসম্ভব মনের জোর। অবশ্য মনের জোর না থাকলে আমাদের ক্লাবের সক্রিয় সদস্য হওয়া যায়না। এসব কথা ভাবতে ভাবতেই কখন যেন গ্রামের সীমানা পার করে চলে এসেছি। পার্থ বলল, “এবার সবাই রিল্যাক্স হয়ে হাঁটতে পারিস। তবে জোরে কথা বলা যাবে না।” 
 
-We all looked — the knuckle was black and blue.
+“ওকে।” পার্থর কথায় সম্মতি জানিয়ে পকেট থেকে রুমাল বের করে মুখের ঘামটা মুছলাম। ভালো করে তাকিয়ে দেখলাম যেখানে এই মুহূর্তে আছি সেটা একটা রুক্ষ প্রান্তর। পার্থকে উদ্দেশ্য করে বললাম, “জায়গাটা কোন দিকে তুমি ঠিক জানো?”
 
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
+“মোড়লের কাছে সব জেনে নিয়েছি। টানা এই পথ ধরে হাঁটতে থাকলেই নাকি জায়গাটা পাওয়া যাবে। বলল ভোরের দিকে নাকি সূর্যের প্রথম আলোর সঙ্গে সঙ্গে ক্ষনিকের জন্য দৃশ্যমান হয় ওই রাত পরীদের শরীর। এমনিতে নাকি ওরা রাতের মতোই কালো…”
 
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
+শেষের কথাগুলো খানিকটা স্বগতক্তির ঢঙে বলল পার্থ। আমরা আর কেউ কোনো কথা বললাম না, নীরবে ওকে অনুসরণ করে যেতে থাকলাম।
 
-“Hulking,” insisted Daisy.
 
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
 
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
+  ওই রুক্ষ পথ ধরে কত পথ হেঁটেছি জানিনা। আচমকা সামনে একটা টিলা দেখে আমাদের গতি রুদ্ধ হলো। পার্থ আমাদের ইশারায় দাঁড়িয়ে যেতে বলে একলাই এগিয়ে গেলো টিলাটার দিকে। তারপর সন্তর্পণে উঠতে লাগলো ওটার ওপর। কাঁকুরে মাটিতে পা স্লিপ করে যেতে দেখলাম ওর, কিন্তু পার্থ পার্থই। নিজেকে সামলে নিলো নিমেষে। টিলাটার একবারে মাথায় উঠে অপ্রান্তে কি যেন দেখলো, তারপর আমাদের দিকে ঘুরে ইশারায় আসতে বলল। আমি চাঁদের আলোয় দেখলাম ওর মুখে এক রহস্যময় হাসি। আমি আর প্রেরণা এগিয়ে উঠতে গেলাম টিলাটার ওপর। প্রেরণা পা স্লিপ করে পড়ে গেল। আমি হাতটা বাড়ালাম ওর দিকে, প্রেরণা একগাল হেসে জুতো গুলো খুলে এক হাতে নিলো তারপর অন্য হাত দিয়ে আমার হাতটা ধরে উঠে দাঁড়াল। সাবধানে উঠতে লাগলাম দুজনেই। তবে পার্থর মত ফ্লেক্সিবিলিটি আমাদের কারুর নেই তাই সত্যি বলে ঘেমে নেয়ে একসা হয়ে উঠেছিলাম দুজনেই। তারপর অনেক কসরৎ করে অবশেষে টিলার মাথাতে উঠতেই পার্থ ইশারা করে সামনের দিকে দেখাল। ওর আঙুলকে অনুসরণ করে সেদিকে তাকাতেই চমকে উঠলাম। দেখলাম টিলাটার ঠিক নিচেই রয়েছে এক শতাব্দী প্রাচীন ধ্বংসস্তূপ। কিসের ধ্বংস স্তুপ তা ঠাহর করতে পারলাম না। আমাদের দেশীয় রাজবাড়ী বা কোনো অট্টালিকার অংশ বলে ঠিক যেন মনে হলো না। কিন্তু তা না হলে কিসের ভগ্নাবশেষ হতে পারে সেটাও ভেবে পেলাম না। যাইহোক, তিনজনেই নামতে লাগলাম ওই ভগ্ন স্তুপ লক্ষ্য করে। ওঠার চেয়ে নামাটা অনেক সহজ হলো। পার্থ বলল, “ভোর হতে বেশি বাকি নেই, তিনজন সুবিধে জনক জায়গা দেখে নিজেদের আড়াল করে অপেক্ষা করব।”
 
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
+“সে ঠিক আছে, কিন্তু কতক্ষণ? যদি কিছু না ঘটে?” জিজ্ঞেস করল প্রেরণা।
 
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
+পার্থ বলল, “না ঘটলে সূর্যের আলোটা স্পষ্ট ভাবে ফুটে গেলেই চলে যাবো আমরা।” 
 
-“Why, no,” I answered, rather surprised by his tone.
+পার্থর কথায় সম্মতি জানিয়ে ঢুকে গেলাম সেই স্তূপের মধ্যে। একটা বড়সড় স্তম্ভের আড়ালে নিজেকে যথাসম্ভব লুকিয়ে ফেললাম। পার্থ দেখলাম একটা তোরণের মত জিনিসের আড়ালে চলে গেলো আর প্রেরণা আমার মতই একটা স্তম্ভের আড়ালে লুকোলো। ব্যাগ থেকে কার্বলিক এসিড বের করে ছড়িয়ে দিলাম চারিদিকে। জীবনের ঝুঁকি নিয়ে এডভেঞ্চারে বেরোই ঠিকই কিন্তু সাপের হাতে মরতে চাইনা। 
 
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
 
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
 
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
+  কতক্ষণ বসেছি সে হিসেবে নেই। ভোর হয়ে আসছে বুঝতে পারছি। ঘড়িটার দিকে তাকিয়ে দেখলাম কখন যেন বন্ধ হয়ে গিয়েছে সেটা। টিলার অপ্রান্ত অবধি কি সুন্দর ফুরফুরে হাওয়া দিচ্ছিল কিন্তু এখানটা অসম্ভব রকমের গুমোট। বারবার রুমাল বের করে ঘাম মুছে নিচ্ছি। ভাগ্য ভালো মশার উপদ্রবটা এখানে নেই অন্তত। বেশ ভালো করেই জানি শুকনো হাতে ফিরতে হবে তবুও কেন জানিনা মনে মনে বেশ একটা উত্তেজনা হচ্ছে। আসলে এবারের রহস্যের উৎসটা যতই গাঁজাখুরি মনে হোক না কেন পার্থ যখন সেটার পেছনে ছুটে এসেছে তখন পুরোপুরি উড়িয়ে দিতেও পারছিনা। এরকম অবস্থার মধ্যেই একটু তন্দ্রা মতন চলে এসেছিল, আচমকা একটা অদ্ভুত আওয়াজ শুনে চোখ তুলে চাইলাম। আর তাকাতেই যে দৃশ্য দেখতে পেলাম তাতে আমার হাত পা অবশ হয়ে এলো। দেখলাম সম্পূর্ণ উলঙ্গ অবস্থায় একটা মেয়ে দাঁড়িয়ে আছে কিছুটা দূরে সেই তোরণটার সামনে যেখানে পার্থ লুকিয়েছিল। এখনও যদিও আলো স্পষ্ট ছিলোনা তাও মেয়েটাকে চিনতে ভুল হলোনা আমার। অস্ফুটে মুখ দিয়ে বেরিয়ে এলো একটা শব্দ, “প্রেরণা!”
 
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
+কিংকর্তব্যবিমূঢ় হয়ে গেলাম, প্রেরণা ওখানে ঐভাবে করছেটা কি! দেখলাম পার্থ আস্তে আস্তে আড়াল ছেড়ে বেরিয়ে এলো। যদিও ওর মুখটা স্পষ্ট দেখা যাচ্ছিল না তাও আমি জানি এই মুহূর্তে শরীর জুড়ে চলছে আদিম রিপুর শিহরণ। আমারও নিজেকে সংযত রাখা মুশকিল হয়ে উঠছে কিন্তু তাও কোনোভাবে নিজের জায়গা ছেড়ে নড়লাম না। বুঝতে পারছিলাম না ওরা দুজন ঠিক কি করতে চাইছে এই মুহূর্তে! দেখতে পেলাম পার্থ এগিয়ে গেলো প্রেরণার দিকে, তারপর বাম হাত দিয়ে জড়িয়ে ধরল ওর কোমর… মুখটা বাড়িয়ে প্রেরণার ঠোঁটে ঠোঁট লাগালো…
 
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
+আর সেই মুহূর্তেই আচমকা কিছু একটা এমন ঘটল যে পার্থ চিৎকার করে ছিটকে পিছিয়ে গেলো কয়েক পা, কিছুতে একটা ধাক্কা খেয়ে পড়ে গেলো তোরণটার সামনে। ক্ষনিকের জন্য মনে হল যেন পার্থর খাওয়ার মুখের কাছটা রক্তাক্ত। পার্থকে আর স্পষ্ট দেখতে পাচ্ছিলাম না। কিন্তু দেখলাম প্রেরণার শরীরটা আস্তে আস্তে কেমন যেন পরিবর্তিত হতে শুরু করল। সারা গায়ে আঁশের মত কি যেন বেরিয়ে গেলো। মুখের মধ্যেও শুরু হলো আমূল পরিবর্তন। এমন একটা সুন্দর শরীর মুহূর্তের মধ্যে কি কদাকার রূপ ধারণ করলো তা আমার বর্ণনার অতীত। আর তারপরেই দেখলাম আচমকা ওর পিঠ চিরে বেরিয়ে এলো দুটো প্রকান্ড সাদা রঙের ডানা। সূর্যের প্রথম আলো পড়ে ঝলসে উঠল তাদের রং। স্পষ্ট বুঝতে পারলাম যে এ প্রেরণা হতে পারেনা, এই তাহলে সেই রাতপরি…!
 
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
+তবে চমকের আরও অনেকটা বাকি ছিলো তখন অবধি। দেখলাম সেই জন্তুটা (হ্যাঁ ওকে পরি বলতে কষ্ট হচ্ছে আমার) আস্তে আস্তে ডানায় ভর করে মাটির থেকে বেশ খানিকটা ওপরে উঠে গেলো। তারপর ডান হাতটা বাড়িয়ে কিছু যেন টেনে নিতে লাগলো আর আমি অবাক বিস্ময়ে দেখলাম পার্থর শরীর থেকে একটা ধোঁয়া ধোঁয়া মানুষের অবয়ব যেন বেরিয়ে এগিয়ে যেতে লাগলো ওই জন্তুটার দিকে। পার্থর শরীরটা যন্ত্রনায় কুঁকড়ে যাচ্ছিল। এদিকে আমিও আমার নড়া চড়ার শক্তি যেন লোপ পেয়েছিলাম বারোয়ারি পুতুলের মত শুধু বিস্ফারিত দৃষ্টি নিয়ে দেখছিলাম এক আশ্চর্য দৃশ্য। যা আমাদের তথাকথিত শিক্ষিত সমাজের কাছে স্রেফ অবিশ্বাস্য তাই আমি ঘটতে দেখছিলাম আমার চোখের সামনে। 
 
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
+
+
+  আচমকা আমার পিঠে যেন কেউ টোকা দিলো। এক… দুই… তিনবার… একটা ঢোঁক গিলে কাঁপতে কাঁপতে ঘাড় ঘোরালাম দেখলাম একটা অপূর্ব সুন্দরী মেয়ে সম্পূর্ণ নগ্ন হয়ে বসে আছে ঠিক আমার পেছনটাতেই। মেয়েটা ক্রমশ ওর মুখটা বাড়িয়ে এগিয়ে আসতে লাগলো আমার দিকে। গগনভেদী চিৎকার করে না বলতে চাইলাম কিন্তু টের পেলাম আমার গলার স্বর ফুটছে না। মেয়েটার মুখটা আমার ঠোঁট স্পর্শ করে ফেলল। আতঙ্কে জ্ঞান হারালাম আমি...
 
 """),
       Books(
           id: 1,
-          name: "Nagofteha",
-          auther: "Sadra kafiri",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "অচিনবাবুর দুঃস্বপ্ন",
+          auther: "Sukriti Ranjan Bank",
+          desc: "Bangla Stories",
+          review: "148",
+          score: "4.5",
+          view: "1072",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "attach",
+            "Unrealized",
+            "Horror",
           ],
-          imgUrl: "115265.jpg",
-          content: """
+          imgUrl: "yputh4v6.jpg",
+          content: """হঠাৎ করে ঘুমটা ভেঙে গেল অচিনবাবুর। ঘুমের মধ্যে মনে হল কেউ যেন তাকে ডাকছে। নাইট ল্যাম্পের আলোয় দেওয়াল ঘড়ির দিকে চোখ পড়তে, দেখলেন ২টো ১০ বাজে। এতরাতে কে আবার ডাকবে, স্বপ্ন দেখছিলেন হয়ত। ভাবলেন সকাল ৭টায় ট্রেন যখন, এখন ঘুমিয়ে পড়াই ভাল। যাবেন গুয়াহাটি, খুব ভাল একটা বিজনেস ডিল পেয়েছেন। শৈশবে বাবা-মা কে হারিয়ে মামাবাড়িতে মানুষ। বিপত্নীক ও নিঃসন্তান মামা, ভাগ্নেকে নিজের ছেলের মত কোলেপিঠে করে মানুষ করেছিলেন। মামার কাছেই ব্যবসার হাতেখড়ি। মামার ইলেক্ট্রিক্যাল গুডসের ছোট দোকান ছিল। মামার মৃত্যুর পরে দোকানের সমস্ত ভার নিজের কাঁধে নিয়ে নিরলস পরিশ্রমে সেই ব্যবসা বাড়ানো এবং ইলেক্ট্রিক্যাল সাপ্লায়ার্স হিসেবে নিজেকে প্রতিষ্ঠিত করা, সবই করেছেন একাহাতে। এই করতে গিয়েই প্রৌঢ়ত্বে এসে পড়েছেন, বিয়ে আর করা হয়নি। একা থাকাটাই অভ্যাস হয়ে গিয়েছে। বিছানাতে উঠে বসে সাইড্ টেবিল থেকে জলের গ্লাসটা নিতে যাবেন, চোখ চলে গেল সামনের দেওয়ালের আয়নাটায়। যা দেখলেন বুকটা ছ্যাঁত্ করে উঠল। সাহসী বলে নিজেকে দাবি করেননি কোনোদিন, তাই বলে ভীতুও নন তিনি। দেখলেন আয়নাতে কার যেন একটা প্রতিচ্ছায়া। ঘুমচোখ কচলে ভাল করে দেখার পর সমস্ত শরীরে শিহরণ খেলে গেল। আয়নার ভেতরে প্রতিচ্ছবি আর কারো নয়,স্বয়ং তাঁরই। কিন্তু তা কি করে সম্ভব, তিনি তো খাটের ওপর বসে রয়েছেন,আর আয়নার অচিনবাবু আয়নার ওপারে একদম সম্মুখে। অচিনবাবু যদি আয়নার একদম সামনে গিয়ে দাঁড়াতেন তখন যে প্রতিবিম্ব হত ওনার, আয়নার অচিনবাবু সেরকমভাবেই আছেন। ওপারের অচিনবাবুই তাঁর নাম ধরে ডাকছেন,"অচিনবাবু, ও মশাই শুনতে পাচ্ছেন..বড়ই বিপদ..অচিনবাবু"
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+বুঝলেন হাত-পা অবশ হয়ে আসছে, সংজ্ঞা হারাবেন যেকোন মুহূর্তে। জ্ঞান হারাবার আগে আবার শুনলেন ওপার থেকে, "কাল যাবেন না..খুব বিপদ..যে করেই হোক কাল একদম গুয়াহাটি যাবেন না" 
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+..............
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+রাত ৯টা বাজে। ডিনার সেরে শোয়ার তোড়জোড় করছেন। উত্তরবঙ্গের ওপর দিয়ে চলেছে ট্রেন এখন। কালরাতের দুঃস্বপ্নটা ভাবলেও বুকের ভেতরে ভয় মাথাচাড়া দিয়ে ওঠে। এর থেকে না ভাবাই ভাল হবে। ভোরে গুয়াহাটি পৌঁছবে ট্রেন, এখন না শুয়ে পড়লে রাত থাকতে থাকতে উঠতে পারবেন না। খামোখা এক দুঃস্বপ্নের ভয়ে এত ভাল অফারটা হাতছাড়া করা নির্বুদ্ধিতা হত। যাকগে এবার শুয়ে পড়াই ভাল। ভাগ্য ভাল তাই নিজের পছন্দের আপার সাইড বার্থ পেয়েছেন। মোবাইলে অ্যালার্ম দিয়ে শুয়ে পড়লেন।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+...............
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+বেয়াড়া ঝাঁকুনি আর যন্ত্রণাতে ঘুমটা ভেঙে গেল। সারা শরীর অবশকরা যন্ত্রণার মধ্যে দেখলেন কামরার দেওয়ালটা দুমড়ে মুচড়ে তাঁর শরীরের ওপর চেপে বসে আছে যেন এবং তাঁর ডান হাতটা কনুই থেকে বিচ্ছিন্নপ্রায়। ঘটনার বীভৎসতায় সংজ্ঞা হারালেন সঙ্গে সঙ্গেই।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+চোখ খুলেই ধড়মড় করে উঠে বসলেন তিনি। নিজের ঘরেই অক্ষত অবস্থাতে নিজেকে দেখে ঘাম দিয়ে যেন জ্বর ছাড়ল অচিনবাবুর। দুঃস্বপ্ন ছিল, কিন্তু এত নিখুঁত, যেন সবটুকু বিশ্বাস করতে হয়। জলের গ্লাসের দিকে হাত বাড়াতে গিয়ে খেয়াল করলেন সাইড টেবিলটা নেই। ভাল করে দেখতে গিয়ে দেখলেন ঘরের মধ্যে আমূল পরিবর্তন এসেছে। ঘর তাঁরই কিন্তু আসবাবপত্র থেকে শুরু করে ঘড়ি, ক্যালেন্ডার, সাইড টেবিল সব কিছুরই জায়গা বদল। এমনকী জানলা-দরজাটাও উলটো দিকে। ক্যালেন্ডারএর দিকে চোখ পড়তে একটু সময় লাগলেও সবকিছু জলের মত পরিষ্কার হয়ে গেল অচিনবাবুর। গোটা ঘর আর ঘরের মধ্যে সবকিছু মিরর ইমেজ হয়ে গেছে কোনো জাদুমন্ত্রবলে। হয়ত এও এক দুঃস্বপ্ন। নিজেকে চিমটি কেটে বুঝলেন স্বপ্ন তিনি দেখছেন না মোটেই। কিন্তু এসমস্ত কিছুর ব্যাখ্যা কি? তাঁর সাথেই বা এরকম কেন হচ্ছে?ব্যবসায়ী হিসেবে তাঁর আরেকটা সুনাম হল তিনি খুবই ঠাণ্ডা মাথার মানুষ, কিন্তু এই পরিস্থিতিতে কি করবেন কিছুই বুঝতে পারছেন না। হঠাৎ বিদ্যুৎ এর ঝিলিকের মত একটা কথা মাথায় এল। আয়না!!
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
-
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
-
-“How do you get to West Egg village?” he asked helplessly.
-
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
-
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
-
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
-
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
-
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
-
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
-
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
-
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
-
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
-
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
-
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
-
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
-
-We talked for a few minutes on the sunny porch.
-
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
-
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
-
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
-
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
-
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
-
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
-
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
-
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
-
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
-
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
-
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+এগিয়ে গেলেন দেওয়ালে রাখা আয়নার দিকে। আয়নাতে তাঁর প্রতিবিম্ব পড়লনা। অবশ্য এতে অবাক হলেননা বিন্দুমাত্র, এরকমই হবে সেই সম্ভাবনাই তাঁর মাথায় এসেছিল। আয়নার মধ্যে দিয়ে দেখলেন তাঁর ঘর আর সব কিছু সহাবস্থানেই আছে, যেমনটি এতকাল ধরে ছিল। খাটের পাশেই রাখা ট্রাভেল ব্যাগ আর ব্রিফকেস, গতরাতে যেখানে রেখেছিলেন। আর বিছানাতে স্বয়ং তিনি অথবা তাঁর আরেক সত্ত্বা। এই মুহূর্তে অনেক কিছু বোধগম্য হল তাঁর। বর্তমান পরিস্থিতিতে দাঁড়িয়ে গতরাতের থেকে এখন অবধি ঘটা কোনোকিছুই যে দুঃস্বপ্ন নয়, সবটাই যে কঠিন বাস্তব তা বুঝলেন। যদিও কোনোকিছুরই যুৎসই ব্যাখ্যা পেলেন না। তবুও ঠিক করে নিলেন এই মুহূর্তের কর্তব্য। যদি ঠিকঠাক বুঝে থাকেন আয়নার ওপারে গতকালের অচিনবাবু ঘুমিয়ে আছেন এবং তাঁর সামনে সমূহ বিপদ অপেক্ষা করছে। নিজেকে অর্থাৎ ওপারের অচিনবাবুকে সাবধান করতেই হবে যেকরেই হোক। আর বিন্দুমাত্র দেরি না করে নিজের নাম ধরে ডাকতে শুরু করলেন, "অচিনবাবু! ও মশাই শুনতে পাচ্ছেন!''"""),
       Books(
           id: 1,
-          name: "Jahad",
-          auther: "Emam Ali",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "ললন্তিকা ( ধারাবাহিক)",
+          auther: "Nityananda Banerjee",
+          desc: "Bangla Stories",
+          review: "852",
+          score: "4.1",
+          view: "1254",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Horror",
+            "Mystery",
+            "unknown",
           ],
-          imgUrl: "117659.jpg",
-          content: """
+          imgUrl: "e80bcf48a750b5f3b3ce6da0787596c7ea5b6ae6.jpeg",
+          content: """রাত গড়িয়ে সকাল হল ; বেলা বাড়ছে অথচ রুদ্র শ্মশান ঘাট থেকে ফিরেনি । বনলতা দেবী শঙ্কিত হলেন । মায়ের মন তো ! সবসময় সন্তানের প্রতি এক অন্য ধরণের অনুভূতি কাজ করে ।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+আজ কিন্তু তা' শুধু অনুভবে সীমাবদ্ধ রইল না । অজানা আশঙ্কায় মাতৃহৃদয় কম্পিত হতে লাগল। তিনি হাতের ফোন থেকে রুদ্রকে ফোন করতে যাবেন অমনই অরবিন্দ সরখেল এসে হাজির হল ।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+- কা'কে ফোন করছেন মাসীমা ? রুদ্রবাবুর ফোন তো চুরি হয়ে গেছে !
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+বনলতা চমকে উঠলেন। ফোন চুরি হয়ে গেছে ! তা-ও আবার রুদ্রর মত সাবধানীর ছেলের থেকে ! 
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+বললেন - তুমি ? হঠাৎ এই সময়ে ?
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+একমুখ হেসে অরবিন্দ বলল - তবে চিন্তা করবেন না মাসীমা । রুদ্রবাবু এক্ষুণই এসে পড়বেন । আসলে রাতের বেলায় যে সব অলক্ষুণে কাণ্ড ঘটে গেছে তাতে রুদ্রবাবুর যে এখনও মাথাটা ঠিক আছে সেটাই আশ্চর্য্যের ।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+বনলতা দেবী তাঁর শঙ্কা যে অমূলক নয় ; তা' বেশ টের পেলেন । নইলে অন্তত একবার ফোন করে খবর নিত । আর তিনিও তো করেননি। অযথা বিরক্ত হবে বলে ।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+বনলতা দেবী বললেন - তা কি ঘটেছিল বাছা, একটু যদি বল !
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+মুখের হাসি অক্ষুণ্ণ রেখে অরবিন্দ বলতে লাগল - সে এক ভয়ঙ্কর অভিজ্ঞতা । তবে সব কিছুর মূলে ওই ডোমটা । জানেন মাসীমা ! রুদ্রবাবু ভেবেছেন আমিই নাকি এ সবের হোতা । তাই বারবার আমাকে ফোন করে চলেছেন । এত রাতে ফোন করেই চলেছেন; আমি কিন্তু একবারও বিরক্ত হইনি । ওঁকে শুধু সাহস জুগিয়ে গেছি।
 
-“How do you get to West Egg village?” he asked helplessly.
+বনলতার মনে হল সব কিছু যেন হেঁয়ালির মত । এই তো বলল ফোন চুরি গেছে। আবার বলছে রাতভর ফোন করে গেছে।
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+রেগেমেগে বলেই দিলেন - দূর হ হতচ্ছাড়া পাজী ! 
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+অরবিন্দ হেসে হেসে বলে - রেগে যাচ্ছেন কেন মাসীমা ? ফোন তো তখন চুরি হয়নি । চুরি হয়েছে তো লাশটা। রুদ্রবাবু তাঁর মাসীর মরদেহে প্রণাম করতে গিয়েই তো বিপত্তি। ফোন রেখে দিয়েছেন শবের উপর । আর ওই ডোমটা তা নিয়ে ঢুকিয়ে দিয়েছে নিজের পকেটে। 
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+- তারপর ? তুমি ওটা উদ্ধার করেছ ?
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+হো হো করে হাসে অরবিন্দ সরখেল । 
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+- আমি ? হা হা হা ! আমি তো তখন বাড়িতে ! আর ওরা শ্মশানে । আমি কি ভাবে উদ্ধার করব?
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+- তবে? 
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+এবার আর কোন কথা নয় । অরবিন্দ সরখেল রুদ্রর ফোনটা মাসীমার হাতে দিয়ে বলে - এই নিন ফোন। একবার ফোনে মুখ রেখে জোরে জোরে রুদ্র রুদ্র বলে ডাকুন । শুনুন রুদ্র কি বলে ?
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+- নাহ্ এ ছোঁড়াটা দেখছি আমার মাথা খেয়ে নিচ্ছে। রুদ্রর ফোন আমার হাতে আবার বলে কি না রুদ্রর সাথে কথা বলুন !
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+অরবিন্দ বলে - যা বলছি করে দেখুন । নইলে ---
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+চোয়াল শক্ত হয়ে ওঠে অরবিন্দর । একটা কঠোরতার আভাস লক্ষ্য করা যায় তার চোখে মুখে । ভয় পেয়ে যান বনলতা দেবী । 
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+ফোনটা মুখের সামনে এনে রুদ্রর নাম ধরে ডাকতে থাকেন । 
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+- এসে গেছি মা ! এই তো তোমার সামনেই দাঁড়িয়ে আছি।
 
-We talked for a few minutes on the sunny porch.
+ভরাট গলার রুদ্রর কন্ঠস্বর শুনে বনলতা দেবী আশ্বস্ত হন । 
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+রুদ্র এসে বলে - আর কখনও শ্মশানে যাব না মা । যা ভয়ংকর ভুতের পাল্লায় পড়েছিলাম ; ভাগ্যিস অরবিন্দ বাবুকে ফোন করেছিলাম । উনি যথাসময়ে শ্মশানে না পৌঁছলে আমি হয় তো ---
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+- দুর্গা দুর্গা। এ কি বলছিস তুই ? অরবিন্দ যে বলল তোর ফোন চুরি গেছে !
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+- ঠিক কথাই বলেছে মা ! আমি যখন মাসীকে প্রণাম করছি ; আমার মনে হল কেউ যেন আমার পকেটে হাত ঢুকিয়েছে । চেয়ে দেখি এক ত্রিশ বত্রিশের মহিলা ঘনঘন আমার বুকে নি:শ্বাস ফেলছে। ভুত ভেবে ডোমকে ডাকলাম । সে একটা বিকট হেসে মুখ থেকে দাঁত বের করে আমাকে ধরিয়ে দিল । মেয়েটা ফোন নিয়ে পালাচ্ছে। এমন সময় অরবিন্দ এসে আমাকে ধাক্কা মেরে ফেলে দিল । কিছুটা দূরে গিয়ে ছিটকে পড়লাম । অরবিন্দের সঙ্গে ডোম আর ওই মেয়েটার কথা কাটাকাটি শুরু হল । আমি কিন্তু ওদের কথাবার্তা কিছুই শুনতে পাইনি । শেষে ওরা অরবিন্দের হাতে ফোনটা তুলে দিয়ে পালিয়ে গেল ।
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
+আমি অরবিন্দের কাছে ফোন চাইলাম । অরবিন্দ বলল - এটা এখনই আপনাকে দেওয়া যাবে না। আমি হাতে ওর করে বাড়ি নিয়ে যাই। আপনি আপনার মায়ের হাত থেকে ফোন নেবেন ।
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
+- এ কি ভুতুড়ে কাণ্ড রে বাবা ! নে এবার স্নানটান করে শুদ্ধ হয়ে নে । চল আমরা বাড়ি যাই।
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+- কিন্তু মেসোমশাইকে ছেড়ে যাওয়া কি ঠিক হবে ? আবার ওনাকে সিফ্ট করাও তো ভীষণ রিস্কি ।
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+- যে করে হোক আমাদের যেতে হবে । এখানে থাকতে পারছি না । যা সব ঘটনা ঘটছে !
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
+অরবিন্দ সরখেল এতক্ষণ ওদের কথা শুনছিল । বলল - তা যা বলেছেন মাসীমা ! আরও যে কত কিছু ঘটতে পারে বেশ বুঝতে পারছি। তবে আপনারা যেতে পারেন। আমি স্যারকে দেখব - কথা দিচ্ছি ।
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+রুদ্র বলল - সত্যি করে বলুন তো ! আপনার সঙ্গে মেসোমশায়ের কি ধরণের সম্পর্ক আছে যাতে আপনি বিপদ উপেক্ষা করে থেকে যেতে চাইছেন ,?
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
+অরবিন্দ হাসল । বলল - শুনতে চান ? ঠিক আছে খাওয়া দাওয়া করে নিন , তারপর সব বলব ।
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
+বনলতা দেবী ফল আর মিষ্টির প্যাকেট বের করে সবাইকে খেতে দিলেন ।
 
-“Do they miss me?” she cried ecstatically.
+রুদ্র বলল - এবার শুরু করুন। ইপনার গল্প শুনতে অধীর হয়ে উঠেছি ।
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
+একটি সেগুন কাঠের শয্যায় শুয়ে আরণ্যক বসুরায় তখন ঘামতে শুরু করেছেন । এই দৃশ্য বনলতা দেবী বা রুদ্রর নজরে না আসারই কথা । তবে তৃতীয় ব্যক্তির চোখে তা এড়িয়ে যেতে পারেনি । অরবিন্দ সরখেল বলল - ওই দেখুন, স্যার ঘেমে নেয়ে অস্থির হয়ে উঠেছেন। আপনারা খেয়ে নিন। আমি দেখছি ওনার কি অসুবিধা হচ্ছে ।
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
+রুদ্রনীলের সন্দেহ হল । কাছাকাছি থাকা সত্বেও সে বা তার মা ঘামের ব্যাপারটা দেখতে পায়নি। অথচ একই স্থান থেকে সরখেলের নজরে তা এল কেমন করে !
 
-“I’d like to.”
+রুদ্র খাওয়া ছেড়ে মেসোমশায়ের নিকটে গিয়ে দেখে অরবিন্দ যা বলেছে তা' সত্য । উপরন্তু তাঁর মধ্যে এক অদ্ভুত অস্থিরতা লক্ষ্য করল । কিছু যেন বলতে চাইথেন। অথচ বলতে পারছেন না । 
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
+প্রতিবেশীদের ডেকে আনল । তারাও এই দশা দেখে খুব অবাক হল । 
 
-“Never.”
+রুদ্র বলল - আপনারা কেউ এই লোককে চেনেন ? 
 
-“Well, you ought to see her. She’s ——”
+বলে সরখেলের দিকে তাকাতেই দেখল সরখেল সেখানে নেই ।
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
+প্রতিবেশীরা বললেন - কার কথা বলছ বাবা ! এখানে তো বাইরের কেউ নেই। 
 
-“What you doing, Nick?”
+- ও আচ্ছা । আমি তা বলতে চাইনি । বলছিলাম অরবিন্দ সরখেল বলে কাউকে আপনারা চেনেন বা দেখেছেন তাকে ?
 
-“I’m a bond man.”
+- কে এই অরবিন্দ সরখেল? তাকে দেখা তো দূর; এমন নামও কেউ শোনেনি। আর বসুরায়ের সাথে তো ওনার ড্রাইভার ছাড়া অন্য কাউকে তো কোনদিন দেখিনি !
 
-“Who with?”
+বনলতা দেবী বললেন - বুঝেছি । ওরে রুদ্র, আমার সন্দেহ তবে ভুল নয় । লোকটা কোন মানুষ নয়; আমার মনে হয় কোন প্রেতাত্মা। 
 
-I told him.
+রুদ্র ধমকে উঠল - আপনি ছাড়ুন তো মা ! ওসব ভুত প্রেতে আমার কোন বিশ্বাস নেই । আমার সন্দেহ অন্যরকম ।
 
-“Never heard of them,” he remarked decisively.
+- তুই আবার কি সন্দেহ করছিস ?
 
-This annoyed me.
+রুদ্র - আমার মনে হয় লোকটা মেসোমশাইকে অনেকদিন ধরে চেনে । তার সম্পর্কে যাবতীয় তথ্য তার গোচরে । আর সুযোগ বুঝে তাঁকে ব্ল্যাকমেল করতে আসছে। মনে হচ্ছে গোটা ঘটনাটাই পূর্বপরিকল্পিত। আমাদের বসে থেকে বিপদকে আহ্বান করার কোন মানে হয় না । 
 
-“You will,” I answered shortly. “You will if you stay in the East.”
+তারপর প্রতিবেশীদের উদ্দেশ্যে বলল - আপনারা কেউ আমার সঙ্গে থানায় চলুন । একটা জেনারেল ডায়েরী করে আসি।
 
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+তখন কেউ বলল 'চলুন' , কেউ বা বাড়ির দিকে রওনা দিল ।"""),
       Books(
           id: 1,
-          name: "Ghorbagheh",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "শেষ ঠিকানা তুমি (পাঁচ)",
+          auther: "Riya Shig",
+          desc: "Bangla Stories",
+          review: "25",
+          score: "2.7",
+          view: "1236",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Romance",
+            "Mistery",
+            "Fiction",
           ],
-          imgUrl: "61038.jpg",
-          content: """
+          imgUrl: "2994db10c173860ab83bcf466fbbb591e22ba2c8.jpeg",
+          content: """পরের দিন গুলো অয়ন্তিকার অনুর সাথে কথা বলার চেষ্টা করে ওর হাবভাব লক্ষ্য করেই কাটাতে থাকলো ,এইভাবে প্রায় মাস ছয়েকের মধ্যেই অনু অনেকটাই স্বাভাবিক হচ্ছিল আগের মতো গুটিয়ে রাখতো না , অল্প অল্প করে হলেও কিছু কথা বলতো ,একটু হাসতো দেখতো বা হাত দিয়ে ইশারা করে যেটা বোঝানোর চেষ্টা করতো সেটাই মুখ থেকে শব্দ বের করে কথা গুলো আসছিল। আর অনু সাধারণভাবে থাকতো পড়া না শুরু করলেও টুকটাক কিছু করতো যেমন পাখি কাগজ কেটে , অয়ন্তিকার দেখানো আঁকা ,কিনে দেওয়া রুমালে ডিজাইন করতো ,অনেক এমন অ্যাক্টিভিটির মধ্যে ওর খুশি গুলো ধরা পড়তো, অয়ন্তিকার ট্রিটমেন্টের জন্য অনু প্রায় আশি- নব্বই শতাংশ ভালো হয়ে গেছিল, আদর আর বড় বোনের মতো আগলে রাখার জন্য অনু যে ভরসার জোরে ভালো হয়ে যাচ্ছিল সেটা কিছুদিনের মধ্যেই হয়তো ...
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+অতিরিক্ত আদর,যত্ন সময়ে যেকোন অসুস্থ মানুষ সুস্থ হয়ে ওঠে ভবিষ্যতে ভালো থাকে সেই কথাটাই বেশি করে অয়ন্তিকা পরিশ্রমের ফলশ্রুতিতে অনুর জন্য প্রযোজ্য। এইভাবে দুটো অচেনা মানুষের অল্প আলাপের বন্ধুত্বের মাধ্যমে অনুর চিকিৎসার দিনগুলো কাটলো বেশ ভালো মতোই , অয়ন্তিকার ও মনটা হালকা থাকতো এই ভেবে প্রথমে যে ভয়টা পেয়েছিল সেটা আর নেই। অরিন্দমের কথামতো ও সবকিছু অনুর পছন্দ করা জিনিস এনেছে, ওর পছন্দ মতো একদিন খাবার ও খাইয়েছে । ওর সাথে ওর মতো হয়ে দিনের পর দিন যেভাবে মিশেছে।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+বেশ কয়েকদিন পর বাড়ীতে ফিরে এসে অরিন্দম অনু আর অয়ন্তিকা দুজনের মধ্যে বাড়িতে কাউকে দেখতে না পেয়ে শেষে রামু কাকা কে জিজ্ঞাসা করল, ওরা কোথায় ? আওয়াজ নেই কেন ?ডেকে আনো তো দেখি। না থাকলে এরা ঘর পুরো শান্ত !
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+রামু কাকা জানালো,
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
 
-“How do you get to West Egg village?” he asked helplessly.
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+আপনি ছিলেন না ছোট সাহেব অনু মামণি অনেকদিন বেরোইনি তাই নতুন দিদিমণি ওনাকে নিয়ে ঘুরতে বেরিয়েছে।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+আমাকে না বলেই বেরিয়েছে মানছি সবে সুস্থ হবে একটু একটু করে তবুও আমাকে জানাবে না। একবার বললে কি বেরোতে দিতাম না আমি? নাকি অন্য কিছু প্ল্যান করছে মেয়েটা ! অহেতুক সন্দেহ অরিন্দমের মনে দানা বাঁধছিল। সবেমাত্র বন্ধুত্ব হয়েছে তাতেই এতোটা...
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+এসব ভাবতে ভাবতে অরিন্দম দেখলো ফোন বাজছে,ফোনের উপর ভেসে উঠছে লেখা মিস বসু কলিং। ফোনটা ধরে ওপাশে থেকে আওয়াজ এলো,
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+মিস্টার স্যানাল তাড়াতাড়ি আসুন একটু স্পন্দন নার্সিংহোমে প্লিস!
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
 
-We talked for a few minutes on the sunny porch.
+তড়িঘড়ি গন্তব্য তে পৌঁছে দেখলো অরিন্দম অয়ন্তিকা পায়চারি করছে,ওকে দেখতে পেয়ে বললো অনুর প্যানিক অ্যাটাক এসেছিল অজ্ঞান হয়ে গেছে ।আ...আমি বুঝতে পারছি না হুট করে কেন হলো ? অনেকটা রেসপন্স করছিল । টুকটাক কথাও বলতো, দু'জন আজ রেস্টুরেন্টে থেকে বেরিয়ে হাঁটছিলাম সামনে কাউকে দেখে চেঁচিয়ে অজ্ঞান হয়ে গেল।
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+মিস বসু আপনি এতো দায়িত্ব জ্ঞানহীন কিভাবে হতে পারলেন? যখন আপনি নিজেই জানতেন ও সবে অনেকটাই রিকোভার করতে শুরু করেছে, আমাকে তো নিয়ে যেতে পারতেন বলেছিলাম তো যাবো কটা দিন সবুর করতে পারলেন এর মধ্যে বিপদ ঘটিয়ে ফেললেন আপনি! ( অরিন্দম)
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+অয়ন্তিকা একদৃষ্টিতে অরিন্দমের দিকে তাকিয়ে ছিল, ওর মুখে কটা দিন অয়ন্তিকা নাম শুনতেই অভ্যস্ত হচ্ছিল। আবার অচেনা প্রথমদিনের মতো মিস বসু নাম শুনে মুখটা নিচু করে নিলো । যত ই হোক সত্যি এটাই দোষ কোথাও গিয়ে ওর ই,ও না বেরোলে অনু আবার হসপিটালে ভর্তি হতো না। তাই কিছু বললো না চুপ করেই থাকলো। অনুর জ্ঞান ফিরতেই অরিন্দম ওকে আটকে দিয়ে নিজে ভিতরে ঢুকলো আর বলে গেল ও যেন অনুর সাথে দেখা না করে। অয়ন্তিকা বাইরেই বসে রইলো তাই জন্য,চলে যাওয়াটা এই মুহূর্তে ভালো দেখাবে না।
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+একদিন রেখে অনুকে ছেড়ে দেওয়া হবে, আসার পথে  অয়ন্তিকা আর অরিন্দম এর মধ্যে কোনরকম কথাবার্তা হলো না। ফেরার পর যে যার ঘরে চলে গেল, রামু কাকা অয়ন্তিকা কে খাবার দিয়ে গেল আর বললো খাওয়ার পর যেন ছোট সাহেবের সাথে দেখা করে ছাদে ডেকেছে। অয়ন্তিকা জানে অরিন্দম রেগে গেছে, এইমুহুর্তে তাই চুপচাপ কথাগুলো হজম করা নেওয়া ছাড়া ওর কাছে কোন বিকল্প নেই। হয়তোবা ওকে চলে ও যেতে হতে পারে ভাবনাগুলো এসেও ঘুরপাক খেতে লাগলো।
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
 
-“Do they miss me?” she cried ecstatically.
+শুনছেন! মিস বসু আপনার ফিসটা দেওয়া হয়ে যাবে আমি কালকের মধ্যে ই পেমেন্ট করে দেবো, যত ই হোক একটু না অনেকটা হলেও আমার বোন ইমপ্রুভমেন্ট করেছে অল্ফ আর বাকিই সুস্থ হতে ,ওটা মেডিসিন কন্টিনিউ করলেই যাই হোক তাও সই। (অরিন্দম)
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
 
-“I’d like to.”
+আমি টাকার পিচাশ নই মিস্টার স্যানাল, ওই টাকাটা আপনি রাখুন ভেবে নেবেন আপনার বোন কে ট্রিট দিলাম যেহেতু ওকে আমি নিজের বোন ই ভেবেছি এখনো ভাবি। রক্তের সম্পর্ক না হলেও মনের সম্পর্ক ও আছে ওর সাথে এটুকু দাবি করলাম এটা আশা করি এতো দিনে অর্জন করতে পেরেছি। ধন্যবাদ আপনাকে এই ব্যবহারের জন্য। ( অয়ন্তিকা)
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
 
-“Never.”
 
-“Well, you ought to see her. She’s ——”
+  অয়ন্তিকার কথাগুলো শুনে খটকা লাগলো অরিন্দমের মনে। আদৌও কি মেয়েটাকে এরকম বলা ঠিক হলো! না বুঝে কি একটু রুড শোনালো। একদম না উনি দায়িত্ব পালন করেন নি যা করেছে ঠিক করেছে অরিন্দম ওর মন কে বোঝালো।
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
 
-“What you doing, Nick?”
 
-“I’m a bond man.”
+সেদিন রাতটা দুটো মানুষের অস্থিরতার মধ্যে গেল, একজন প্রতিজ্ঞা করলো আর যেন ওই দায়িত্ব জ্ঞানহীন মানুষের সাথে না দেখা হোক। আরেকজন মনের কোনে এক চিলতে অভিমান কে অভিযোগ ভেবেই সবকিছু মাটি চাপা দিয়ে কোনরকমে রাতটা পার করার তাড়ায় দু চোখ বন্ধ করলো।
 
-“Who with?”
 
-I told him.
 
-“Never heard of them,” he remarked decisively.
+খুব সকালে উঠে নিজের জিনিসপত্র গুছিয়ে নিলো অয়ন্তিকা তারপর রামু কাকা কে ডেকে হাতে চাবি ধরিয়ে বেরিয়ে গেল অবশ্য যাওয়ার আগে বাড়িটাকে পিছুটান ভেবে পিছু তাকিয়ে সামনে এগোলো। সকালে উঠতে অরিন্দম অয়ন্তিকার কথা জিজ্ঞেস করার আগেই রামুকাকা জানালো সে চলে গেছে। অরিন্দম কথা বাড়ালো না চুপচাপ নিজের ঘরে রেডি হলো অনু কে ডিসচার্জ করে দেবে ওর জন্য নতুন সাইকোলজিস্ট খুঁজতে হবে। 
 
-This annoyed me.
 
-“You will,” I answered shortly. “You will if you stay in the East.”
 
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
+ঘরে নিয়ে আসার পর অনু সবার আগে অরিন্দম কে জিজ্ঞেস করলো,
 
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
 
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
 
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
+দাভাই অয়ন্তিকা দি কোথায়? আমি ভালো হয়ে গেছি তার আগেই চলে গেল।কি ভালো রে দিদিটা রোজ আমার সাথে কথা বলতো জানিস। এই শোন না ফোন করে আসতে বলিস তো। এই দাদা কোথায় হারিয়ে গেলি?
 
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
 
-Her host looked at her incredulously.
 
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
+উমম কিছু না, ও পরে আসবে ফিরে গেছে ওর বাড়িতে। তুই পরে কথা বলবি বনু। রেস্ট কর কেমন! 
 
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
 
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
 
-“I don’t know a single ——”
+বলে কোনরকমে কথাগুলো এড়িয়ে গেল অরিন্দম অনুর থেকে।
 
-“You must know Gatsby.”
 
-“Gatsby?” demanded Daisy. “What Gatsby?”
 
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
+অনুর আপাতত এই মুহূর্তে কিছু মনে হয়নি সুস্থ হবে হয়েছে তাও দূর্বলতা রয়ে গেছে ওর মধ্যে। এদিকে অরিন্দম একপ্রকার পালিয়ে এলো বোনের থেকে। ওর কানে শুধু অয়ন্তিকার কথাগুলো বাজছে।
 
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
 
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
 
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
+কেটে গেছে বেশ কটা মাস, সাইকোলজিস্ট এর সাথে কথাবার্তা বলে অনুর সম্বন্ধে ওরা মন্তব্য করেছিল , আপাতত মানসিক ট্রমা কাটিয়ে উঠেছে । কিন্তু মেডিসিন ডোজটা কন্টিনিউ করুক ওটা শেষ করতেই হবে আর পড়াশোনা চাইলে শুরু করতে পারে।ব্যস্ত থাকবে নতুন নতুন মানুষের সাথে মিশলে ভিতরের‌ ভয়টা কাটবে।
 
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
 
-Before I could answer her eyes fastened with an awed expression on her little finger.
 
-“Look!” she complained; “I hurt it.”
+ সেইমতো অনু আবার কলেজটা শুরু করলেও অরিন্দমের মনে কিসের অস্থিরতা ও নিজেও জানে না বরং এই কমাসে আরো কাছে ডুবেছে ।যেটুকু অবসর রাখতো ওটা বোনের সাথে বাদ দিয়ে রাখে না। আর অয়ন্তিকা ভালো আছে ,ভালোই থাকে মাঝে মাঝে রাতে ঘুমোনোর আগে দুটো চোখ ওকে ডাকে। সেইদিন টা ওর নির্ঘুম কাটে।
 
-We all looked — the knuckle was black and blue.
 
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
 
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
+  এরমধ্যে একদিন কলেজ যাওয়ার পথে অনু দেখলো অয়ন্তিকাকে , স্কুটি চালিয়ে কোথাও যাচ্ছে। ওকে দেখে মনে হলো অনুর ওর দাদার কথাগুলো। অরিন্দম তো ওকে বলেছিল এখানে থাকে না মানে কলকাতার কাছাকাছি বাড়ি। তাহলে এখন কি করছে তাই কলেজ না গিয়ে ও অটো টাকে ওর পিছু নিতে বললো। যেহেতু অনু সাধারণ মানুষের মতো চলাফেরা করে তাই রোজকার যাতায়াত এইভাবেই করে।
 
-“Hulking,” insisted Daisy.
 
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
 
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
+অয়ন্তিকাকে একটা নার্সিংহোমে ঢুকতে দেখে ও পিছনে এলো। একজন কে জিজ্ঞেস করতে বললো উনি একজন সাইকোলজিস্ট। কথাটা কোথাও গিয়ে অনু কে কিছু ভাবতে বাধ্য করলো। তাই সামনে থাকা রিসেপশনে জিজ্ঞেস করলো ওনার অ্যাপয়েনমেন্ট পাওয়া যাবে? 
 
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
 
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
 
-“Why, no,” I answered, rather surprised by his tone.
+না ম্যাম উনি প্রচুর বিজি থাকেন আপনি ট্রাই করুন এই মুহূর্তে হয়তো হবেনা। তবে কদিন দেরী হতে পারে। ( নার্স)
 
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
 
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
 
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
+আমার এমার্জেন্সি আছে একটু দেখুন না। প্লিস ম্যাম। ( অনু)
 
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
 
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
 
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
+সামনের মানুষ কাকুতি মিনতি করলে অনেকেই গলে যায় অনু ও সেটাই অ্যাপ্লাই করে ঠিক দু'দিন পরের দিনে অ্যাপয়েনমেন্ট পেল।
 
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
 
-"""),
+
+কোথায় গেছিলিস? শুনলাম কলেজ যাসনি তুই আজ।
+
+
+
+অনু বাড়ি ফিরে অরিন্দম কে দেখে একটু অবাক হলো , সচরাচর ও এইসময় ফিরে আসে না। তাই উত্তর দিলো,
+
+
+
+এমনিই ইচ্ছে হয়নি বন্ধুদের সাথে বেরিয়ে ছিলাম। তুই এইসময় ট্যুর শেষ? কই বললি না তো আজ ফিরবি?
+
+
+
+না ফিরলে তো জানতেই পারতাম না যে তুই আড্ডা দেবার জন্য নার্সিংহোমে যাস। (অরিন্দম)
+
+(চলবে)"""),
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "চলো যাই",
+          auther: "Manab Mondal",
+          desc: "Bangla Stories",
+          review: "59",
+          score: "1.7",
+          view: "256",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Romance",
+            "Comedy",
+            "Love",
           ],
-          imgUrl: "81647.jpg",
-          content: """
+          imgUrl: "71115f3827321360054cae8baf40ab5dfe29ce83.jpeg",
+          content: """মৃদু দরজার কড়া নাড়ার শব্দে দুপুরের ভাত ঘুমটা ভেঙে গেল মনির, পুরনো দোতলা বাড়ির একমাত্র বাসিন্দা সে... কাছের মানুষ বলতে একমাত্র মেয়ে রিয়া, সব হতাশার মধ্যে একটা প্রদীপের মতো জ্বলছে।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+      রবির হাত ধরে বিয়ে হয়ে এ-বাড়িতে এসেছিলো ও। ও আসার ক-বছরের মধ্যে শ্বশুর- শ্বাশুড়ি ওনাদের একমাত্র সন্তান রবিকে রেখে একবছরের মধ্যে পরপর দুজনে না চলে গেলেন । তখনও সংসারটাকে ঠিকমতো বুঝে উঠতে পারেনি মনি।
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+     এটা ঝড় উঠেছিল ওদের জীবনে তখন অভিভাবকদের অভাবটা ও বুঝতে পেরেছিলো ভালোই।সব থিতিয়ে গেলে দুজনের সংসার যখন আবার খিলখিলিয়ে উঠছে ফুলের মতো মেয়ে রিয়াকে নিয়ে। ঠিক তখনই রবি ওদের দুজনকে একা ফেলে চলে গেল একটা বাস দূর্ঘটনায় । রিয়া তখন ক্লাস টেন-এ পড়ছে। 
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+একা এতবড় বাড়িতে মেয়েকে নিয়ে কিভাবে থাকবে ? কিভাবে যে দিন কেটেছে শুধু সে-ই জানে। বাজারের নামী কাপড়ের চালু দোকান দেখাশোনার লোকের অভাবে বিক্রি করে দিলো। কেননা যেখানেই বিশ্বাস করেছে সেখানেই ওকে ঠকতে হয়েছে। দোকান বিক্রি করে সব টাকা ব্যাংকে রেখে দিল, মাসিক সুদের বিনিময়ে। মাসে বেশ ভালো টাকা পায়।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+        রিয়াকে পড়াশোনা, নাচ-গান, চারিদিকে চৌখস করেছে মনি। কোথায় কি করলে মেয়ের ভবিষ্যত ভালো হবে, খোঁজ খবর নিয়ে সেখানে ভর্তি করেছে। মাথার ওপর কেউ নেই, একা সবকিছু করতে হয়েছে।
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+     সংসারে এখন আর কেউ নেই, একার এমনকি খরচ ? তবে বয়স হয়েছে ওষুধের খরচ বেড়েছে। মালতি সকালে এসে রান্না আর কাজ করে চলে যায়, আবার বিকেলে আসে। বাড়ির টুকটাক ফাই-ফরমাস খাটে মালতির ছেলে পল্টু, ও উচ্চমাধ্যমিক দেবে এবার। পল্টুর পড়াশোনার জন্য টাকা পয়সা দিয়ে সাহায্য করে মনি। আসলে মালতিকে হাতে রাখতে চায় মনি, টাকা পয়সা দিয়ে সাহায্য করে। একা থাকে কখন কি কাজে লাগবে বলা যায়না, নিজের কাছের মানুষ বলতে তো রিয়া, নিজের পছন্দ করা ছেলেকে বিয়ে করে ভালোই আছে। মায়ের কথা এখন তার খুব কম মনে পড়ে, মনি সেটা ভাবে। প্রায় দিন পার্টি নিয়ে ব্যস্ত থাকে, সেসব পার্টি আবার মাঝরাত কাবার করে শেষ হয়। মনির ওসব পছন্দ না। ওই ছেলেকে বিয়ে করতে অনেক বারণ করেছে। ওর কথা শোনেনি রিয়া , আসলে একটা অজানা কারণে ও ওর মাকে ঘৃণা করে। মাকে ফেলে চলে গ্যাছে একা।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+      আগের সব স্মৃতি ভেসে ওঠে মনির চোখে... রিয়া ওকে ছেড়ে একা কোথাও যেতনা, মাঝে মাঝেই জড়িয়ে ধরে আদর করতো, আমার সোনামা বলে গালে চুমু দিতো। সেই মেয়ের এতো পরিবর্তন হবে ভাবিনি মনি। একটা ছোট ভুল বোঝাবুঝির। মনি ভেবেছিল বাকি জীবনটা মেয়েকে নিয়ে কাটাবে, কোথাও যেতে দেবেনা। কিন্তু সেটা হলো কোথায়।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+       জোরে জোরে বাইরের দরজায় কড়া নাড়ার শব্দ হচ্ছে, তার সাথে দরজা ধাক্কানোর শব্দ। ধড়ফড় করে উঠে বসে মনি, দরজা খুলতেই খুশির হাওয়া এলো…
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+– "কখন থেকে কড়া নাড়ছি আর দরজায় ধাক্কা দিচ্ছি; খুব ঘুমাচ্ছিলে মনে হচ্ছে…"
 
-“How do you get to West Egg village?” he asked helplessly.
+– "ওমা, তুই, আমার কি ভাগ্য… এতদিন পর মায়ের কথা মনে পড়লো ?"
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+– "সরে দাঁড়াও, ট্রলিব্যাগটা ঢোকাতে দাও"
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+– "ওরে বাবা, এতবড় ব্যাগ নিয়ে তুইতো আগে কোনোদিন আসিস নি ? কিসে এলি রিয়া...মুখটা কেমন শুকনো শুকনো লাগছে ?"
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+– "আমাদের গাড়ির ড্রাইভার অমলদা নামিয়ে দিয়ে চলে গেল, ওর অন্য কাজ আছে।"
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+– "ওওও...অমল এতবড় ব্যাগ দিয়ে নামিয়েই চলে গেল ? বাড়ির ভেতরে ঢুকলো না।"
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+– "এবার দরজায় একটা কলিংবেল লাগাতে হবে, ডেকে ডেকে সাড়া পাওয়া যায় না। তুমি সেই মান্ধাতার আমলেই থেকে গেলে। গরমে দাঁড়িয়ে আমার শরীর হাঁসফাঁস করছে। একটু স্নান করে আসি।"
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+–" এবার তুই যা বলবি সব করবো , হাতমুখ ধুয়ে বোস।"
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+    রিয়া ফ্রেশ হয়ে একটা গাউন জড়িয়ে নিয়েছে। রিয়ার পাশে বসে বললো– "তোমার কাছে থাকবো বলে এলাম মা…"
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+–" খুব ভালো করেছিস, এতদিন পর আমার কথা বুঝেছিস। মা মেয়েতে মিলে আবার আগের মতো থাকবো, মনি হাসিমুখে বললো।"
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+–" থাকবোই তো, কদিন জমিয়ে তোমার হাতের চিংড়ি মাছ দিয়ে মোচার ঘন্ট, ইলিশ মাছের মাথা দিয়ে কচুরশাক খাবো...আঃ… কতদিন খাইনি
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+– কদিন খাবি মানে ?"
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+–" রূপম সাতদিনের জন্য সিঙ্গাপুর গ্যাছে। এবার ওর সাথে আমি গেলাম না, এর আগে তো দু-দুবার ঘুরে এসেছি। তাছাড়া ও কদিন মিটিংয়ে ব্যস্ত থাকবে, কোথাও ঘোরা হবেনা। তাই ভাবলাম তোমার কাছে কদিন ঘুরে যায়। আমার শ্বাশুড়ি-মাও বললো – অনেকদিন মায়ের কাছে যাওনা, এখন রূপম নেই, কদিন মায়ের কাছ থেকে আদর খেয়ে এসো।"
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+     রিয়াকে বড় ট্রলিব্যাগ নিয়ে বাড়ি ঢুকতে দেখে মনির মনে যতটা উচ্ছাস এসেছিল একথা শুনে সব বাতাস বেরিয়ে বেলুনের মতো চুপসে গেল। মনির অবচেতন মন কি তবে চায় মেয়ের সুখের সংসার ভেঙে যাক । কি ভাবছিল ও, ছিঃ- ছিঃ ...ও না মা, মা কি কখনো সন্তানের অকল্যাণ চাইতে পারে ? নাইবা মেয়ে কাছে থাকলো, দূরে থেকেই ভালো থাকুক ও, সুখে থাকুক ওরা দুজন। ওর অবচেতন মনের ভাবনা যেন কখনো পূর্ণ না হয়, তুমি দেখো ঠাকুর, এই বলে নিজের অজান্তে জোড় হাতে ঠাকুরের উদ্দেশ্যে প্রনাম করলো ও।
 
-We talked for a few minutes on the sunny porch.
+– "মা, ওমা, তুমি আমার কোনো কথা শুনছো না মনে হচ্ছে, আবার হাত জোড় করে কাকে প্রনাম করছো ?"
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+মনি হেসে বললো – "তোর সংসার যেন এভাবেই হেসে খেলে ভরিয়ে রাখে ঠাকুর, ঈশ্বরকে প্রার্থনা জানালাম।"
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+রিয়া মনিকে জড়িয়ে ধরে চুমু খেয়ে বললো –"আমার সোনামা, এবার ভাবছি মাঝে মাঝে তোমার কাছে এসে থাকবো।"
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+   মনির মুখ হাসিতে ভরে উঠলো, চোখে খুশির ঝিলিক। এ সময়টা এ বাড়ির দরজা খোলা থাকে আমার জন্য। রিয়া এসেছে জানতাম না। রিয়া আমার খুব ঘৃণা করে। জানি না কেন? অথচ একটা সময় আমাকে খুব ভালোবাসতো। ওর বাবা আমাকে কিছু টাকা ধার দিয়েছিলো অসময়ে। আসলটা আমি ওর বাবাকে শোধ দিয়ে দিয়েছিলাম। তবু ওদের পরিবারটা যাতে ভেসে না যায় তাই প্রতি মাসে কিছু করে টাকা দিয়ে আসি। রিয়াকে দেখে আমি বললাম " এ মাসের টাকা দিতে এলাম..."
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
+রিয়া হঠাৎ করে বললো " কাকু দাঁড়াও। কত টাকা পেতো বাবা তোমার কাছে? "
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
+আমি আমতা আমতা করতে থাকলাম। ও বললো "কাকু তুমি ঠিক বলেছিলে রূপম বাবা মা আমাদের বিয়েটা মনে নিয়েছিলো কারণ ওরা জানতো বাবা প্রতিটা কানা কড়ি হিসাবে রেখে দিয়েছে। আমি জানি আজ বাবা কোথায় কতো জমি কিনে রেখেছিলো। যে গুলোর মালিক হতেই ওরা আমাকে ওদের বৌ করতে চেয়েছিল। তাই আমি দেখেছি কতো টাকা ধার আছে। আসলে আমি এসেছি তোমাদের জন্য। তুমি মনিকে নিয়ে কয়েক দিন বৃন্দাবন থেকে ঘুরে আসো। আমি এ বাড়ি পাহারা দেবো।"
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+মনি বলে ওঠলো " উঃ আমি অতো বুড়ো হয়ে গেছি নাকি পাকা বুড়ি। তুই যাবি আমাদের সাথে। মন্দামনি যাবি নিয়ে আমায় তোরা। আমি তো কোন দিন সমুদ্র দেখি নি।,,,, "
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+চলো না একবার নিজেকে ভালোবাসা তুমি এবার ,,,,"""),
+      Books(
+          id: 1,
+          name: "শেষ ঠিকানা তুমি (১৪)",
+          auther: "Riya Shig",
+          desc: "Bangla Stories",
+          review: "559",
+          score: "4.7",
+          view: "85962",
+          type: [
+            "Romance",
+            "Comedy",
+            "Love",
+          ],
+          imgUrl: "9f2e85781394909dd9879be97e12a5e3aea26cff.jpeg",
+          content: """বাবা! তোর দেখছি আজকাল ঘন ঘন পছন্দ বদলাচ্ছে, কি ব্যাপার বলতো ? খোলসা করে বল দেখি?
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
+অনুর কথা শুনে অরিন্দম বললো,
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
 
-“Do they miss me?” she cried ecstatically.
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
+সে অনেক কিছুই সময়ের সাথে বদলায়,আমিও ফেলেছি সেগুলো বদলে। তুই কেন এরকম গোয়েন্দাদের মতো নজরদারি করিস? বড় হই তো সবসময় এরকম পিছনে লাগিস কেন রে?
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
 
-“I’d like to.”
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
+এই দাদা বলে মাথা কিনে নিয়েছিস নাকি! বেশ করবো আরো জ্বালাবো কি করবি? বলতে না বলতেই অরিন্দম অনুর চুল ধরে টেনে দিলো।একমনে দুই ভাই বোন এর খুনসুটি দেখছিল অয়ন্তিকা। বাবা মায়ের একমাত্র মেয়ে হবার সুবাদে ওর এসবের অভিজ্ঞতা হয়নি,বাবার বা মায়ের আত্মীয়ের বাচ্চা থাকলেও সেরকম টান কখনো অনুভব করেনি যতটা অনু কে দেখলে আপন মনে হয় ওর। এদের দেখলে মনে হয় ভাই বোনের সম্পর্কটা বোধহয় এমন সুন্দর ই হয়। অয়ন্তিকার মনে হয় ভাগ্যিস ওর একটা ভাই বা বোন থাকতো তাহলে খুনসুটি গুলো ওর সাথে ঘটতো।
 
-“Never.”
 
-“Well, you ought to see her. She’s ——”
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
+দি দেখো না চুল টানছে, কিছু বলো না ওকে।
 
-“What you doing, Nick?”
 
-“I’m a bond man.”
 
-“Who with?”
+অনুর কথা শুনে অয়ন্তিকার বাস্তবে হুঁশ ফিরল। ও শুধু একটু মুচকি হাসলো আর দুজনের দিকে তাকিয়ে বললো,
 
-I told him.
 
-“Never heard of them,” he remarked decisively.
 
-This annoyed me.
+আমি বাপু ভাইবোনের মধ্যে নেই যা মিটমাট করা যা করার নিজেরাই মেটাও , তোমাদের ভিতরের ব্যাপার-স্যাপার এ আমি নাক গলাচ্ছি না।
 
-“You will,” I answered shortly. “You will if you stay in the East.”
 
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
 
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
+অনু অয়ন্তিকার কথাবার্তা শুনে মুখ ফুলিয়ে বললো তুমিও পালটি খাচ্ছো শেষে দাদার বন্ধু হয়ে দাদার দলেই নাম লেখাচ্ছে তাই না? যাও কারোর সাথে কথা নেই আমার।সব পচা লোকজন।
 
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
 
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
 
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
+থাক থাক আমার নামে আর‌ বদনাম করতে হবে না তোকে, সেই পিছনে লাগার জন্য আমাকেই টার্গেট করিস সবসময়।(অরিন্দম)
 
-Her host looked at her incredulously.
 
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
 
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
+অরিন্দম কেও অনুর সাথে বাচ্চাদের মত আচরন করতে দেখে অয়ন্তিকা ভাবল এই মানুষটার কতগুলো রূপ, এক সময় এক রকম কখনো মনে হয় বদমেজাজী কখনো বোনের সাথে বাচ্চা হয়ে যায়।
 
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
 
-“I don’t know a single ——”
 
-“You must know Gatsby.”
+দি তাহলে আজ বানবে স্পেশাল বিরিয়ানি? আমি কিন্তু আজ ইচ্ছে হয়েছে খাবো তোমার হাতের বিরিয়ানি। 
 
-“Gatsby?” demanded Daisy. “What Gatsby?”
 
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
 
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
+অনুর কথায় ওর গাল দুটো টিপে দিয়ে আদুরে গলায় অয়ন্তিকা বললো,
 
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
 
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
 
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
+যা বলবি তাই কিন্তু একটু হেল্প করে দিলে জলদি জলদি হবে রান্নাটা।
 
-Before I could answer her eyes fastened with an awed expression on her little finger.
 
-“Look!” she complained; “I hurt it.”
 
-We all looked — the knuckle was black and blue.
+তাহলে দাদাকে নিয়ে যাও,আমরা গল্প করি ও থাক নয়তো রনি আছে যাও।ও কাজের ছেলে খুব হেল্পফুল।
 
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
 
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
 
-“Hulking,” insisted Daisy.
+অনুকে থামিয়ে দিয়ে অরিন্দম বললো,
 
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
 
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
 
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
+থাক তোরা গল্প কর আমিই যাচ্ছি তো না বলিনি যে।
 
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
 
-“Why, no,” I answered, rather surprised by his tone.
 
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
+অনু মুখ টিপে হেসে বললো,
 
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
 
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
 
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
+আচ্ছা যা তাহলে। আমার কি? কেউ একজন গেলেই হলো।
 
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
 
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
 
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
+তাহলে আমিই যাই। ভালোর জন্য ই বললাম তো।(অরিন্দম)
 
-"""),
+
+
+অরিন্দম অয়ন্তিকা ছাদ থেকে নেমে যাওয়ার পর অনু একচোট সমানে হেসে নিলো।এদিকে রান্নাঘরে আসার পর অরিন্দম কে অয়ন্তিকা বললো,
+
+
+
+রামুকাকা কে ডেকে দাও বরং সাহায্য করতে পারবে,তুমি তো বোধহয় রান্নাঘরে ই আসোনি কখনো। কিভাবে সাহায্য করবে?
+
+
+
+এ এমন কি কাজ? চেষ্টা করলেই হবে।
+
+
+
+ঠিক আছে তুমি তাহলে স্যালাড গুলো কাটো আমি চাল টা ভিজিয়ে দিয়েছি বাকি সব উপকরণ গুলো রেডি করে নিচ্ছি।
+
+
+
+কিছুক্ষণ পর সবকিছু গুছিয়ে নিয়ে এসে দেখলো অরিন্দম এর চোখ থেকে টপ টপ করে জল পড়ছে আর না টানছে। এদিকে শশাগুলো ট্যারা বাঁকা হয়েছে আর পিঁয়াজের অবস্থা আর বলা লাগবেনা।এসব দেখে চরম হাসি পাচ্ছে অয়ন্তিকার কিন্তু মায়াও হচ্ছে ওর মুখটা দেখে। 
+
+
+
+একি করেছো? সরো দেখি আমি সব করে নিচ্ছি, চুপচাপ ওখানে বসো নাহয় দাঁড়িয়ে দেখো কিভাবে কি করতে হবে। 
+
+
+
+বলেই অয়ন্তিকা নিজেই সবটা ঠিকঠাক করে নিল।সবটা করার পর দেখলো অরিন্দমের মুখটা ফ্যাকাশে,কি হয়েছে বলে এগিয়ে হাতটা ধরতেই আহ: বলেই ছাড়িয়ে নিল অরিন্দম হাতটা আর লুকিয়ে ফেললো। অয়ন্তিকা পিছন থেকে অরিন্দমের হাতটা টেনে দেখলো আঙুলের কাছটা অল্প কেটে গেছে।
+
+
+
+ইশশ্ এতোটা কেটে গেছে, কিরকম চেপে গেল দেখো এদিকে ব্যাথা করছে সেটা তো লুকোতে পারছে না। বাচ্চাদের মতো যতো জেদ এদিকে তো কাজ বাড়িয়ে বিপদ এনে হাজির করবে বলেই অয়ন্তিকা সমানে গজগজ করছিল।
+
+
+
+অরিন্দম একমনে অয়ন্তিকা কে লক্ষ্য করছিল, ওর কেমন অয়ন্তিকার কাছাকাছি এসে বকাটা খুব ভালো লাগলো। মা থাকতে এরকম করতো বহুদিন পরে এরকম কেউ যত্ন করছিল। এই দিনগুলো খুব মিস করছিলো অরিন্দম,আজ যেন না চাইতেও পেয়ে মন ভালো হয়ে গেল।
+
+
+
+অয়ন্তিকা অরিন্দমের মুখের দিকে তাকিয়ে দেখলো ও একমনে ওকে দেখছে, এবার ওর একটু অস্বস্তি হলো। এইভাবে ওর খেয়াল নেই বকাবকি করেও দিলো আবার হাসছে এরকম ব্যাথা পেয়ে কে এমন করে?
+
+
+
+পাগল হয়ে গেছো নাকি? এইরকম হাত কেটে গেছে কে হি হি করে হাসে?
+
+
+
+অয়ন্তিকার কথা শুনে অরিন্দম অবাক হয়ে বললো,
+
+
+
+এমনিই তোমাকে দেখে ভালো লাগছিল।
+
+
+
+অয়ন্তিকা অরিন্দমের কথা শুনে ভালো করে ওর মুখটা দেখে বললো,
+
+
+
+কেন আমার মুখে ঠাকুর দেখা দিয়েছে নাকি? 
+
+
+
+অরিন্দম ভাবলো অয়ন্তিকা ভালো ই ক্ষেপে আছে,তাই কোনরকমে ওর মুখের সামনে পড়া চুলগুলো কানের পাশে সরিয়ে দিলো। অয়ন্তিকা তাকালে ওকে বললো,
+
+
+
+সামনে পড়ছিল তাই সরিয়ে দিলাম।
+
+
+
+অরিন্দম এর এরকম বাচ্চার মতো সরল কথা বলা দেখে অয়ন্তিকার রাগ টা কমে গেলেও মুখটা গম্ভীর করে রাখলো আর‌ বললো হুঁ।
+
+
+
+এরপরে রান্না শেষ করে সবার খাওয়ার সময় খেতে বসলেও অরিন্দম চুপচাপ বসে আছে দেখে অনু বললো,
+
+
+
+কি রে দাদা খা,রান্না তো সুন্দর হয়েছে।
+
+
+
+অরিন্দম হবে কথা বলবে তার আগেই অয়ন্তিকা বললো, ওর হাতটা কেটে গেছে তাই।
+
+
+
+ওহ কখন কাটলো? প্রথমবার কাজ করতে গিয়ে হাত কেটে বসে আছিস। তুই কিভাবে খাবি? চামচ ও ধরতে পারবি না বোধহয়।রামু কাকা কে বলবো খাইয়ে দিতে নাকি!
+
+
+
+না না আমি দেখছি বলেও অরিন্দম অনেক ক্ষণ চেষ্টা করেও যখন মুখে কিছু তুলতে পারলো না তখনই অয়ন্তিকা কিছুটা বিরিয়ানি হাতে নিয়ে ওকে হা করতে বললো,ওর এরকম গালে তুলে খাইয়ে দেওয়া দেখে অরিন্দমের সত্যি গালটা হা হয়ে গেল। 
+
+
+
+কি হলো খাও? আরে পুরোটা খেতে হবে নাকি!
+
+
+
+বলে অয়ন্তিকা খাওয়ানোর সময় অনু আর রনি গোল গোল চোখ করে ওদের দিকে তাকিয়ে দেখলো। এরপর বাড়ি ফেরার সময় রনি অয়ন্তিকা কে পৌঁছে দিলো, অরিন্দম আজ হাতের এরকম অবস্থা দেখে রাগ না করেই ছেড়ে দিলো।
+
+
+
+রাতে অরিন্দম অয়ন্তিকা কে ফোন করার পর জিজ্ঞেস করলো ঠিকঠাক পৌঁছে গেছে কিনা? এর সাথে টুকটাক কথা বার্তা আজকের একটু বেশি হলো। এদিকে অনু রনির সাথে কথাবার্তা বলে খুশিমনে ফোন রেখে দিলো।
+
+
+
+এরমধ্যে অনু একদিন অরিন্দম কে বললো,জানিস দাদা রনি বলছিল ওর মা বাবাকে বলবে অয়ন্তিকা দির বাড়ি যেতে। আসলে ওর দিকে পছন্দ হয়েছে বাড়িতে জানিয়েছে, তাই আর কি ভালো মানাবে বল,
+
+
+
+অরিন্দম কিছুক্ষণ গুম মেরে বসেও উত্তর না দিয়ে উঠে গেল।অনু তখন ও বলে যাচ্ছে দিও রাজি বুঝলি নয়তো রনিকে না করে দিতো। এদিকে অরিন্দমের মুখটা আরো রাগেতে লাল হয়ে গেল, তাই অফিসের মিটিং টা পোস্টপন্ড করে অয়ন্তিকা কে ফোন করে বললো তুমি কোথায়?
+
+
+
+কেন? আমি হসপিটালে। (অয়ন্তিকা)
+
+
+
+এক্ষুনি ঠিকানা টা ম্যাসেজ করছি চলে আসো।(অরিন্দম)
+
+
+
+কিন্তু!(অয়ন্তিকা)
+
+
+
+আসতে বলেছি আসবে নয়তো তুলে আনবো আশা করি সেটা ভালো হবেনা?(অরিন্দম)
+
+
+
+অয়ন্তিকা বুঝলো অরিন্দম রেগে আছে তাই কোনরকমে ওকে শান্ত করতে বললো,আসছি আমি। তুমি এখানে এসো না।
+
+
+
+অয়ন্তিকা অরিন্দমের কথামতো গিয়ে দেখলো সামনে মন্দির একটা,খুব পুরনো কিন্তু বেশ বড় মতো। চারপাশে তাকিয়ে বোঝার চেষ্টা করলো অরিন্দম এখানে কেন ডাকলো?
+
+
+
+চলবে.."""),
     ];
   }
 
@@ -1684,919 +999,451 @@ There was something pathetic in his concentration, as if his complacency, more a
     return [
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "বন্ধু (প্রথম পর্ব)",
+          auther: "debdutta banerjee",
+          desc: "Bangla Stories",
+          review: "258",
+          score: "2.5",
+          view: "58945",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Friendship",
+            "love",
+            "kindness",
           ],
-          imgUrl: "117659.jpg",
-          content: """
+          imgUrl: "z2wkrran.jpg",
+          content: """মাঝরাতে ফোনের আওয়াজে ঘুম ভেঙ্গে গেছিল তিথির। ঘুম চোখে ফোনটা ধরতে গিয়ে দেখল ঘড়িতে রাত দুটো। অচেনা নম্বর, ........ এতো রাতে!! .......তাও ফোনটা ধরে তিথি।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+-"তোমার মেসোমশাই কেমন করছেন ঘুমের ভেতর। ডক্টর বেরা ফোন তুলছেন না। কি করবো এখন ?"
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+গলাটা কেমন জড়ানো। তবে ডক্টর বেরা শুনে ঘুম চোখেও বুঝতে পারল ফোনের ও প্রান্তে রয়েছেন রমা দেবী। সাথে সাথে ঘুম কেটে যায়। -"আমি এখনি আসছি । চিন্তা করবেন না মাসিমা, আমার আধ ঘণ্টাও লাগবে না। " বলে ফোনটা কেটেই ঋজুকে ফোন করে তিথি। কাছেই ওদের বাড়ি। ওকে সব বলে তৈরি হতে বলেই ওলার খোঁজে মোবাইলে চোখ রাখে।দশ মিনিটে পাবে দেখেই বুক করে, ফটাফট তৈরি হয়ে নিচে নামে। এত রাতে বৌদিকে ডেকে কিছু বলতে গেলে আরও দেরি হবে। দাদার নাইট চলছে। কাজের মাসিকে ডেকে একটু বুঝিয়ে বলে বেরিয়ে আসে। গাড়ীও এসে যায় তক্ষুনি। বড়রাস্তা থেকে ঋজুকে তুলে ফাঁকা রাস্তায় গাড়ী ছুটে চলে গড়িয়াহাটের দিকে।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+আজ একবছর ধরে এই পরিবারটিকে খুব কাছ থেকে দেখেছে তিথি। রমা দেবীর স্বামী মলয় বাবু ছিলেন সরকারী উচ্চপদস্থ অফিসার। দুটি ছেলেই আমেরিকার স্থায়ী বাসিন্দা, এক মেয়ে লন্ডনে থাকে। বৃদ্ধ বৃদ্ধা বাড়ি আগলে পড়ে রয়েছেন এই কলকাতায়। ঋজু ততক্ষণে ডক্টর বেরাকে না পেয়ে আরেকজন ডক্টরকে ফোনে বাড়ির ঠিকানা বোঝাচ্ছে। সারা কলকাতার বেশ কিছু ডক্টর ওদের এই কার্যকলাপের সাথে পরিচিত, তাদের রাতেও পাওয়া যায় প্রয়োজনে।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+ 
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+মিনিট কুড়ির মধ্যেই পৌঁছে গেল ওরা। পাঁচ মিনিটে ডক্টর সেন ও এসে গেলেন। কিন্তু মলয়বাবুর ম‍্যাসিভ্ অ্যাটাক হয়েছে,তক্ষুনি হাসপাতালে দিতে বললেন ডঃ সেন। বাইপাসের ধারে একটা বেসরকারি হাসপাতালে তক্ষুনি সব ব্যবস্থা করে ঋজু আর ডঃ সেন বেরিয়ে গেলেন।তিথি রয়ে গেল রমা দেবীর কাছে , ঘড়িতে প্রায় সাড়ে তিনটা।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+রমা দেবী কেমন ভেঙ্গে পড়েছিলেন। তিথি ডঃ সেনের পরামর্শে ওনাকে একটু ঘুমের ওষুধ দিয়ে ঘুম পাড়াবার চেষ্টা করছিল। উনিও প্রেশার আর সুগারের রুগী। উনি নানারকম কথা বলছিলেন। এক ফাঁকে ওনার বড় ছেলেকে ফোনে জানিয়ে দিয়েছিল তিথি। সে বোন ও ভাইকে জানাবার দায়িত্ব নিয়েছিল বলে আর ফোন করতে হয় নি। রমা দেবী নিজেই নিজের ভাইয়ের ছেলেকে জানিয়ে ছিলেন। তারা হাওড়ায় থাকে। এতো রাতে আসতে পারেনি।
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+ 
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+ঋজু ওনাকে ভর্তি করে ফোন করেছিল, আপাতত ওষুধ ইনজেকশন্ দিয়ে আই সি-ইউতে রাখা হয়েছে ওনাকে। কাল সকালে স্পেশালিষ্ট ডক্টর দেখবেন। এনজিওগ্ৰাফি করা হবে। ভোরের দিকে ঘুমিয়ে গেছিলেন রমা দেবী।
 
-“How do you get to West Egg village?” he asked helplessly.
+ 
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+সকালে আজ তিথির সহেলী দেবীকে নিয়ে দক্ষিণেশ্বর যাওয়ার কথা ছিল। মিলিকে ফোনে বুঝিয়ে বলল কাজটা করে আসতে। মিলির আজ অফ্ ছিল সকালটা। বৌদিকে ফোন করে বুঝিয়ে বলল সব।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+ঋজুর আজ সকাল দশটায় একটা এ্যাপয়েন্টমেন্ট ক‍্যানসেল করতে হল।পর্না বৌদি তার তিন বান্ধবীকে নিয়ে বাকি গুলো ম‍্যানেজ করে নেবে বলল। বাবুয়ার শরীরটা খারাপ, ছুটি নিয়েছিল। ওকে সব জানানোয় ও এসে যাবে বলল।
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+এক কাপ চা বানিয়ে বারান্দায় এসে বসল তিথি। কলকাতার ঘুম ভাঙ্গছে ধীরে ধীরে............।।
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+প্রথম আইডিয়াটা তিথির মাথাতেই এসেছিল। ঋজু, কাজল, বাবুয়া আর মিলিকে ডেকে একদিন আলোচনা করেছিল বিষয়টা নিয়ে। কাজল একটুও রাজি হয় নি। ঋজু বলেছিল ভাল আইডিয়া,, কিন্তু কতদূর কাজ হবে জানি না। আর মিলি বলেছিল প্রচুর ঝামেলা আছে। আমাদের দিয়ে হবে না। একমাত্র বাবুয়াই কোনও প্রশ্ন না করে মন দিয়ে শুনে বলেছিল,দেখা যেতেই পারে। তবে আরও লোক দরকার।
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+তিথি, ঋজু, কাজল, মিলি আর বাবুয়া ছোটবেলার বন্ধু। পড়া শেষ করে সবাই তখন চাকরী খুঁজছিল আর সরকারী চাকরীর পরীক্ষা দিচ্ছিল। একটা কাগজে এমন সংস্থার কথা পড়ে আর নেট ঘেঁটে আইডিয়াটা তিথির মাথায় এসেছিল। বন্ধুদের সাথে আলোচনা করে বাড়ি ফিরে প্রথমে বৌদিকে খুলে বলেছিল নিজের পরিকল্পনা। বৌদি কিন্তু খুব উৎসাহ দিয়েছিল ব‍্যপারটা শুনে।অবশেষে সবার মিলিত প্রচেষ্টায় তারা আরও কয়েকজনকে নিয়ে এই ছোট্ট সংস্থাটা খুলেছিল, নামটা তিথির দেওয়া "বন্ধু"।আস্তে আস্তে ভালই দাঁড়িয়ে গেছিল ওদের ছোট্ট সংস্থা। সবাই সুন্দর ভাবে সবদিক সামলে চলছিল।
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+বিপবিপ করে তিথির মোবাইল ফোনটা বাজছিল।তুলতেই ও পাশের থেকে মহিলা কণ্ঠ জানতে চাইল -"বন্ধু ? "
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+-"বলছি, বলুন? কি সাহায্য করতে পারি ?" তিথি গলায় মিষ্টতা এনে বলে।
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+-" আপনারা কি ধরনের পরিষেবা দিয়ে থাকেন? আর কোথায় কোথায় ?"
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+-"আমরা প্রবীণ দের সাহচর্য দেই। তাদের সাথে সময় কাটানো, প্রয়োজনে চিকিৎসার ব্যবস্থা, ডক্টর দেখানো, কোথাও ঘুরতে নিয়ে যাওয়া, ব্যাঙ্ক পোস্টঅফিসের কাজ করে দেওয়া, মন্দিরে বা আত্মীয়দের বাড়ি নিয়ে যাওয়া,সব রকম সাহচর্য পাবেন কলকাতার সব জায়গায়। " 
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+-"দেখুন, আমি বাইরে থাকি। আমার মা কে দেখার জন্য একজন লোক চাই।"
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+-"আমরা ঠিক ২৪ঘন্টার লোক মানে আয়া বা নার্স দেই না। অবশ্য আপনাকে ভাল ঐ ধরনের সংস্থার নম্বর দিতে পারি। আমরা স্বল্প সময়ের পরিষেবা দিয়ে থাকি।"
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+-"আমি জানি না সেন্টারের আয়ারা কতটা সুরক্ষিত !! এক পরিচিত আপনাদের নম্বর দিয়েছিল। তাই অনেক আশা নিয়ে ফোন করেছিলাম "
 
-We talked for a few minutes on the sunny porch.
+-"না, আপনি যেমন চাইছেন আপাতত তেমন ব্যবস্থা নেই, ধন্যবাদ" ফোনটা কেটে দেয় তিথি।
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+ 
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+এই হয়েছে মুশকিল। স্বল্প-কালীন পরিষেবা বিষয়টা অনেকেই বোঝে না, আবার অনেকে কটাক্ষ করে এই সব কিছুও পয়সা দিয়ে কিনতে হবে বলে।আবার কিছু লোক এগুলোর অন্য মানে বার করে নোংরামো করতে চায়।
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+তিথিদের প্রথম ক্লায়েন্ট ছিল সল্ট-লেকে। ওদের ওয়েবসাইট দেখে প্রথম ফোনটা করেছিলেন রিটায়ার্ড আইনজীবী মিঃ দত্ত। তিথি আর ঋজু গেছিল দেখা করতে। উনি পুরো ব‍্যপারটা শুনে ওনার দীর্ঘ দিনের অভিজ্ঞতা ও অভ্যাসের বশে কিছু প্রশ্ন করেছিলেন।
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
+প্রথমেই জানতে চেয়েছিলেন -"আমার বাড়ির সব খবর জেনে কাল যে আমার বাড়ি তোমাদের পরিচিত লোক দিয়ে ডাকাতি বা ঐ জাতীয় কিছু করবে না, তার গ‍্যারেন্টি কি? অথবা আমাদের বুড়োবুড়ির অন্যমনস্কতার সুযোগে বাড়িতে ছিঁচকে চোর ঢোকাবে না ? তাছাড়া মেয়ে পাঠিয়ে আমাকে অন্য কোনও কেসে ফাঁসাতে পারো ? ...."
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
+তিথির কান লাল হয়ে গেছিল। উঠেই পড়েছিল চলে আসবে বলে। ঋজু টেনে বসিয়েছিল । বলেছিল -" আপনি যেগুলো বললেন সব সত্যি, আপনার বাড়ি কি কাজের লোক রান্নার লোক আছে ? এগুলো তো তারাও করতে পারে। তবুও সবাই কাজের লোক রাখে। অসুস্থ হলে নার্স বা আয়া ও লাগবে, অথচ ভরসা করতে হবে যে কোনও সেন্টারের উপর। সেন্টারের আয়া বা কাজের লোক ২৪ঘন্টার জন্য রাখতে পারবেন অথচ আমাদের সংস্থা নতুন বলে ভরসা করতে পারছেন না। আমদের ওয়েবসাইটে আমাদের সব তথ্য দেওয়া আছে। পালিয়ে যাব না এটুকু বলতে পারি। কেউ না কেউ তো আমাদের প্রথম ক্লায়েন্ট হবেই।" একসাথে কথা গুলো বলে একটু থেমেছিল ঋজু।
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+-" তোমার কথা গুলোয় যুক্তি আছে। মানছি। একটা সুযোগ দিচ্ছি তোমাদের। আমার দুই ছেলেই বিদেশে। বাড়ি আসবে না কোনও দিন। আমার স্ত্রী অসুস্থ। শারীরিক অসুখের ওষুধ ডক্টর দিচ্ছেন, কিন্তু মনের অসুখ কি করে সারবে !! আত্মীয়দের সময় নেই। তোমরা যদি সপ্তাহে তিনদিন করে এসে ওনার সাথে সময় কাটাও ........ ওর একাকীত্ব হয়তো কাটবে। তবে পরিচয় দেবে আমার বন্ধুর মেয়ে বা ছেলে বলে। তোমরা দুজনেই আসবে নাকি অন্য কেউ আসবে?"
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+-"আপাতত আমরা দুজনেই আসব, হয় ও নয় আমি। " খড়কুটো আঁকড়ে ধরার মত সাথে সাথে উত্তর দিয়েছিল ঋজু।
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
+-"তোমাদের পেমেন্ট টা ......" মিঃ-দত্তকে থামিয়ে ঋজু বলেছিল সব সাইটে দেওয়া আছে। আগে আসি, তারপর ওটা নিয়ে কথা হবে।"
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+সেদিন ওদের নিয়ে গিয়ে মিসেস দত্তর সাথে পরিচয় করিয়েছিলেন মিঃ-দত্ত। বলেছিলেন -" আমার এক বন্ধুর ছেলে আর ওর বান্ধবী এখানে পাশেই একটা ক্লাসে এসেছিল। ওদের বলেছি মাঝেমধ্যে এসে আমাদের একটু সঙ্গ দিতে। "
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
+মিসেস দত্ত শুধু চোখ তুলে তাকিয়েছিলেন। সেই চোখে কোনও অনুভূতি ছিল না।
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+আজ একবছর পর মিসেস দত্ত সাগ্ৰহে ওদের পথ চেয়ে বসে থাকেন। নিজে হাতে মাঝেমধ্যে জলখাবার বানান ওদের জন্য। দুবার বেলুড় মঠ ঘুরিয়ে এনেছে ঋজু। তিথি ভাল বাংলা সিনেমার সিডি নিয়ে যায় কখনো। একবার সিটি-সেন্টার 'প্রাক্তন' দেখিয়ে এনেছে।(চলবে)"""),
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
+          name: "ম্যানুফ্যাকচারিং ডিফেক্ট",
+          auther: "Jeet Patitundi",
+          desc: "Bangla Stories",
           review: "126",
           score: "4.7",
           view: "124470",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Bangla Story",
+            "Suicide",
           ],
-          imgUrl: "115265.jpg",
-          content: """
+          imgUrl: "221311.jpg",
+          content: """গত তিনদিন বিশ্বকর্মার রাত্রের ঘুম হচ্ছে না কিছুতেই, কত ঘুমের ওষুধ, জরিবটি খেয়েও কিছু হচ্ছে না। তানসেনকে ডেকে ঘুমপাড়ানি গান অবধি গাওয়ানো হয়েছে, তাও কিছু লাভ নেই। অবশ্য ঘুম হবেই বা কিকরে, গত মাসের গোটা লটটা নাকচ করে দিলো কোয়ালিটি অসুয়ারেন্স টিম। ৫০% এর বেশি ডিফেক্ট বেরিয়েছে। উফফ এই নতুন টিমটাকে নিয়েই মহা গেরোয় পড়া গেল, সবেতে এদের খুত বের করা স্বভাব। আবার ফ্রেশ করে তৈরি করতে হবে, যত্ত ঝামেলা।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+এসবের উৎপত্তি সেই গেল বারের বোর্ড মিটিং থেকে। সব দেবতারা মিলে সে কি গালাগালিটাই না করলে, ওয়ারকফোর্সের বয়স বেড়ে গেছে, চোখে দেখতে পায় না, হাত চলে না, কোনো টেস্টিং টিম নেই, যা খুশি হচ্ছে, ভুলের মাশুল দিতে মর্তে গুচ্ছখানেক আত্মহত্যা, এভাবে চলবে না। বিশ্বকর্মা মাথা হেট করে শুনতে শুনতেই ভেবে নিয়েছিল এবার একটা হেস্তনেস্ত করা দরকার। বোর্ড মিটিং শেষে ফ্যাক্টরির জি.এম. , চিফ ইঞ্জিনিয়ার, ওয়ার্কার্স উনিয়ন লিডার আর ট্রেজারার কুবের কে নিয়ে জরুরি সভা বসলো।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+জি.এম-র বয়স প্রায় ৭০ ছুঁই ছুঁই, তারসাথে আছে এক অদ্ভুত আফিমের নেশা, সারাদিন খুক খুক করে কাশে নাহলে ঝিময়। হাথে একগাদা খেরোর খাতা নিয়ে, যখন ঘরে ঢুকলো, ওর ওই কাশি শুনেই গা-পিত্তি জ্বলে গেল
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+বিশ্বকর্মার।
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+- কি ব্যাপার বিমল? এতক্ষনে আসার সময় হলো?
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+- আজ্ঞে কত্তা, দুপুরের ভাতটা খেয়ে খুব অম্বল হয়ে গেছিল, তাই একটু কবরেজের কাছে গেছিলাম কিনা....
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+- উফফ। যত সব ঝামেলা আমারই কপালে জোটে। এর অম্বল, ওর সর্দি, তার বাতের ব্যাথা... যাক গে, বিমল লট নম্বর ১৪১৬৩১৫৩৬০-র প্রচুর কমপ্লেন এসেছে, সব উল্টোপাল্টা হয়েছে। প্রতিটা মন্দিরের কমপ্লাইন্ট বক্স ভরে গেছে, একগাদা আত্মহত্যার চিঠি, সবেতে ভুলের জবাব চেয়েছে, কি হচ্ছেটা কি?
 
-“How do you get to West Egg village?” he asked helplessly.
+- আজ্ঞে , আমি তো...মানে... দেখেছিলাম...মানে সব তো ঠিকই....
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+- চোপ!! দেখেছিলাম, মাই ফুট। একেরপর এক কমপ্লেইন, বোৰ্ডমিটিং-এ মাথা হেট হয়ে গেল আমার। এরম ভাবে চললে কিন্তু গোটা প্রসেসটা প্রাইভেটাইস করে দেবে বলেছেন ইন্দ্রদা।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+অনেকক্ষন মাথা গুঁজে বসেছিল চিফ ইঞ্জিনিয়ার রায়, কাল রাত্রের গাজার নেশাটা এখনো ঠিক করে নামেনি তার। স্বর্গে স্মোকিং নিয়ে এত কড়াকড়ি, যে স্কোর করেই ফুঁকে দিতে হয়। ধরা পড়লেই মহাদেবের দরবারে বসে ১মাস শুধু ক্রাশ করতে হবে। বিশ্বকর্মার চিৎকার শুনে ঘোরটা কেটেই গেল। হঠাৎ বলে বসলো,
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+- একটা কিউ.এ. টিম রাখলে হয় না?
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+বিশ্বকর্মা প্রথমটায় রায়কে দেখতেই পায়নি, কথাটা শুনে ঘুরে বসলো,
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+- হ্যা? সে আবার কি? গত বিশজন্মে তো শুনিনি।
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+- স্যার, কিউ.এ মানে কোয়ালিটি আসুয়ারেন্স টিম। ম্যানুফ্যাকচারিং-র পর প্রতিটা প্রোডাক্ট চেক করে সার্টিফাই করে, তারপর ফাইনাল রিলিজ হয়। ওদের রাখলে ক্লায়েন্টের কাছে যাওয়ার আগেই ভুলগুলো বেরিয়ে পরবে, তাহলে বোঝাও যাবে যে কোন ডিপার্টমেন্টর গলদ।
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+- বাবাহ, এরম টিম হয়? বেশ ভালো তো...তবে খরচাপাতি? তাছাড়া রিসোর্স কোথাথেকে পাবো?
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+- সেটা তো আপনাদের ব্যাপার, আমি একটা সলিউশন দিলাম, বললে একটা এস্টিমেট শিট-ও তৈরি করে দিচ্ছি।
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+- উমম.... ঠিক আছে তুমি মেল করো আমায়, মেল আইডি জানোতো?
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+- হ্যা, ওই তো, biswa.karma@swagro.com ?
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+- হ্যা ওতেই পাঠাও, ঠিক ১৫ মিনিট সময় দিলাম। কুবেরবাবু রায়ের সাথে বসে পুরো ব্যাপারটা ডিল করুন।
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+এতদূর বলে, বিশ্বকর্মা বেরিয়ে গেল ঘর থেকে। মনে মনে ভাবল, না একটু উর্বশির কাছ থেকে ঘুরে আসি, মাথা কাজ করছে না একদম।
 
-We talked for a few minutes on the sunny porch.
+২
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+রায় আর কুবের মিলে কোনোরকমে একটা খসড়া তৈরি করে মেল করল। কালরাত্রের বেঁচে যাওয়া একটা কলি সবে ক্রাশ করতে যাবে, এমন সময় আর্জেন্ট মিটিং রিকোয়েস্ট এলো বিশ্বকর্মার থেকে। হাথের কাজ থামিয়ে, গিয়ে হাজিরা দিলো ইন্দ্রের দরবারে। বিশ্বকর্মা ওখানে এক নাগারে পায়চারি করে বেড়াচ্ছে, আর মাঝে মাঝে থেমে কি যেন হিসেব করছে। রায় এসে ভয় ভয় ডাকলো,
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+- স্যার, ডেকেছেন?
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+ডাক শুনে, বিশ্বকর্মা থামলো, ঘুরে দাঁড়িয়ে রায় কে দেখেই চোয়াল কঠিন হয়ে উঠলো, চিবিয়ে চিবিয়ে বলল,
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
+- নেশার ঘোর কাটিয়ে তবে কাজ করতে আসবে, এরম অদ্ভুত মশকরা করার যায়গা পাওনি, না?
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
+- মশকরা ? কি বলছেন স্যার? আমি তো সব দিক ভেবেই....
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+- তাই বুঝি, সবদিক ভেবেছো তুমি? তা এই সবদিকে ভাবার মধ্যে, বলো তো ৫০ জন এক্সপিরিয়েন্সড কিউ.এ. কথা থেকে পাবো? আর তাদেরই পেলেও তারা যে কাজ করতে পারবে, তার কি গ্যারেন্টি আছে?
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+- Sir, taking into consideration the huge amount of production load, atleast 50 people are required to properly test and certify before release, else there is no use, because if they are understaffed, they will be under pressure, errors will occur and ultimately the productivity will be hampered.
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
+একনাগারে, এতটা বলে একটা ঢোক গিললো রায়। অতখানি ইংরেজি একসাথে শুনে, বিশ্বকর্মও চুপ করে রইলো কিছুক্ষণ। এর মধ্যে যমরাজ দেশলাই কাঠি দিয়ে দাঁতের ফাঁকের মাংস কুচি খোঁচাতে খোঁচাতে বললো,
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+- সবই তো বুঝলুম হে খোকা, তা ৫০টা লোক পাব কেমনে? এ তো ছেলের হাথের মোয়া নয়, যে দোকান থেকে কিনে আনলাম। একসাথে ৫০জন লোক মারলে আবার মরতে কিরম বাওয়াল হবে বুঝতে পারছ?
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
+ইন্দ্রদেব একনাগারে মোবাইলে কি একটা ভিডিও দেখছিল, হঠাৎ মাথা তুলে বলল,
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
+- আরেহ একটা বাস একসিডেন্ট গোছের করলেই তো হয়। মর্তের যা রাস্তার অবস্থা, কাল রাত্রে শোভাবাজারের কাছে ঐরাবত তো হুমরি খেয়ে পরেই যাচ্ছিল প্রায়।
 
-“Do they miss me?” she cried ecstatically.
+অনেক্ষন ধরে বেশ বোর হচ্ছিল নারদ, ইন্দ্রের শোভাবাজার যাত্রার খবর শুনে হঠাৎ বলে বসলো,
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
+- নারায়ণ , নারায়ণ .... তা ইন্দ্রদেব আপনি হঠাৎ শোভাবাজার কেন? কাছেই তো ওই.... নারায়ণ , নারায়ণ।
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
+ইন্দ্রদেব বেশ অপ্রস্তুত হয়ে, খানিকটা রেগেই বলল,
 
-“I’d like to.”
+- না মানে....এমনি ঘুরতে গিয়েছিলাম... অবশ্য তাতে তোমার কি হে? কাজের কথা থাকে তো বলো, নাহলে চুপ করে বসে থাকো।
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
+বিশ্বকর্মা এরম অবান্তর কোথায় বিরক্ত হয়ে বলল,
 
-“Never.”
+- আহ, কি হচ্ছেটা কি? আসল কথাটাই হারিয়ে যাচ্ছে এই সবের মধ্যে।
 
-“Well, you ought to see her. She’s ——”
+আচ্ছা, যাই হোক, ইন্দ্রদা কথাটা খারাপ বলেননি, কি বলো যমরাজদা ?
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
+- আমি তো বললেমই, হুকুম করলে আমি করেই দেব, বাকি ঝামেলা হলে আমি নেই। তাছাড়া আমারও কিন্তু খানিকটা জমি লাগবে, হাজতে জায়গা প্রায় শেষ, নতুন লোকেদের এনে রাখবো কোথায়?
 
-“What you doing, Nick?”
+- সে আমি বানিয়ে দেব, ওসব নিয়ে ভেবো না, তুমি এই কাজে আগে মন দাও। তা ইন্দ্রদা সেটাই ফাইনাল তবে?
 
-“I’m a bond man.”
+ইন্দ্রদেব খানিকটা ঝিমিয়ে গেছিলেন, ডাক শুনে বললেন,
 
-“Who with?”
+- সে তোমরা যা ভালো বোঝো, কুবেরবাবুর কাছ থেকে হিসেবটা বুঝে নিয়ে কাজে লেগে পরো।
 
-I told him.
+কুবের তখন ফোনে বসে Ozora-র রেট দেখছে Zomato-তে। মুখ তুলে বলল,
 
-“Never heard of them,” he remarked decisively.
+- সে হিসেব আমার করা প্রভু, সব ঠিকঠাকই আছে।
 
-This annoyed me.
+বিশ্বকর্মা খানিকটা গলা ভারী করে বলল,
 
-“You will,” I answered shortly. “You will if you stay in the East.”
+- রায়, এই পুরো ব্যাপারটা তুমি দেখবে, টপ টু বটম তোমার দায়িত্ব। যমরাজদা আপনি কাজে লেগে পরুন। যত তাড়াতাড়ি সম্ভব আমার এই প্রজেক্টটা শুরু করতেই হবে। রায়কে নিয়ে একটা লিস্ট করে নিয়ে কাজ শুরু করুন। অবান্তর লোক মারবেন না, এখন যাদের ডেট তাদের মাসখানেক পিছিয়ে দিন, আর বিমলবাবু এখন প্রোডাকসান হালকা করে দিন, আগে এইটা ইমপ্লেমেন্ট হোক, তারপর নরমালিজ করবেন।
 
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
+৩
 
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
+"উফ! আমাদের ম্যানেজারের হলো কি বলতো? হঠাৎ সবাইকে নিয়ে পিকনিক? তাও আবার বাস ভাড়া করে?", লাস্ট টেস্টকেসটা রান করিয়ে বলল সুনেহা।
 
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
+প্রিয়া উত্তর দিলো, "প্রচুর ব্ল্যাকমানি বুঝলি তো, তাই এইসব করে ওহাইট করছে।"
 
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
+- তাই হবে, নাহলে ওই কঞ্জুসের হাত থেকে টাকা বেরোয়? যাক গে কাল রুবিতে এসে কল করিস।
 
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
+- হ্যা, ওকে। বেরোলাম রে, টাটা।
 
-Her host looked at her incredulously.
+"আজ সকালে ৮টায়, দুর্গাপুর এক্সপ্রেসওয়েতে এক যাত্রীবোঝাই বাসের সাথে এক ট্রেলারের মুখোমুখি সংঘর্ষ, মৃত প্রায় ৩০, গুরুতর অবস্থায় স্হানীয় হাসপাতালে ভর্তি আরো ২০। সূত্রের খবর অনুযায়ী এই ৫০জন এক বহুজাতিক সফটওয়ার কোম্পানিতে চাকরি করতেন, আজ সকালে তারা বেরিয়েছিলেন পিকনিক-এ। আরো বিশদে জানতে চোখ রাখুন নিউজ এখন-এ"
 
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
+সকালবেলা এরম মর্মান্তিক খবর, উফফ, সারাদিনটা কেমম যাবে কে জানে। মনে মনে এসব ভাবতে ভাবতে নেহা ডাক পারলো,
 
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
+"জয়.....এই জয়, ওঠ ৯টা বেজে গেল ।"
 
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
+অনেক্ষন সারা না পেয়ে, দরজাটা ঠেলে খুলল নেহা। খুলেই পরিত্রাহি চিৎকার করে অজ্ঞান হয়ে গেল সে। চিৎকার শুনে বিরাজ দৌড়ে এসে দেখলো, পাখার থেকে জয়ের নিথর দেহ ঝুলছে,নীচে টেবিলের ওপর একটা কাগজ,
 
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+" আমি আর পারলাম না মা, এই ম্যানুফ্যাকচারিং ডিফেক্ট নিয়ে বাঁচতে, পরের জন্মে হয়তো শরীর আর মনের সঠিক মিলন হয়েই আসবো এই পৃথিবীতে। ভগবানের এই উপহাসের সাথে লড়তে লড়তে আমি ক্লান্ত ।"""),
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "অশরীরী",
+          auther: "Sonali Basu",
+          desc: "Bangla Stories",
+          review: "254",
+          score: "3.8",
+          view: "174410",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Horror",
+            "Bangla",
+            "18+",
           ],
           imgUrl: "102878.jpg",
-          content: """
+          content: """“স্যার এই নিন চাবি” সুব্রত চাবির গোছা এগিয়ে দিলো। চাবি নিয়ে রাজশেখর বললেন “তুমি ছাড়া এই বাড়িতে আর কে কে আছে কাজ করা দেখাশোনা করার জন্য?”
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+“আমিই আপাতত কেয়ারটেকারের ভূমিকা পালন করছি। চম্পা আর গৌর এই বাড়ি ঝেড়ে পুঁছে গুছিয়ে রাখে। যারা পিকনিকের জন্য আসে চম্পা তাদের রান্নাবান্নাও করে দেয়। তবে রাতে কেউ থাকে না তো আমরাও কেউ রাতে থাকি না। সন্ধ্যের মধ্যে কাজ শেষ করে বাড়ি ফিরে যাই। আমাদের বাড়ি অবশ্য খুব দূরে নয়। এই বাড়ির বাউন্ডারির ঠিক বাইরেই কিছু ঘর আছে সেখানেই থাকি। আসলে বাড়ির যিনি প্রথম মালিক ছিলেন তিনি এই ব্যবস্থাই করেছিলেন”
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+“ঠিক আছে। তোমাকে ডাকলে যাতে পাওয়া যায় তার কি কোন ব্যবস্থা আছে?”
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+“হ্যাঁ আছে স্যার। যে ঘরে আপনারা শোবেন সেই ঘরে একটা দড়ি ঝুলতে দেখবেন। সেটা টানলে আমার ঘরের ঘণ্টাটা বেজে উঠবে, আমি জানতে পারবো আপনারা ডাকছেন”
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+“তুমি তো আমাকে সেই আদ্যিকালের গল্প শোনাচ্ছ। তোমার মোবাইল নেই যাতে ফোন করলে তুমি জানতে পারবে?”
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+“হ্যাঁ আছে স্যার। তবে বুঝতেই তো পারছেন গ্রামাঞ্চল তো সন্ধ্যার পর ভালোভাবে টাওয়ার কানেকশন পাওয়া যায় না”
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+“ওঃ ঠিক আছে। তা তুমি কি এখনি চলে যাবে?”
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+“তা কেন স্যার। আপনারা রাতে কি খাবেন সেটা বলে দিলে চম্পাকে দিয়ে বানিয়ে ঘণ্টাখানেক পরে এসে পৌঁছে দিয়ে যাবো”
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+রাজ ওর বন্ধু অনিমেষের দিকে তাকিয়ে বললেন “কি হে রাতে কি খাবে? এরকম ব্যাপার জানলে খাবার কিনেই নিয়ে আসতাম আসার পথে”
 
-“How do you get to West Egg village?” he asked helplessly.
+অনি বললেন “আরে অত চিন্তা কীসের। ও তো বলছে রান্না করিয়ে দিয়ে যাবে”
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+“তাহলে বলো কি খাবে?”
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+“বেশি আর কি লুচি আর পাঁঠার কষা মাংস, আর একটু গা গরম করার পানীয়” তারপর সুব্রতর দিকে তাকিয়ে বলল “কি হে হবে তো?”
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+“হ্যাঁ হ্যাঁ। আমিই নিয়ে আসবো”
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+“ঠিক আছে তাহলে এসো। আমরা একটু ঘুরে দেখি বাড়িটা কেমন। আর যে ঘরে শোব তা কেমন সাজিয়ে গুছিয়ে রেখেছো তোমরা”
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+সুব্রত চলে যাওয়ার পর রাজ আর অনি নীচের ড্রয়িংরুম থেকে পায়ে পায়ে উঠে আসে দোতলায়। পুরনোদিনের জমিদারদের বাড়ি গঙ্গার পাড়ে। এক কালে নাকি জমিদাররা এখানে থাকতো তারপর কোন এক পুরুষ শহরের দিকে বাড়ি করে ওখানে সপরিবারে চলে যান। তারপর থেকে বাড়িটা পড়ে ছিল। কয়েক পুরুষ পর এক ছেলে যে বর্তমানে বাড়ির মালিক বাড়িটা ভাড়া দিচ্ছেন পিকনিক করার জন্য। এতো বড় বাড়ি দেখাশোনা করে রাখার খরচ প্রচুর। বাড়ি ভাড়া দিলে কিছু টাকা তো উঠে আসে। তাই এই ব্যবস্থা।
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+বাড়ির ভেতরে পা দেওয়ার পর ওদের দুজনেরই মনে হচ্ছিলো যেন সত্যি জমিদার আমলে এসে উপস্থিত হয়েছেন। ওদের ঘরে এসে উপস্থিত হলেন ওরা দুজনে। বেশ উঁচু রাজকীয় খাটে শুভ্র সফেন বিছানা পাতা। তার সাথে বালিশ কোলবালিশ, সব আছে। ঝাড়বাতিটা জ্বলছে, এক মায়াবী পরিবেশ তৈরি হয়েছে। পাখার সুইচ দিতে পাখা বেশ জোরে ঘুরতে শুরু করলো। ওরা ঘরের লাগোয়া বাথরুমে এক এক করে ফ্রেশ হয়ে এলেন। রাজ দোতলার লাগোয়া বারান্দার দিকে এগিয়ে গেলেন। তারপর হাত দিয়ে দরজার ছিটকিনি খুললেন। কিন্তু দরজা খুলল না। বেশ চাপ দিতে হল ওটাকে ঠেলে খুলতে। অবশ্য দরজা খুলে যেতেই এক ঝলক ঠাণ্ডা হাওয়া এলো ঘরে। ততক্ষণে বাথরুম থেকে অনিও বেরিয়ে এসেছেন। বললেন “রাজ তোমার জন্য একদিনের জন্য নিজেকে জমিদার বাড়ির সদস্য মনে হচ্ছে”
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+রাজ হাসলেন “তবেই বল, তুমি তো ভাই আসতেই চাইছিলে না”
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
+“তখন কি আর বুঝেছি এতো সুখ কপালে নাচছে”
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
+হঠাৎ দরজায় এসে উপস্থিত হল সুব্রত। বলল “স্যার আপনাদের খাবার নিয়ে এসেছি। নীচে ডাইনিঙে খাবেন না এখানে দিয়ে যাবো”
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+“নীচেই চলো, বিছানায় বসে কি আর খাওয়া যায়?”
 
-We talked for a few minutes on the sunny porch.
+“চলুন” বলেই সুব্রতর চোখে পড়লো বারান্দার দিকে খোলা দরজার ওপরে, বলল “এটা কে খুলল?”
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+রাজ উত্তর দিলেন “আমি। ঘরের গরম হাওয়াটা বেরিয়ে যাবে”
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+সুব্রত আর কোন কথা ও বিষয়ে না তুলে বলল “তাহলে আসুন নীচে। আমি খাবার বেড়ে দিচ্ছি”
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+নীচে ডাইনিঙে এসে ওদের চক্ষু ছানাবড়া। যা বিশাল এক ডাইনিং টেবিল পাতা মনে হয় একসাথে জনা তিরিশ লোক বসে খেতে পারবেন। তবে অত লোক এখন না খেলেও টেবিল কিন্তু আগের আমলের মতোই সাজানো। ওরা দুজন এসে মুখোমুখি বসতেই সুব্রত খুব সুন্দর করে সব সাজিয়ে দিলো। তারপর বসে বসে খাওয়া তদারকিও করলো। খাওয়া শেষ করে উঠতে ও বলল “আপনারা হাত ধুয়ে বসার ঘরে আসুন আপনাদের পানীয় ঢেলে দিচ্ছি”
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+দুজনে এসে বসতে সুব্রত পরিমাণ মতো সব মিলিয়ে গ্লাস এগিয়ে দিলো দুজনের দিকে। রাজ বললেন “অনেক ধন্যবাদ তোমাকে। অনেক করেছ আমাদের জন্য। আর থাকতে হবে না। রাত তো অনেক হল এবার তুমি এসো। দরকার পড়লে তোমাকে পাবো তো?”
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+“হ্যাঁ স্যার পাবেন। আমি আসি তাহলে। শুভরাত্রি” সুব্রত চলে গেলো। ওরা একটু করে পানীয়ের গ্লাসে চুমুক দিচ্ছেন আর গল্প করছেন। হঠাৎ অনি বললেন “বুঝলে রাজ সব ব্যবস্থা যখন করলে তখন জমিদারের নাচঘরের বাইজির ব্যবস্থাও করতে আরও আনন্দ পেতাম। কোনদিন তো সামনে থেকে ওসব দেখার সুযোগ ঘটলো না”
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
+“হুম এটা বেড়ে বলেছ কিন্তু আগে বললে হত এখন আর কি হবে”
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+“সুব্রতকে বললেই হত”
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
+“ও কি এতো তাড়াতাড়ি এর ব্যবস্থা করতে পারতো, মনে হয় না”
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
+“আহা ওই চম্পা না কে ও’ই আসতে পারতো আমাদের মনোরঞ্জন করতে”
 
-“Do they miss me?” she cried ecstatically.
+এই গল্পের মাঝেই হঠাৎ ঘরের আলো নিভে গেলো। রাজ বললেন “যাহ্‌ লোডশেডিং! সুব্রত তো আগে বলেনি যে আলোও হঠাৎ হঠাৎ যেতে পারে। নাহলে ওকে দিয়ে দু তিনটে মোম আনিয়ে রাখতাম”
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
+“হুম! এরকম বাড়িতে আলো চলে গেলে কেমন যেন অনুভূতি হয়”
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
+“কি হে তোমার ভয় করছে নাকি?”
 
-“I’d like to.”
+“ঠিক ভয় নয়”
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
+“তুমি সেই আগের মতোই ভীতু রয়ে গেছ জানতাম না” কথার মাঝে কীসের যেন শব্দ হল ঘরের মধ্যে। অনিমেষ জিজ্ঞেস করলো “কীসের শব্দ ওটা?”
 
-“Never.”
+“কোথায় শব্দ?”
 
-“Well, you ought to see her. She’s ——”
+“তুমি শুনতে পাচ্ছ না? কিন্তু আমি যে পাচ্ছি ঘুঙুরের শব্দ”
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
+“কোথায়?”
 
-“What you doing, Nick?”
 
-“I’m a bond man.”
 
-“Who with?”
+“ওই শোন” এবার রাজও শুনতে পেলেন। অন্ধকারের মধ্যে দুজনেই এদিকওদিক তাকিয়ে বুঝতে চেষ্টা করলেন শব্দের উৎস কোথায়। খানিক অন্ধকারের দিকে তাকিয়ে থাকতে থাকতে অন্ধকার যখন চোখে ষয়ে এলো তখন দুজনেই দেখতে পেলেন এক সাদা পোশাক পরা মহিলা সিঁড়ি বেয়ে নীচে আসছে। আর ওর নামার তালে তালে নুপুরের আওয়াজ উঠছে। দুজনেই চমকে উঠলেন। সুব্রত তো বলেছিল এ বাড়িতে কেউ থাকে না তাহলে এই মহিলা এলো কোথা থেকে। মহিলা এগিয়ে এলো কাছে। রাজ ভয়কে পাত্তা না দিয়ে জিজ্ঞেস করলো “কে আপনি?” কিন্তু প্রশ্ন করতে করতেই টের পেলো ওর নিজেরই আওয়াজ অত চেষ্টার পরেও কেঁপে উঠলো। মহিলার হাসি শোনা গেলো। “সে কি তোমরা নর্তকীকে আহ্বান করলে আর এখন চিনতে পারছো না?”
 
-I told him.
+“তোমাকে কে ডাকলো, আমরা তো ডাকিনি”
 
-“Never heard of them,” he remarked decisively.
+“ডেকেছ তো। তা কি নাচ দেখবে, কত্থক নাকি আধুনিক কিছু”
 
-This annoyed me.
+“তুমি যাও তোমায় আমরা ডাকিনি”
 
-“You will,” I answered shortly. “You will if you stay in the East.”
+“এখন ডাকোনি কিন্তু তখন তো ডেকেছিলে আর আমি আমার শিশু সন্তানকে ছেড়ে আসতে চাইনি বলে জোর করে ধরে এনেছিলে। আর যাতে ভবিষ্যতেও একই সন্তানের দোহাই না দিতে পারি তাই ওকে মেরেই দিলে”
 
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
+“কি সব বলছ আজগুবি, আমরা তোমাকে চিনিই না”
 
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
+“চেনো চেনো। তোমাদের রক্তে আছে নারীদের নিয়ে ফুর্তি করা বদমায়েশি করা আর তোমাদের কথামতো না চললে তাদের পৃথিবী থেকেই হাপিস করে দেওয়া। সেই দুষিত রক্ত এখনো শরীরে বয়েই চলেছে তাই তো এতদিন পরেও এ বাড়িতে এসেই নর্তকীর কথা মনে পড়লো। সেবার ক্ষমতার অভাবে প্রতিশোধ নিতে পারিনি। এবার তো ছাড়া যায় না” বলেই দুটো হাত এগিয়ে গেলো দুজনের গলা লক্ষ্য করে। এতটাই আকস্মিক আর এতো তাড়াতাড়ি ঘটলো সব কিছু যে ওরা পালানোরও সুযোগ পেলো না। সুব্রত সুব্রত করে আওয়াজ তুলতে চেষ্টা করেছিলেন রাজ কিন্তু গলায় স্বর ফুটলো না।
 
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
+ওদিকে আঙ্গুলের চাপ বেড়ে চলল গলার ওপর। দুহাতে ধরেও ছাড়ানো গেলো না। অনি আর রাজ দুজনের কথাই আটকে গেলো। দুজনেই গোঁ গোঁ করতে লাগলো, কিন্তু গলার ওপর চেপে বসা হাত দুটোকে ছাড়াতে পারলো না। খানিক পরে দুজনেই গড়িয়ে পড়লো মাটিতে।
 
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
+কিছুদিন পরে পুলিশ এসে উদ্ধার করলো পচে গলে যাওয়া দুটি দেহ। অফিসার শুধু ভাবলেন এরা এখানে এলেন কি ভাবে। 
 
 """),
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
-          score: "4.7",
-          view: "124470",
+          name: "গরিবের ইফতার",
+          auther: "Orpita Oyshorjo",
+          desc: 'Bangla Stories',
+          review: "47",
+          score: "4.1",
+          view: "15478",
           type: [
-            "Academic",
-            "To know",
-            "Animals",
+            "Happiness",
+            "Poorness",
+            "Children",
           ],
-          imgUrl: "61038.jpg",
-          content: """
+          imgUrl: "22145.png",
+          content: """রহিম সাহেব বড়লোক মানুষ কোন কিছুরই তার অভাব নেই , আজ প্রথম রোজা তাই তার বাসায় হরেক রখমের ইফতারির সরঞ্জাম যেন এক খুশির আমেজ 
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+আর তার পাশেই হাসান দের বাড়ি ছোট একটা চালা ঘরে সে, তার মা আলেয়া বেগম আর তার বাবা রতন মিয়া থাকে । রতন মিয়া রিক্সা চালিয়ে যা রোজকার করে তাই দিয়ে কোন রকম চলে যায় 
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+রহিম সাহেব এর ছেলে রাতুল আর হাসানের গভীর সম্পক । প্রতি দিনের মত আজও হাসান আর রাতুল , রাতুলদের উঠানে খেলা করছে আর কিছুক্ষন পর আজান দিবে রাতুল হাসানকে বলছে হাসান তুমি এখন বাড়ি যাও আজ রোজা তাই মা আজ অনেক ইফতার তৈরি করেছে ।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+ হাসান একথা শুনে এক দৌরে বাড়িতে এসে তার মাকে ডাকছে 
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+মা,সন্ধ্যা তো হইয়া গেছে।আজানও দিয়া দিবো।আমাগোর ইফতারি কই?
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
+আজানের অহন মেলা সময় আছে ।তোর আব্বা ইফতারি নিয়া অহনি আইয়া পরবো। 
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+তুই হাত পা ধুয়ে আয়,
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
+হাসান হাসিমুখে পা ধুতে চলে গেলো 
 
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
+হাত পা ধুয়ে এসে তার মা কে বল্লো
 
-“How do you get to West Egg village?” he asked helplessly.
+"আব্বা তো সকালে কইয়া গেছে ইফতারি লইয়া আইবো।কই অহনও তো আইলো না।
 
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+" আইবো বাবা আইবো ।তুই দেখবি তোর আব্বা এহনি ইফতারি লইয়া আইয়া পরছে।
 
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
+রতন মিয়া সকালে ইফতারি নিয়ে আসবে বলে রিকশা নিয়ে বেড়িয়েছে।
 
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
+আজান দিবে কিন্তু এখনো আসার নাম নাই আলেয়া বেগম তার স্বামীর জন্য অস্তির হয়ে পরেছে 
 
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+আলেয়া বেগম চেয়ে আছেন বড় রাস্তার দিকে।বড়জোর দশ মিনিট বাকি আছে আজানের।
 
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
+মসজিদের আজান তাদের ঘর থেকে পরিষ্কার শুনা যায়।
 
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
+করোনার দুর্যোগে ট্রেনগুলো বন্ধ থাকায় আলেয়া বেগমের খাবারের ব্যাবসা বন্ধ।তাই আজ তাদের ঘরে এতো অভাব 
 
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
+রাস্তাঘাটেও লোকজনের চলাফেরা নেই।রিকশা নিয়েও বের হতে ভয় পায় রতন। 
 
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
+কিন্তু তিনটি পেটের তাগিদে তাকে সমস্ত ভয়কে পিছনে ফেলে রিকশা নিয়ে বের হতে হয়।
 
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
+হাসান দেখে তার বাবা রিকশা নিয়ে বাড়িতে ঢুকছে। আনন্দে তার মুখে মন জয় করা হাসি।দৌড়ে গেলো বাবার কাছে।
 
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
 
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
 
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
+"আব্বা ইফতারি আনছো?
 
-We talked for a few minutes on the sunny porch.
+"আনছি আব্বা। 
 
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
+এই নেও।(একটা প্যাকেট ছেলের হাতে দিয়ে) বলল্লো 
 
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
+"আমি অযু কইরা আইতাছি।তুমি চকিতে গিয়া বহো?
 
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
+হাসান বল্লো " আইচ্ছা আব্বা তুমিও অযু কইরা আহো আমরা এক লগে ইফতার করুম । রতন মিয়া অযু করে এসে চকিতে বসার সাথে সাথে হাসান তার বাবা কে বলে " আব্বা যানো রাতুল এর বাড়িত আইজ অনেক ইফতার আমাদেরও আইজ অনেক ইফতার হইবো তাই না আব্বা 
 
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
+ছেলের কথা শুনে রতন মিয়া আর আলেয়া বেগম মুখ চাওয়া চাহি করে
 
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
+হাসান প্যাকেট খুলে দেখে মুড়ির সাথে অল্প বুট আর কিছু বুন্দিয়া। হাসান তার বাবাকে বললো আর কিছু নাই?
 
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
+আলেয়া বেগম সাথে সাথে উত্তর দিলেন "দোকানে অহন আর কিছু পাওয়া যায় না বাজান।
 
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
+হাসান বলে" রাতুলের ঘরে তো অনেক কিছু দেখছি।
 
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
+আলেয়া বেগম বলে "তারা সকালে নিয়া আইছে।সকালে সব পাওয়া যায়।
 
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
+বিকালে শুধু মুড়ি বুট আর বুন্দিয়া থাকে।
 
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
 
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
 
-“Do they miss me?” she cried ecstatically.
+হাসান তার বাবাকে উদ্দেশ্য করে বললো" কাল থাইকা সকালে নিয়া আইবা।
 
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
 
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
 
-“I’d like to.”
+"আইচ্ছা, কাল থাইকা আমার হাসান বাবার লাইগ্যা সবার আগেই সবকিছু লইয়া আমু।
 
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
+এই কথা বলার পর পর রতন মিয়া চকি থেকে পরে যায় হাসান আর তার মা আলেয়া বেগম ভয় পেয়ে যায় তারা লক্ষ করে রতন মিয়ার শরীলে আঘাতের চিহ্ন হাসান কিছু বুঝতে না পেরে তার বাবাকে জিঙ্গাস করে " আব্বা তোমার পিডে এগুলা কিসের দাগ " 
 
-“Never.”
+তার বাবা উওর দেয় " কিছু না আব্বা রাস্তায় পইরা গেছিলাম " 
 
-“Well, you ought to see her. She’s ——”
+হাসান লক্ষ্য করে তার বাবার চোখের কনে পানি 
 
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
+সে কিছুটা হয়তো বুঝে যায় তার পর সে তার বাবার চোখের পানি মুছে দিয়ে তার বাবাকে জরিয়ে ধরে বলে আব্বা আমার আর দামী ইফতার লাগবো না , তুমি আর বাইরে যাইও না 
 
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
-
-"""),
+রতন মিয়া তার ছেলেকে জরিয়ে ধরে জোরে জোরে কান্না করতে থাকে তাদের কান্না কেউ শুনছে না কারন আজ সবাই সবাইকে নিয়ে ব্যস্ত I"""),
       Books(
           id: 1,
-          name: "Asar Morakab",
-          auther: "Daren Hardi",
-          desc: "Be Happy",
-          review: "126",
+          name: "টিটো",
+          auther: "Santana Saha",
+          desc: "Bangla Stories",
+          review: "585",
           score: "4.7",
-          view: "124470",
+          view: "40851",
           type: [
-            "Academic",
-            "To know",
             "Animals",
+            "Kill",
+            "Family",
           ],
-          imgUrl: "81647.jpg",
-          content: """
+          imgUrl: "f3f906dc4532a9801df672e40fe390ee.jpe",
+          content: """"বাড়িতে আমার গোপাল আছে,তিনবেলা পুজো দিই, আবার একটা কুকুর বাড়িতে ঢোকানোর কি দরকার ছিল হ‍্যাঁ?" - বাড়িতে ছেলে আর ছেলের বউয়ের নিয়ে আসা নতুন কুকুরছানাটাকে এভাবেই অভ‍্যর্থনা করলেন মলিনাদেবী। "অবলা প্রাণী, অমন করে বলছ কেন মা, ওদের আমরা না দেখলে কে দেখবে বলো"-বলে মলিনাদেবীর ছেলে সুজয়। "হ‍্যাঁ, মা আর দুটোদিন গেলেই দেখবেন, ও আপনার কিরকম বন্ধু হয়ে উঠেছে।"- হেসে বলে বৌমা অঞ্জলী। "থাক থাক, আমার আর বন্ধু হয়ে কাজ নেই, আমার গোপালই আমার বন্ধু। আর খবরদার বলে দিচ্ছি ঐ কুকুর যেন আমার ঘরে না ঢোকে।" - বলেন মলিনাদেবী। "মা,ওভাবে ওকে কুকুর না বলে 'টিটো' বলে ডাকবেন। ভাল লাগে শুনতে। ঐ নামটাই আমরা দিয়েছি।"- অঞ্জলী বলে। "আহা, কুকুরকে আবার কুকুর বলা যাবে না,আদিখ‍্যেতা দেখে আর বাঁচি না! কোথায় এখন একটা ছেলেপুলে হয়ে বাচ্চা মানুষ করবে, তা নয় ,উনি একটা কুকুর নিয়ে এসে ন‍্যাকামি শুরু করলেন!"- বলে রাগে গজগজ করতে করতে চলে যান মলিনাদেবী। চোখদুটো জল ছলছল করে ওঠে অঞ্জলীর। "আঃ, মা তুমি জানোই তো সব। গত ছবছর ধরে কম চেষ্টা তো করা হল না, বাচ্চা না হলে ও কি করবে? তোমার গোপালও তো মুখ তুলে চাইল না।" - বিরক্ত হয়ে বলে চলে যায় সুজয়।
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+অবলা প্রাণীদের উপর বরাবরই অঞ্জলীর দয়ামায়া একটু বেশি।ছোট থেকে পাড়ার বেপাড়ার কত যে অসুস্থ কুকুর বিড়ালকে সুস্থ করে তুলেছে, তার হিসেব নেই। কিন্তু বড় হয়ে চাকরিতে ঢুকল, তারপর বিয়ে করল, তাই এখন আর ঐ অবলা প্রাণীগুলোর জন‍্য বেশি সময় বের করতে পারে না। গত ছবছর মাতৃত্বহীনতার যন্ত্রণা বুকে পুষে চলেছে সে। তাই ভেবেছিল বাড়িতেই একটা কুকুর পুষবে। শাশুড়ির কথায় তার বুকের সব শূণ‍্যতা যেন হাহাকার করে ওঠে। টিটোকে জড়িয়ে ধরে হুঁ হুঁ করে কেঁদে ওঠে সে। 
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+দেখতে দেখতে টিটো বড় হতে থাকে। সকালে অঞ্জলী আর সুজয় তার সাথে বেশ কিছুটা ভাললাগার সময় কাটায়। এখন তো সকাল হলে টিটোই সুজয়কে মর্নিং ওয়াকে যাবার জন‍্য ডেকে তোলে। ঐটুকু একটা প্রাণীর কি বুদ্ধি! অফিস যাবার সময় সুজয় আর অঞ্জলীর হাতে হাতে ওদের দরকারী সব জিনিসগুলো এনে দেয়। জুতোর র‍্যাক থেকে অঞ্জলী আর সুজয়ের জুতো তুলে ঠিক জায়গায় এনে রাখে তাদের পরার জন‍্য। ওদের পিছন পিছন ওদের গাড়ি পর্যন্ত দৌড়ে যায় লেজ নাড়তে নাড়তে।আবার ওরা ফিরলে আনন্দে লেজ নাড়তে নাড়তে ওদের গায়ের উপর ঝাঁপিয়ে পড়ে ওদের আদর করতে থাকে। তবে পশু হলে কি হবে, টিটোও যেন বোঝে যে মলিনাদেবী ওকে পছন্দ করেন না। তাই বকাঝকা করেন। তাই সুজয় আর অঞ্জলী বেরিয়ে গেলেই মুখ গোমড়া করে একদম চুপ করে বসে থাকে।
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+একদিন মলিনাদেবী তার ঘরে বসে গোপালপুজো করছিলেন। এমন সময় টিটো দেখে ওনার ঘরে একটা ইঁদুর। কুকুরের যা স্বভাব। আর থাকতে না পেরে ঘেউ ঘেউ করে তেড়ে গেল ইঁদুরটার দিকে। আর যায় কোথায়, মলিনাদেবী কুরুক্ষেত্র শুরু করলেন,"কি! শয়তান, হাড়বজ্জাত ,অসভ‍্য কুকুর তোর এত বড় সাহস তুই আমার গোপালপুজোর সময় আমার ঘরে ঢুকিস! আমার ছেলে আর ছেলের বউটা তোকে আদর দিয়ে দিয়ে মাথায় তুলেছে!দাঁড়া তোকে এমন শিক্ষা দেব,আর কোনদিনও আমার ঘরে ঢোকার সাহস পাবি না। বলে ঘরে দরজার পাশে থাকা খিলটা দিয়ে প্রচন্ড জোরে জোরে মারতে লাগলেন টিটোর শরীরে। টিটো যন্ত্রণায় কঁকিয়ে উঠল, তবু কামড় দিল না, হয়ত মনিব বলেই। সেদিন বাড়ি ফিরে সুজয় দেখে, টিটোর চোখে জল। তারপর কাজের দিদির কাছে সব কথা শুনে মাকে গিয়ে বলে,"ছিঃ মা ছিঃ, একটা অবলা প্রাণীর উপর তুমি এমন অত‍্যাচার করতে পারলে? বলা যায় না মা, তোমার গোপাল চাইলে হয়ত তুমি নিজেই একদিন ওর কাছে ঋণী হয়ে থাকবে...।" মলিনাদেবী ঠোঁট বেঁকিয়ে চলে গেলেন।
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
 
-My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.
 
-I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
+এর দুমাস পরের ঘটনা। মলিনাদেবী সকালবেলায় তাদের বাড়ির সামনের বাগানে গিয়ে ফুল তুলছিলেন গোপালপুজোর জন‍্য। টিটো তার পিছনে কিছুটা দূরে দাঁড়িয়েছিল। মলিনাদেবী জানতেন না যে তার জন‍্য কি ঘোর বিপদ অপেক্ষা করে রয়েছে। তার থেকে কিছুটা দূরেই এক বিষধর শঙ্খচূড় সাপ তাকে ছোবল মারতে এগিয়ে আসছে। কিন্তু টিটোর সেটা চোখ এড়ায়নি। সে একছুটে গিয়ে সাপটার উপর ঝাঁপিয়ে পড়ল। শুরু হল সাপে আর কুকুরে মরণপণ লড়াই। অবশেষে টিটো মারতে সক্ষম হল সেই সাপটাকে।কিন্তু ততক্ষণে ঐ বিষাক্ত শঙ্খচূড় ক্ষতবিক্ষত করে দিয়েছে তার দেহকে। বিষে নীল হয়ে গেছে সারা শরীর। 
 
-The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.
-
-It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.
-
-“How do you get to West Egg village?” he asked helplessly.
-
-I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
-
-And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.
-
-There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.
-
-It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
-
-I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.
-
-Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom Buchanans. Daisy was my second cousin once removed, and I’d known Tom in college. And just after the war I spent two days with them in Chicago.
-
-Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven — a national figure in a way, one of those men who reach such an acute limited excellence at twenty-one that everything afterward savors of anti-climax. His family were enormously wealthy — even in college his freedom with money was a matter for reproach — but now he’d left Chicago and come East in a fashion that rather took your breath away: for instance, he’d brought down a string of polo ponies from Lake Forest. It was hard to realize that a man in my own generation was wealthy enough to do that.
-
-Why they came East I don’t know. They had spent a year in France for no particular reason, and then drifted here and there unrestfully wherever people played polo and were rich together. This was a permanent move, said Daisy over the telephone, but I didn’t believe it — I had no sight into Daisy’s heart, but I felt that Tom would drift on forever seeking, a little wistfully, for the dramatic turbulence of some irrecoverable football game.
-
-And so it happened that on a warm windy evening I drove over to East Egg to see two old friends whom I scarcely knew at all. Their house was even more elaborate than I expected, a cheerful red-and-white Georgian Colonial mansion, overlooking the bay. The lawn started at the beach and ran toward the front door for a quarter of a mile, jumping over sun-dials and brick walks and burning gardens — finally when it reached the house drifting up the side in bright vines as though from the momentum of its run. The front was broken by a line of French windows, glowing now with reflected gold and wide open to the warm windy afternoon, and Tom Buchanan in riding clothes was standing with his legs apart on the front porch.
-
-He had changed since his New Haven years. Now he was a sturdy straw-haired man of thirty with a rather hard mouth and a supercilious manner. Two shining arrogant eyes had established dominance over his face and gave him the appearance of always leaning aggressively forward. Not even the effeminate swank of his riding clothes could hide the enormous power of that body — he seemed to fill those glistening boots until he strained the top lacing, and you could see a great pack of muscle shifting when his shoulder moved under his thin coat. It was a body capable of enormous leverage — a cruel body.
-
-His speaking voice, a gruff husky tenor, added to the impression of fractiousness he conveyed. There was a touch of paternal contempt in it, even toward people he liked — and there were men at New Haven who had hated his guts.
-
-“Now, don’t think my opinion on these matters is final,” he seemed to say, “just because I’m stronger and more of a man than you are.” We were in the same senior society, and while we were never intimate I always had the impression that he approved of me and wanted me to like him with some harsh, defiant wistfulness of his own.
-
-We talked for a few minutes on the sunny porch.
-
-“I’ve got a nice place here,” he said, his eyes flashing about restlessly.
-
-Turning me around by one arm, he moved a broad flat hand along the front vista, including in its sweep a sunken Italian garden, a half acre of deep, pungent roses, and a snub-nosed motor-boat that bumped the tide offshore.
-
-“It belonged to Demaine, the oil man.” He turned me around again, politely and abruptly. “We’ll go inside.”
-
-We walked through a high hallway into a bright rosy-colored space, fragilely bound into the house by French windows at either end. The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house. A breeze blew through the room, blew curtains in at one end and out the other like pale flags, twisting them up toward the frosted wedding-cake of the ceiling, and then rippled over the wine-colored rug, making a shadow on it as wind does on the sea.
-
-The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house. I must have stood for a few moments listening to the whip and snap of the curtains and the groan of a picture on the wall. Then there was a boom as Tom Buchanan shut the rear windows and the caught wind died out about the room, and the curtains and the rugs and the two young women ballooned slowly to the floor.
-
-The younger of the two was a stranger to me. She was extended full length at her end of the divan, completely motionless, and with her chin raised a little, as if she were balancing something on it which was quite likely to fall. If she saw me out of the corner of her eyes she gave no hint of it — indeed, I was almost surprised into murmuring an apology for having disturbed her by coming in.
-
-The other girl, Daisy, made an attempt to rise — she leaned slightly forward with a conscientious expression — then she laughed, an absurd, charming little laugh, and I laughed too and came forward into the room.
-
-“I’m p-paralyzed with happiness.” She laughed again, as if she said something very witty, and held my hand for a moment, looking up into my face, promising that there was no one in the world she so much wanted to see. That was a way she had. She hinted in a murmur that the surname of the balancing girl was Baker. (I’ve heard it said that Daisy’s murmur was only to make people lean toward her; an irrelevant criticism that made it no less charming.)
-
-At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again — the object she was balancing had obviously tottered a little and given her something of a fright. Again a sort of apology arose to my lips. Almost any exhibition of complete self-sufficiency draws a stunned tribute from me.
-
-I looked back at my cousin, who began to ask me questions in her low, thrilling voice. It was the kind of voice that the ear follows up and down, as if each speech is an arrangement of notes that will never be played again. Her face was sad and lovely with bright things in it, bright eyes and a bright passionate mouth, but there was an excitement in her voice that men who had cared for her found difficult to forget: a singing compulsion, a whispered “Listen,” a promise that she had done gay, exciting things just a while since and that there were gay, exciting things hovering in the next hour.
-
-I told her how I had stopped off in Chicago for a day on my way East, and how a dozen people had sent their love through me.
-
-“Do they miss me?” she cried ecstatically.
-
-“The whole town is desolate. All the cars have the left rear wheel painted black as a mourning wreath, and there’s a persistent wail all night along the north shore.”
-
-“How gorgeous! Let’s go back, Tom. To-morrow!” Then she added irrelevantly: “You ought to see the baby.”
-
-“I’d like to.”
-
-“She’s asleep. She’s three years old. Haven’t you ever seen her?”
-
-“Never.”
-
-“Well, you ought to see her. She’s ——”
-
-Tom Buchanan, who had been hovering restlessly about the room, stopped and rested his hand on my shoulder.
-
-“What you doing, Nick?”
-
-“I’m a bond man.”
-
-“Who with?”
-
-I told him.
-
-“Never heard of them,” he remarked decisively.
-
-This annoyed me.
-
-“You will,” I answered shortly. “You will if you stay in the East.”
-
-“Oh, I’ll stay in the East, don’t you worry,” he said, glancing at Daisy and then back at me, as if he were alert for something more. “I’d be a God damned fool to live anywhere else.”
-
-At this point Miss Baker said: “Absolutely!” with such suddenness that I started — it was the first word she uttered since I came into the room. Evidently it surprised her as much as it did me, for she yawned and with a series of rapid, deft movements stood up into the room.
-
-“I’m stiff,” she complained, “I’ve been lying on that sofa for as long as I can remember.”
-
-“Don’t look at me,” Daisy retorted, “I’ve been trying to get you to New York all afternoon.”
-
-“No, thanks,” said Miss Baker to the four cocktails just in from the pantry, “I’m absolutely in training.”
-
-Her host looked at her incredulously.
-
-“You are!” He took down his drink as if it were a drop in the bottom of a glass. “How you ever get anything done is beyond me.”
-
-I looked at Miss Baker, wondering what it was she “got done.” I enjoyed looking at her. She was a slender, small-breasted girl, with an erect carriage, which she accentuated by throwing her body backward at the shoulders like a young cadet. Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face. It occurred to me now that I had seen her, or a picture of her, somewhere before.
-
-“You live in West Egg,” she remarked contemptuously. “I know somebody there.”
-
-“I don’t know a single ——”
-
-“You must know Gatsby.”
-
-“Gatsby?” demanded Daisy. “What Gatsby?”
-
-Before I could reply that he was my neighbor dinner was announced; wedging his tense arm imperatively under mine, Tom Buchanan compelled me from the room as though he were moving a checker to another square.
-
-Slenderly, languidly, their hands set lightly on their hips, the two young women preceded us out onto a rosy-colored porch, open toward the sunset, where four candles flickered on the table in the diminished wind.
-
-“Why candles?” objected Daisy, frowning. She snapped them out with her fingers. “In two weeks it’ll be the longest day in the year.” She looked at us all radiantly. “Do you always watch for the longest day of the year and then miss it? I always watch for the longest day in the year and then miss it.”
-
-“We ought to plan something,” yawned Miss Baker, sitting down at the table as if she were getting into bed.
-
-“All right,” said Daisy. “What’ll we plan?” She turned to me helplessly: “What do people plan?”
-
-Before I could answer her eyes fastened with an awed expression on her little finger.
-
-“Look!” she complained; “I hurt it.”
-
-We all looked — the knuckle was black and blue.
-
-“You did it, Tom,” she said accusingly. “I know you didn’t mean to, but you did do it. That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a ——”
-
-“I hate that word hulking,” objected Tom crossly, “even in kidding.”
-
-“Hulking,” insisted Daisy.
-
-Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire. They were here, and they accepted Tom and me, making only a polite pleasant effort to entertain or to be entertained. They knew that presently dinner would be over and a little later the evening too would be over and casually put away. It was sharply different from the West, where an evening was hurried from phase to phase toward its close, in a continually disappointed anticipation or else in sheer nervous dread of the moment itself.
-
-“You make me feel uncivilized, Daisy,” I confessed on my second glass of corky but rather impressive claret. “Can’t you talk about crops or something?”
-
-I meant nothing in particular by this remark, but it was taken up in an unexpected way.
-
-“Civilization’s going to pieces,” broke out Tom violently. “I’ve gotten to be a terrible pessimist about things. Have you read ‘The Rise of the Colored Empires’ by this man Goddard?”
-
-“Why, no,” I answered, rather surprised by his tone.
-
-“Well, it’s a fine book, and everybody ought to read it. The idea is if we don’t look out the white race will be — will be utterly submerged. It’s all scientific stuff; it’s been proved.”
-
-“Tom’s getting very profound,” said Daisy, with an expression of unthoughtful sadness. “He reads deep books with long words in them. What was that word we ——”
-
-“Well, these books are all scientific,” insisted Tom, glancing at her impatiently. “This fellow has worked out the whole thing. It’s up to us, who are the dominant race, to watch out or these other races will have control of things.”
-
-“We’ve got to beat them down,” whispered Daisy, winking ferociously toward the fervent sun.
-
-“You ought to live in California —” began Miss Baker, but Tom interrupted her by shifting heavily in his chair.
-
-“This idea is that we’re Nordics. I am, and you are, and you are, and ——” After an infinitesimal hesitation he included Daisy with a slight nod, and she winked at me again. “— And we’ve produced all the things that go to make civilization — oh, science and art, and all that. Do you see?”
-
-There was something pathetic in his concentration, as if his complacency, more acute than of old, was not enough to him any more. When, almost immediately, the telephone rang inside and the butler left the porch Daisy seized upon the momentary interruption and leaned toward me.
+অঞ্জলী আর সুজয় জানতে পেরেই টিটোকে নিয়ে ছুটল শহরের নামী পশু হাসপাতালে। অঞ্জলী ডাক্তারবাবুকে বলল,"আমি যত টাকা লাগে দেব। আপনি শুধু আমার টিটোকে বাঁচান।" কিন্তু ডাক্তারবাবু মাথা নেড়ে বলল, "আমি আমার যথাসাধ‍্য করব। কিন্তু পরিস্থিতি আমার হাতের বাইরে চলে গেছে। এখন ঈশ্বরই ভরসা।" মলিনাদেবী চিৎকার করে উঠলেন, "গোপাল,তুমি টিটোকে ভাল করে দাও। আজ আমার জন‍্য ওর এই অবস্থা। আমি এখন বুঝতে পেরেছি ঠাকুর, আমি এতদিন কি অন‍্যায় ওর উপর করেছি!"বলে ঝরঝর করে কেঁদে ফেলেন। একসপ্তাহ যমে কুকুরে টানাটানির পর মৃত‍্যুর মুখ থেকে ফিরে এলো টিটো। মলিনাদেবী হাতজোড় করে গোপালকে বললেন,"আমি আজ সব প্রতিবেশীদের ডেকে তোমার হরিরলুট দেব।"
 
 """),
+
     ];
   }
 }

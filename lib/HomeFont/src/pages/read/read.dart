@@ -87,8 +87,9 @@ class _ReadPageState extends State<ReadPage> {
     return SliverToBoxAdapter(
       child: Column(
         children: [
+
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 20 , vertical: 20),
             child: Text(
               widget.books.content.toString(),
               textDirection: TextDirection.ltr,
