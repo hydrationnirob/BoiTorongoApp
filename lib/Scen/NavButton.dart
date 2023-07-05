@@ -78,7 +78,6 @@ class NevController extends GetxController
 
     var page=[
       const Home(),
-      //const HomeSacen(title: "Home"),
       const Dashbord(),
       const Audioplayback(),
       const RequestPage(),

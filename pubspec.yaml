@@ -17,12 +17,13 @@ dependencies:
   get: ^4.6.5
   page_transition: ^2.0.4
   syncfusion_flutter_pdfviewer: ^19.1.69-beta
-
-
   permission_handler: ^10.3.0
   audioplayers: ^4.1.0
   readmore: ^2.1.0
   smooth_page_indicator: ^1.0.0+2
+  firebase_auth: ^4.6.3
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.8.2
 
 
 dev_dependencies:
@@ -46,6 +47,7 @@ flutter:
     - images/HorrorCat/
     - images/HorrorCat/Detective/
     - images/Homeimages/
+    - lib/LoginSystem/LoginUi/images/
 
   fonts:
     - family: NotoSansBengali

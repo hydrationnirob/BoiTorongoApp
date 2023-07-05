@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'HomeSacen.dart';
+import '../LoginSystem/LoginUi/pages/login_page.dart';
 import 'NavButton.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
       });
       Timer(const Duration(seconds: 2), () {
         Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const NavButton()),
+          MaterialPageRoute(builder: (_) =>  LoginPage()),
         );
       });
     });
