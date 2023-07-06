@@ -1,18 +1,11 @@
 
 import 'package:Supkothar_Somoy/Scen/AudioplayBack.dart';
-import 'package:Supkothar_Somoy/Scen/HomeSacen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-
 import '../HomeFont/src/pages/home/home.dart';
+import '../LoginSystem/LoginUi/pages/Profile_page.dart';
 import 'DeshBord.dart';
-import 'RequestSTf.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/category.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/custom_app_bar.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/movie_header.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/settings/settings_controller.dart';
-import 'package:flutter/material.dart';
 
 
 
@@ -56,8 +49,8 @@ class _NavButtonState extends State<NavButton> {
           ),
           GButton(
 
-            icon: Icons.add_box_rounded,
-            text: "Request",
+            icon: Icons.person,
+            text: "Profile",
           ),
 
         ],
@@ -80,7 +73,7 @@ class NevController extends GetxController
       const Home(),
       const Dashbord(),
       const Audioplayback(),
-      const RequestPage(),
+       ProfileScreen(),
 
     ];
 }

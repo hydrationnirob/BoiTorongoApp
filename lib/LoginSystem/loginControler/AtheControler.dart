@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'comman_dailog.dart';
+import '../../Scen/NavButton.dart';
+import '../LoginUi/components/comman_dailog.dart';
 
 class AnthControler extends GetxController {
 
-  var userId;
+  var userId="";
 
 
   Future<void> signIn(String email, String password) async {
@@ -18,11 +18,11 @@ class AnthControler extends GetxController {
         email: email,
         password: password,
       );
-
-      print(userCredential);
       userId = userCredential.user!.uid;
 
       CommanDialog.hideLoading();
+      Get.off(() =>  const NavButton());
+
     } on FirebaseAuthException catch (e) {
       CommanDialog.hideLoading();
 

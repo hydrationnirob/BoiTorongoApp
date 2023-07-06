@@ -26,7 +26,7 @@ class LoginPage extends StatelessWidget {
       anthControler.signIn(userSignInData['email']!, userSignInData['password']!);
     }
   }
-  
+
 
   @override
   Widget build(BuildContext context) {
