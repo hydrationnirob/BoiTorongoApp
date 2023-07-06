@@ -22,6 +22,7 @@ class LoginPage extends StatelessWidget {
         'email': EmailController.text.trim(),
         'password': passwordController.text,
       };
+
       final anthControler =  Get.put(AnthControler());
       anthControler.signIn(userSignInData['email']!, userSignInData['password']!);
     }

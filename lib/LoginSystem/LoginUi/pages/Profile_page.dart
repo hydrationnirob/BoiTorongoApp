@@ -95,16 +95,14 @@ class ProfileScreen extends StatelessWidget {
                         padding: EdgeInsets.symmetric(vertical: 15.0),
                         child: Text("Are you sure, you want to Logout?"),
                       ),
-                      confirm: Expanded(
-                        child: ElevatedButton(
-                          onPressed: ()  {
-                            FirebaseAuth.instance.signOut();
-                            Get.offAll( LoginPage());
+                      confirm: ElevatedButton(
+                        onPressed: ()  {
+                          FirebaseAuth.instance.signOut();
+                          Get.offAll( LoginPage());
 
-                          },
-                          style: ElevatedButton.styleFrom(backgroundColor: Colors.redAccent, side: BorderSide.none),
-                          child: const Text("Yes"),
-                        ),
+                        },
+                        style: ElevatedButton.styleFrom(backgroundColor: Colors.redAccent, side: BorderSide.none),
+                        child: const Text("Yes"),
                       ),
                       cancel: OutlinedButton(onPressed: () => Get.back(), child: const Text("No")),
                     );

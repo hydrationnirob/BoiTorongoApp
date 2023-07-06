@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       statusBarColor: Colors.deepPurple,
     ));
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: 'Rupkothar Somoy',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,

@@ -18,7 +18,8 @@ class AnthControler extends GetxController {
         email: email,
         password: password,
       );
-      userId = userCredential.user!.uid;
+     userId = userCredential.user!.uid;
+     print(userCredential.user!.uid);
 
       CommanDialog.hideLoading();
       Get.off(() =>  const NavButton());
@@ -59,7 +60,7 @@ class AnthControler extends GetxController {
            "username": username,
            "email": email,
            "password": password,
-           "uid": userCredential.user!.uid,
+           "user_id": userCredential.user!.uid,
            "joindate": DateTime.now(),
          });
          CommanDialog.hideLoading();
