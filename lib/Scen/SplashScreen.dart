@@ -3,12 +3,24 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import '../LoginSystem/LoginUi/pages/login_page.dart';
-import '../LoginSystem/loginControler/Data_Controler.dart';
 import 'NavButton.dart';
 import 'package:get/get.dart';
+import 'package:introduction_screen/introduction_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
+
+  List<PageViewModel> getPages() {
+    return [
+      PageViewModel(
+        title: "Title of introduction page",
+        body: "Welcome to the app! This is a description of how it works.",
+        image: const Center(
+          child: Icon(Icons.waving_hand, size: 50.0),
+        ),
+      ),
+    ];
+  }
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();
@@ -34,7 +46,17 @@ class _SplashScreenState extends State<SplashScreen> {
         if (user != null) {
           Get.offAll(() => const NavButton());
         } else {
-          Get.offAll(() => LoginPage());
+          final introScreen = IntroductionScreen(
+            pages: widget.getPages(),
+            showSkipButton: true,
+            showNextButton: false,
+            skip: const Text("Skip"),
+            done: const Text("Done"),
+            onDone: () {
+              Get.offAll(() => LoginPage());
+            },
+          );
+          Get.to(() => introScreen);
         }
       });
     });
