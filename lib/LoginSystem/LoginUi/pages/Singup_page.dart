@@ -30,7 +30,6 @@ class Singup extends StatelessWidget {
       userSingUpData['username']!,
 
     );
-    // Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => const NavButton()));
   }
 
   @override

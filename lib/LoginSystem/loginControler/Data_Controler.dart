@@ -8,7 +8,8 @@ import 'AtheControler.dart';
 
 class DataControler extends GetxController {
   final firebaseInstance = FirebaseFirestore.instance;
-  AnthControler anthControler = Get.put(AnthControler());
+
+  late var userhasId = FirebaseAuth.instance.currentUser!.uid;
 
   Map<String, String> userProfileData = {
     "user_name": "",
@@ -25,7 +26,7 @@ class DataControler extends GetxController {
     try {
       var response = await firebaseInstance
           .collection('userList')
-          .where('user_id', isEqualTo: anthControler.userId)
+          .where('user_id', isEqualTo: userhasId)
           .get();
 
       if (response.docs.isNotEmpty) {
@@ -34,11 +35,12 @@ class DataControler extends GetxController {
       }
 
       print(userProfileData);
-      print(anthControler.userId);
+      print("The user is $userhasId");
     } on FirebaseException catch (e) {
       print(e);
     } catch (error) {
       print(error);
     }
   }
+
 }

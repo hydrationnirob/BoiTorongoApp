@@ -4,10 +4,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import '../../Scen/NavButton.dart';
 import '../LoginUi/components/comman_dailog.dart';
+import 'Data_Controler.dart';
 
 class AnthControler extends GetxController {
 
-  var userId="";
+  final DataControler dataControler = Get.put(DataControler());
+
 
 
   Future<void> signIn(String email, String password) async {
@@ -18,13 +20,14 @@ class AnthControler extends GetxController {
         email: email,
         password: password,
       );
-     userId = userCredential.user!.uid;
-     print(userCredential.user!.uid);
+
+      print("The user is ths my ${dataControler.userhasId}");
 
       CommanDialog.hideLoading();
-      Get.off(() =>  const NavButton());
+      Get.offAll(() =>  const NavButton());
 
-    } on FirebaseAuthException catch (e) {
+    }
+    on FirebaseAuthException catch (e) {
       CommanDialog.hideLoading();
 
       if (e.code == 'user-not-found') {

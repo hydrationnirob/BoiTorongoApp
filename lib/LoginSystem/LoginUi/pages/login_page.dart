@@ -119,7 +119,7 @@ class LoginPage extends StatelessWidget {
                   children:  const [
                     SquareTile(imagePath: 'lib/LoginSystem/LoginUi/images/google.png'),
                     SizedBox(width: 25),
-                    SquareTile(imagePath: 'lib/LoginSystem/LoginUi/images/apple.png')
+                    SquareTile(imagePath: 'images/pngtree-facebook-social-media-icon-png-image_6315968.png'),
                   ],
                 ),
                 const SizedBox(height: 50),

@@ -25,6 +25,7 @@ dependencies:
   firebase_core: ^2.14.0
   cloud_firestore: ^4.8.2
   introduction_screen: ^3.1.7
+  quickalert: ^1.0.1
 
 
 
@@ -36,16 +37,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - images/BannerPage.jpeg
-    - images/rsz_best-bengali-moral-stories-for-children-bongquotes.webp
-    - images/test.jpg
-    - images/696693703-H-768x525.jpg
+
+
     - images/playstore.png
-    - images/Learning-cuate.png
     - images/99274-loading.json
-    - images/DSC05145.JPG
     - images/
-    - images/types-of-illustrations-for-childrens-books.jpg
     - images/HorrorCat/
     - images/HorrorCat/Detective/
     - images/Homeimages/

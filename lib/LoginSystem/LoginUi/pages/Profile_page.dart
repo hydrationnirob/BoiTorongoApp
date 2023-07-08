@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:quickalert/quickalert.dart';
 
+import '../../../Scen/About.dart';
 import '../../loginControler/Data_Controler.dart';
 import 'ProfileWgt.dart';
 import 'login_page.dart';
@@ -81,7 +83,19 @@ class ProfileScreen extends StatelessWidget {
               ProfileMenuWidget(title: "User Management", icon: Icons.manage_accounts, onPress: () {}),
               const Divider(),
               const SizedBox(height: 10),
-              ProfileMenuWidget(title: "Information", icon: Icons.info, onPress: () {}),
+              ProfileMenuWidget(title: "Information", icon: Icons.info, onPress: () {
+
+                QuickAlert.show(
+                  context: context,
+                  type: QuickAlertType.info,
+                  text: 'About The App And Details',
+                  confirmBtnText: 'Show',
+                  onConfirmBtnTap: () => Get.off(const About(title: 'Boi Torongo',)),
+                );
+
+
+
+              }),
               ProfileMenuWidget(
                   title: "Logout",
                   icon: Icons.logout,
@@ -95,10 +109,21 @@ class ProfileScreen extends StatelessWidget {
                         padding: EdgeInsets.symmetric(vertical: 15.0),
                         child: Text("Are you sure, you want to Logout?"),
                       ),
-                      confirm: ElevatedButton(
+                      confirm: ElevatedButton (
                         onPressed: ()  {
-                          FirebaseAuth.instance.signOut();
-                          Get.offAll( LoginPage());
+
+                          QuickAlert.show(
+                            context: context,
+                            type: QuickAlertType.success,
+                            text: 'Transaction Completed Successfully!',
+                            confirmBtnText: 'OK',
+                            onConfirmBtnTap: () {
+                              FirebaseAuth.instance.signOut();
+                              Get.offAll( LoginPage());
+                            }
+                          );
+
+
 
                         },
                         style: ElevatedButton.styleFrom(backgroundColor: Colors.redAccent, side: BorderSide.none),

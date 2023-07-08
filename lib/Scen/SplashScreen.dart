@@ -97,6 +97,9 @@ class _SplashScreenState extends State<SplashScreen> {
             pages: widget.getPages(),
             showSkipButton: true,
             showNextButton: false,
+            next: const Icon(
+              Icons.arrow_forward,
+            ),
             skip: const Text("Skip"),
             done: const Text("Done"),
             skipSemantic: "Exit introduction",

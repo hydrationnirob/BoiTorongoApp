@@ -17,7 +17,7 @@ class Devp extends StatelessWidget {
           children:  [
             const CircleAvatar(
               radius: 80,
-              backgroundImage: AssetImage('images/DSC05145.JPG'),
+
             ),
             const SizedBox(height: 16),
             const SizedBox(height: 16),
