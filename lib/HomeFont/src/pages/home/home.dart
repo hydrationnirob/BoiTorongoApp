@@ -1,7 +1,7 @@
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/category.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/custom_app_bar.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/movie_header.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/trending_movies.dart';
+import 'package:Boi_Tonongo/HomeFont/src/pages/home/widget/category.dart';
+import 'package:Boi_Tonongo/HomeFont/src/pages/home/widget/custom_app_bar.dart';
+import 'package:Boi_Tonongo/HomeFont/src/pages/home/widget/movie_header.dart';
+import 'package:Boi_Tonongo/HomeFont/src/pages/home/widget/trending_movies.dart';
 import 'package:flutter/material.dart';
 
 

@@ -1,4 +1,4 @@
-import 'package:Supkothar_Somoy/Scen/CatagoryPage/Horror/CHorror.dart';
+import 'package:Boi_Tonongo/Scen/CatagoryPage/Horror/CHorror.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:page_transition/page_transition.dart';

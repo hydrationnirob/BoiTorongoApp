@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:page_transition/page_transition.dart';
 import 'package:quickalert/quickalert.dart';
 
 import '../../../Scen/About.dart';

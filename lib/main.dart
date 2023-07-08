@@ -1,4 +1,4 @@
-import 'package:Supkothar_Somoy/Scen/SplashScreen.dart';
+import 'package:Boi_Tonongo/Scen/SplashScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

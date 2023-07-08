@@ -1,7 +1,7 @@
-import 'package:Supkothar_Somoy/HomeFont/src/models/books.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/detail/detail.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/pages/home/widget/category_title.dart';
-import 'package:Supkothar_Somoy/HomeFont/src/settings/settings_controller.dart';
+import 'package:Boi_Tonongo/HomeFont/src/models/books.dart';
+import 'package:Boi_Tonongo/HomeFont/src/pages/detail/detail.dart';
+import 'package:Boi_Tonongo/HomeFont/src/pages/home/widget/category_title.dart';
+import 'package:Boi_Tonongo/HomeFont/src/settings/settings_controller.dart';
 import 'package:flutter/material.dart';
 
 
